@@ -4,9 +4,12 @@ Player
 
 ## Default starter player
 
-- <img src="./images/change-default-pawn.png">
+- in Blueprint Project
+  - Open `BP_ThirdPersonGameMode` -> Class Defaults
+  - <img src="./images/change-default-pawn.png">
 
 ## Add custom interface to player (attach custom blueprint)
+
 - to replace the existing blueprint class of a player, create a blueprint class -> character
 - <img src="./images/add-player-interface.png">
 - in the BPThirdPersonGameMode, add it to the "Default pawn class"
@@ -16,6 +19,7 @@ Player
 # player abilities
 
 ## crouch
+
 - in BP_ThirdPersonCharacter component blueprint edit
 - in details search
   - can crouch - checked
@@ -42,10 +46,30 @@ Player
 - and set the variable
   - this variable is usaully the one taken up by the actor doing the damage for its target
 
-## Fix IK (foot position )
+# Fix IK (foot position)
+
 - locate the Control rig for the mesh
   - like CR_Mannequin_FootPlant
 - open it -> in the "Rig Hierarchy" -> select all bones and right click -> refresh -> select the new mesh
 - go to the Anim Graph of the animation blueprint
 - between pose history and output pose add the control rig (right click -> misc -> control rig)
 - <img src="./images/anim-graph-control-rig.png">
+
+# Player Inputs
+
+- in content browser -> right click -> Input -> Input Action
+
+## Trigger
+
+- under Action -> Triggers -> click on `+`
+- From dropdown select
+  - Hold
+    - threshold in seconds (ex. 0.5)
+    - Is One Shot - checked
+
+### Add to the IMC_Default
+
+- <img src="./images/IMC-default-add-action.png">
+- click `+`
+- select the newly `IA_<new action>`
+- select the keyboard key

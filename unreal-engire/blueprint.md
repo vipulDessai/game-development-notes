@@ -8,11 +8,13 @@ Blueprint
 ## interface
 
 ### add interface
+
 - in content browser -> right click -> Blueprint -> Blueprint Interface
 - rename it
 - add function or rename existing
 
 ### add interface to other blueprint class
+
 - open the blueprint
 - click on class defaults
 - <img src="./images/add-interface-to-class.png">
@@ -21,6 +23,7 @@ Blueprint
 ## class
 
 ### actor class
+
 - if game mode's default pawn is `BP_ThirdPersonCharacter` then any blueprint actor class will have access to public functions in it (`BP_ThirdPersonCharacter`)
 
 ## Variables
@@ -136,11 +139,11 @@ to have multiple if/else conditions
 - add the event to the player -> Event Graph
   - <img src="./images/add-event-dispatch-to-player.png">
 
-# widget
+# widget (UI for Menu etc)
 
 right click in content drawer -> Widget Blueprint -> User Widget
 
-## cavas panel
+## canvas panel
 
 - kind of like a container
 
