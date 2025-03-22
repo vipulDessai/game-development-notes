@@ -1,0 +1,11 @@
+# Node JS
+node_modules
+
+# vs code
+.vscode
+
+# py
+env
+
+# JetBrains
+.idea
