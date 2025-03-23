@@ -22,7 +22,7 @@ Blueprint
 
 ## class
 
-### actor class
+### blueprint actor class
 
 - if game mode's default pawn is `BP_ThirdPersonCharacter` then any blueprint actor class will have access to public functions in it (`BP_ThirdPersonCharacter`)
 
@@ -41,7 +41,7 @@ Blueprint
 - once grouped and exposed (Instance Editable or Expose on Spawn)they will appear in the details of the object
 - <img src="./images/variables-exposed-in-details.png">
 
-### null variable check
+### null check
 
 - after adding the variable to "Construction Script" or "Event Graph"
 - right click on the variable and select "Convert to Validated GET"
@@ -124,6 +124,15 @@ Blueprint
 # component
 
 - content drawer -> right click -> blueprints -> search or select any (ex. Actor Component)
+
+## add component to other component
+
+- search add component by class
+- attach class (ex. of type skeletal mesh)
+- search attach component to component
+  - <img src="./images/spawn-weapon-drop-actor-if-not-valid.png">
+    - here class if of type a skeletal mesh component
+    - mesh is from third person charator component (ex. `BP_ThirdPersonCharacter`)
 
 ## Macros
 

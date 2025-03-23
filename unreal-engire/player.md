@@ -46,15 +46,6 @@ Player
 - and set the variable
   - this variable is usaully the one taken up by the actor doing the damage for its target
 
-# Fix IK (foot position)
-
-- locate the Control rig for the mesh
-  - like CR_Mannequin_FootPlant
-- open it -> in the "Rig Hierarchy" -> select all bones and right click -> refresh -> select the new mesh
-- go to the Anim Graph of the animation blueprint
-- between pose history and output pose add the control rig (right click -> misc -> control rig)
-- <img src="./images/anim-graph-control-rig.png">
-
 # Player Inputs
 
 - in content browser -> right click -> Input -> Input Action
@@ -73,3 +64,10 @@ Player
 - click `+`
 - select the newly `IA_<new action>`
 - select the keyboard key
+
+# Mesh (BP_ThirdPersonCharacter Mesh)
+
+## find mesh's skeleton
+
+- locate the mesh the content browser
+- right click -> Skeleton -> Find Skeleton

@@ -33,26 +33,25 @@
   - rename its function to `Interact`
   - add input `CharacterPickingUp` and type in `BP_ThirdPersonCharacter`
 - add `BPI_Interact` blueprint interface to `BP_PickupMaster`
-- create a child class from `BP_WeaponPickup`
+- create a child class from `BP_PickupMaster`
   - right click -> Create Child Blueprint class -> rename `BP_WeaponPickup`
-  - create a variable `WpnToSpawn` and add type as `BP_WeaponMaster` as class reference
+  - create a variable `WeaponToSpawn` and add type as `BP_WeaponMaster` as class reference
     - compile
     - in details set default value to `BP_WeaponMaster` reference
-- create child from `BP_WeaponPickup`
-  - create a child class from `BP_WeaponPickup`
+- create a child class from `BP_WeaponPickup`
   - rename it to `BP_WeaponPickup_Pistol`
-  - add Pistol Static Mesh with simple collision to its static mesh
+  - add Pistol Static Mesh with simple collision to its static mesh (inherited `PickupObject`)
 
-### Add event from third person character
+### Add `Spawn Weapon` event from third person character
 
 - create a custom event in `BP_ThirdPersonCharacter` called `Spawn Weapon`
   - it should take input
-    - `WpnToSpawn` - type is BP Weapon Master class reference
+    - `WeaponToSpawn` - type is BP Weapon Master class reference
     - `CharacterLocation` - vector
 - go to `BP_WeaponMaster` event graph
 - drop the `Interact event` and attach the `Spawn Weapon` to it
 - <img src="./images/combat-sys-weapon-master-tps-char-event.png">
-- connect `WpnToSpawn` and `Get Actor location` and `Destroy Actor`
+- connect `WeaponToSpawn` and `Get Actor location` and `Destroy Actor`
 
 ## Player Interaction
 
@@ -71,9 +70,38 @@
   - search `Interact` and connect triggered to it
     - attach target to Target and Get array from `get Overlapping actors`
 
-## add variables to `BP_WeaponMaster`
+## add variables to `BP_WeaponMaster` SkeletalMeshComponent
 
-- float Damage and Range
+- float `Damage` and `Range`
 - Enum above for `E_WeaponTypes`, `E_WeaponName`
 - PickupClass - BP Weapon Pickup `BP_WeaponPickup`
-- Socket Name - Name
+- Socket Name - Name (for adding the socket to the players skeletal mesh ex. `SK_Mannequin`)
+- create a child blueprint class from `BP_WeaponMaster` called `BP_SKMPistol`
+  - set the variables that we just created
+    - damage - 20
+    - range 15000
+    - type - pistol
+    - name pistol
+    - pickup class - `BP_WeaponPickup_Pistol`
+    - socket - `Pistol_A.Socket`
+- add the socket to `hand_r` of players skeletal mesh (ex. `SK_Mannequin`)
+- create a skeletal mesh from the pistol mesh
+- attach the preview of pistol skeletal mesh to the socket
+- open `BP_WeaponPickup_Pistol` and attach this `BP_SKMPistol` to the `WeaponToSpawn` or `Weapon to spawn`
+  - <img src="./images/set-weapon-actor-to-class.png">
+
+## Add event from third person character
+
+- create `CurrentWeapon` of type `BP_WeaponMaster`
+- drop it and convert it to validated get (so no need of null check)
+  - if valid (means detach the component) then spawn actor -> drop it and destroy component
+    - weapon pickup location is `Add` operator
+      - instead we can use a actor transform also [refer](./actor.md#transform-location)
+    - attach `get pickup class` to spawn actor class input (purple pickup class)
+  - <img src="./images/spawn-weapon-drop-actor.png">
+  - if not valid (means attach the component to the player)
+  - <img src="./images/spawn-weapon-drop-actor-if-not-valid.png">
+    - class comes from `WpnToSpawn` input to custom event `Spawn Weapon`
+      - i.e. the `BP_WeaponPickup` -> `WeaponToSpawn`
+    - mesh comes from third person character mesh
+    - get socket name from current weapon (i.e. `BP_WeaponMaster`)
