@@ -105,3 +105,4 @@
       - i.e. the `BP_WeaponPickup` -> `WeaponToSpawn`
     - mesh comes from third person character mesh
     - get socket name from current weapon (i.e. `BP_WeaponMaster`)
+- create `CurrentWeaponName` - type `E_WeaponName`
