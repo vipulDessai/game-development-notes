@@ -77,14 +77,16 @@
 - PickupClass - BP Weapon Pickup `BP_WeaponPickup`
 - Socket Name - Name (for adding the socket to the players skeletal mesh ex. `SK_Mannequin`)
 - create a child blueprint class from `BP_WeaponMaster` called `BP_SKMPistol`
-  - set the variables that we just created
+  - go to class defaults
+  - <b style="color:red;">IMPORTANT</b> - set the variables that we just created
     - damage - 20
     - range 15000
-    - type - pistol
-    - name pistol
+    - type - pistol (from `E_WeaponTypes`)
+    - name - pistol (from `E_WeaponName`)
     - pickup class - `BP_WeaponPickup_Pistol`
     - socket - `Pistol_A.Socket`
 - add the socket to `hand_r` of players skeletal mesh (ex. `SK_Mannequin`)
+  - to locate the correct mesh follow [foo](./player.md#skeleton)
 - create a skeletal mesh from the pistol mesh
 - attach the preview of pistol skeletal mesh to the socket
 - open `BP_WeaponPickup_Pistol` and attach this `BP_SKMPistol` to the `WeaponToSpawn` or `Weapon to spawn`
@@ -99,10 +101,11 @@
       - instead we can use a actor transform also [refer](./actor.md#transform-location)
     - attach `get pickup class` to spawn actor class input (purple pickup class)
   - <img src="./images/spawn-weapon-drop-actor.png">
-  - if not valid (means attach the component to the player)
+  - if not valid (means attach the component i.e. weapon to the player)
   - <img src="./images/spawn-weapon-drop-actor-if-not-valid.png">
     - class comes from `WpnToSpawn` input to custom event `Spawn Weapon`
       - i.e. the `BP_WeaponPickup` -> `WeaponToSpawn`
     - mesh comes from third person character mesh
     - get socket name from current weapon (i.e. `BP_WeaponMaster`)
-- create `CurrentWeaponName` - type `E_WeaponName`
+- create variable `CurrentWeaponName` of type `E_WeaponName`
+- add it in between the SET `CurrentWeapon` and `Attach component to component`

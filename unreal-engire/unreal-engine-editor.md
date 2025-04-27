@@ -25,6 +25,17 @@ Unreal Engine Basics
 - <img src="./images/add-starter-content.png">
 - in the popup -> content -> select "starter content" -> "Add to Project"
 
+## assets
+
+### migrate assets
+
+- say we want to migrate animation assets sequences
+- select the files
+- right click -> asset actions -> migrate
+- <img src="./images/migrate-dest-folder.png">
+- select the `Content` folder of destination project
+  - do NOT select any sub folder in `Content`
+
 # Editor UI
 
 ## basics
@@ -227,10 +238,12 @@ to open press ctrl + space
 - <img src="./images/pack-project.png">
 
 ## Android
+
 - java openjdk 17 for 5.5+
 - https://dev.epicgames.com/documentation/en-us/unreal-engine/advanced-setup-and-troubleshooting-guide-for-using-android-sdk
 
 ## launch
+
 - follow - [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/setting-up-unreal-engine-projects-for-android-development)
   - setup the phone (enable developer mode and usb debugging)
 - <img src="./images/launch-andorid-app.png">

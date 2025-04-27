@@ -1,5 +1,15 @@
 Player
 
+# Character Class
+
+## third person character
+
+### skeleton
+
+- <img src="./images/locate-skeletal-mesh.png">
+- any sockets should be attached to this mesh and not to the anim mesh skeletal mesh
+  - NOTE: the animation class could point to a different skeletal mesh
+
 # configs
 
 ## Default starter player
