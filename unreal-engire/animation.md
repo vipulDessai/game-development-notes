@@ -8,6 +8,9 @@ Animation
 - <img src="./images/go-to-parent-anim-class.png">
 - click on the parent class
 
+## create variable with type animation sequence
+- create variable and set the type as anim sequence -> object ref
+
 # retarget animations
 
 - retarget to a different skeletal mesh
