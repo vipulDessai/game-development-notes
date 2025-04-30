@@ -55,15 +55,17 @@
 
 ## Player Interaction
 
-- goto - `/Game/ThirdPerson/Inputs`
-- add Inputs -> Input Action
-- rename it to - `IA_Interact`
-- add trigger on `HOLD` with `in one shot` checked
-  - [refer](./player.md#trigger)
-- Add this to `IMC_default`
+- add the button interaction [here](./player#player-inputs)
+  - on a key press
+    - in content browser goto - `/Game/ThirdPerson/Inputs`
+    - add Inputs -> Input Action
+    - rename it to - `IA_Interact`
+    - add trigger on `HOLD` with `in one shot` checked
+      - [refer](./player.md#trigger)
+    - Add this to `IMC_default`
 - call this from `BP_ThirdPersonCharacter`
   - <img src="./images/IA-Interact-tps-character.png">
-  - search for IA_Interact and add the EnhancedInputAction IA_Interact
+  - search for `IA_Interact` and add the EnhancedInputAction `IA_Interact`
   - add `get Overlapping actors`
     - class filter -> `BP_PickupMaster`
     - get (a copy)
@@ -109,3 +111,8 @@
     - get socket name from current weapon (i.e. `BP_WeaponMaster`)
 - create variable `CurrentWeaponName` of type `E_WeaponName`
 - add it in between the SET `CurrentWeapon` and `Attach component to component`
+
+## play animation
+
+- based on weapon pickup - [here](./animation.md#blend-multiple-animation)
+- based on weapon fire - [here](./animation.md#on-skeletal-mesh-component-based-on-player-action-keypress)

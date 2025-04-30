@@ -8,8 +8,37 @@ Animation
 - <img src="./images/go-to-parent-anim-class.png">
 - click on the parent class
 
-## create variable with type animation sequence
-- create variable and set the type as anim sequence -> object ref
+### create variable with type animation sequence
+
+- create variable and set the type as `anim sequence` -> `Object Reference`
+- if there is a child class inheriting from the master class, variable will appear like this
+- <img src="./images/child-class-variable-example.png">
+- set the respective `anim sequence`
+
+## Animation Sequence
+
+### Edit
+
+- open the animation sequence
+- <img src="./images/edit-animation-pose.png">
+- reset the animation to first frame
+- edit the bones for rotation
+- select all the bones in the "Skeletal Tree"
+- <img src="./images/animation-seq-add-key.png">
+- add key
+
+#### show hide bones
+
+- <img src="./images/animation-show-hide-bones.png">
+
+# play animation
+
+## on skeletal mesh component based on player action (keypress)
+
+- create a variable [refer](./animation.md#create-variable-with-type-animation-sequence)
+- open the `BP_ThirdPersonCharacter` event graph
+- add keypress event ex. mouse event `left mouse button`
+- set the target (skeletal mesh component)
 
 # retarget animations
 
@@ -64,19 +93,3 @@ Animation
 - go to the Anim Graph of the animation blueprint
 - between pose history and output pose add the control rig (right click -> misc -> control rig)
 - <img src="./images/anim-graph-control-rig.png">
-
-# Animation Sequence
-
-## Edit
-
-- open the animation sequence
-- <img src="./images/edit-animation-pose.png">
-- reset the animation to first frame
-- edit the bones for rotation
-- select all the bones in the "Skeletal Tree"
-- <img src="./images/animation-seq-add-key.png">
-- add key
-
-### show hide bones
-
-- <img src="./images/animation-show-hide-bones.png">

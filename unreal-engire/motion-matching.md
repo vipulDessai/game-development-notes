@@ -6,7 +6,7 @@
 
 - unreal editor plugins - Pose Search, Chooser, Animation Insights, Animation Warping
 
-# init in character component
+# init in character component (BP_ThirdPersonCharacter)
 
 - Use Controller Rotation Yaw - checked
 - Orient Rotation To Movement - unchecked
@@ -81,15 +81,18 @@
   - whatever that we select here will be the type for the columns in chooser table
 
 <b>Note: </b> never keep the last row empty
+
 - <img src="./images/final-chooser-row.png">
 
 ## animation blueprint
 
 ### event graph
+
 - use the cast to character movement component to use it as ref in other functions
 - <img src="./images/ref-cmc-in-animation-blueprint-class.png">
 
 ### anim graph
+
 #### pose history
 
 - <img src="./images/pose-history-bind-trajectory.png">
@@ -109,10 +112,11 @@
     - this create a OnUpdate function automatically
 
 ##### on update
+
 - add evaluate chooser
   - in details set the pose search chooser
 - add search data to search, convert to motion matching
 - interupt value to be set as follows (first promote it as variable)
-  - if HasAcceleration 
-   - is true then "Do not interrupt"
-   - else interrupt is "interrupt of database change and invalidate continuing pose"
+  - if HasAcceleration
+  - is true then "Do not interrupt"
+  - else interrupt is "interrupt of database change and invalidate continuing pose"
