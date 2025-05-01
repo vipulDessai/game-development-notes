@@ -7,6 +7,8 @@
     - `E_FireMode`
     - `E_WeaponNames`
     - `E_WeaponTypes`
+    - `E_WeaponClass`
+      - Enumerators - primary, secondary
   - of type `SkeletalMeshComponent` under `ActorComponent`
     - rename it to `BP_WeaponMaster`
 
@@ -87,6 +89,7 @@
     - name - pistol (from `E_WeaponName`)
     - pickup class - `BP_WeaponPickup_Pistol`
     - socket - `Pistol_A.Socket`
+    - weapon class - secondary
 - add the socket to `hand_r` of players skeletal mesh (ex. `SK_Mannequin`)
   - to locate the correct mesh follow [foo](./player.md#skeleton)
 - create a skeletal mesh from the pistol mesh
@@ -116,3 +119,7 @@
 
 - based on weapon pickup - [here](./animation.md#blend-multiple-animation)
 - based on weapon fire - [here](./animation.md#on-skeletal-mesh-component-based-on-player-action-keypress)
+
+## draw traces
+
+- [refer](./actor.md#line-traces-from-a-socket)

@@ -27,6 +27,8 @@ Animation
 - <img src="./images/animation-seq-add-key.png">
 - add key
 
+**Note** once the animation sequence is retargeted, we need to modify bones in the original one and not the retargeted one
+
 #### show hide bones
 
 - <img src="./images/animation-show-hide-bones.png">
@@ -45,6 +47,8 @@ Animation
 - retarget to a different skeletal mesh
 - locate and right click on animation sequence -> retarget animations
 - <img src="./images/retarget-animations-to-diff-skeleton.png">
+
+## modify 
 
 # blend multiple animation
 
