@@ -14,10 +14,23 @@ Sculpting
 - press shift + F + move mouse up down for strength
   - tap to exit
 
-## move entire sculpt
+### avoid these
+
+- pen pressure radius
+  - <img src="./images/never-set-pen-pressure-radius.png">
+
+# move entire sculpt
+
+## using base pivot
 
 - <img src="./images/base-location.png">
   - or just the selected sculpt
+
+## pivot to unmasked
+
+- <img src="./images/move-only-unmasked-using-pivot.png">
+- then select the move
+- <img src="./images/move-button-in-sculpt.png">
 
 # setup
 
@@ -48,6 +61,8 @@ Sculpting
 
 - r and drag the grid to make it finer and left click to set
 - to apply this remesh press ctrl + r
+
+**note:** never undo a remeshed object, because blender add more vertices once remeshed again
 
 # Brush
 
@@ -84,6 +99,14 @@ Sculpting
 
 - <img src="./images/pinch-brush-settings.png">
 - set Pinch to 0
+
+#### make it sharper
+
+- <img src="./images/crease-sharper-falloff.png">
+
+### clay strips
+
+usually to be used with higher res (remesh 0.008 or like so)
 
 # painting
 
