@@ -108,6 +108,23 @@ Sculpting
 
 usually to be used with higher res (remesh 0.008 or like so)
 
+### flatten
+
+use when want to preseve creases but smoothen overall
+
+- <img src="./images/when-to-use-flatten-brush.png">
+
+#### settings
+
+- <img src="./images/flatten-brush-settings.png">
+  - more radius more smoothness
+
+### scrapper
+
+use to scraps areas like sharp cheeks
+
+- <img src="./images/scrapper-application.png">
+
 # painting
 
 ## use in shading

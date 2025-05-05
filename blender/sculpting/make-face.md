@@ -55,3 +55,23 @@
     - use clay
     - the nose is broad at the middle
     - and narrow near the nostrils
+
+## mouth
+
+- <img src="./images/l2-lips-base.png">
+- make creases
+- <img src="./images/l2-lips-creases.png">
+
+## forehead
+
+- <img src="./images/l2-forehead.png">
+
+## cheeks
+
+- <img src="./images/l2-cheek-and-nostril-landmark.png">
+    - use crease -ve and clay to fill both the sides of the crease
+
+## eyes
+
+- <img src="./images/l2-eyeball-socket-landmark.png">
+    - use the crease and smoothen
