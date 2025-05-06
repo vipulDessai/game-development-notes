@@ -75,3 +75,7 @@
 
 - <img src="./images/l2-eyeball-socket-landmark.png">
     - use the crease and smoothen
+
+## ear
+
+- <img src="./images/l2-ear-landmarks.png">
