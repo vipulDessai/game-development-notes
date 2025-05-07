@@ -104,6 +104,13 @@ Sculpting
 
 - <img src="./images/crease-sharper-falloff.png">
 
+#### sharper lines
+
+to draw shapes like muscle strands
+
+- <img src="./images/set-stroke-for-crease-brush.png">
+  - set 5% spacing and disable `adjust strength`
+
 ### clay strips
 
 usually to be used with higher res (remesh 0.008 or like so)
