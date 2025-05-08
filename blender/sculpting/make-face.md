@@ -79,3 +79,9 @@
 ## ear
 
 - <img src="./images/l2-ear-landmarks.png">
+
+## neck
+
+### adams apple
+
+- <img src="./images/adams-apple-v-shape-trick.png">

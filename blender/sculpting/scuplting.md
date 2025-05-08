@@ -1,4 +1,24 @@
-Sculpting
+# **Sculpting**
+
+# setup
+
+- <img src="./images/sculpting-mode-start.png">
+- open blender, on the landing pageclick on the sculpting, this gives a sphere
+
+## Or manually
+
+- always start with a UV Sphere
+- <img src="./images/basic-sculpt-uv-sphere.png">
+- goto sculpt mode
+- <img src="./images/sculpt-mode.png">
+- drag out the brush panel
+- <img src="./images/drag-out-brush-panel.png">
+
+## settings
+
+- <img src="./images/sculpting-settings.png">
+  - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
+  - accumulate - each brush stroke will build upon the previous ones
 
 # controls
 
@@ -31,21 +51,6 @@ Sculpting
 - <img src="./images/move-only-unmasked-using-pivot.png">
 - then select the move
 - <img src="./images/move-button-in-sculpt.png">
-
-# setup
-
-- always start with a UV Sphere
-- <img src="./images/basic-sculpt-uv-sphere.png">
-- goto sculpt mode
-- <img src="./images/sculpt-mode.png">
-- drag out the brush panel
-- <img src="./images/drag-out-brush-panel.png">
-
-## settings
-
-- <img src="./images/sculpting-settings.png">
-  - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
-  - accumulate - each brush stroke will build upon the previous ones
 
 ## Symmetry
 
@@ -110,6 +115,7 @@ to draw shapes like muscle strands
 
 - <img src="./images/set-stroke-for-crease-brush.png">
   - set 5% spacing and disable `adjust strength`
+  - make sure the pinch in the brush details panel (right panel) is 0
 
 ### clay strips
 
