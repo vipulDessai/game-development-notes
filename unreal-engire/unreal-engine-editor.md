@@ -102,6 +102,31 @@ to open press ctrl + space
 - hide/show objects
 - <img src="./images/show-hide-widgets.png">
 
+# mesh
+
+## export mesh
+
+- right click on the mesh ex. `SKM_Quinn` -> "Export..."
+- <img src="./images/export-setting-level-sequencer.png">
+
+**Note**: before importing to blender, the exported mesh with morph targets needs to be converted to a proper FBX using `autodesk fbx converter` to retain the shape keys
+
+## import in blender
+
+### basic mesh edit with shape keys (retain the bones)
+
+- import the converted .fbx
+- <img src="./images/add-shape-key-twice.png">
+- select the mesh
+- add 2 shape keys (Basis and New Key)
+- set the Value to 1
+- for face add only 1 key
+- set the Value to 1
+- <img src="./images/hide-metahuman-face-bones.png">
+- hide the bones and the uncheck select bones as well
+
+**Note**: also can be used with metahumans [refer here](./metahuman.md#basic-face-edit-retain-the-bones)
+
 ## move, scale, rotate
 
 - <img src="./images/move-rotate-scale.png">
