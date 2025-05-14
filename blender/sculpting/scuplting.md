@@ -22,6 +22,11 @@
 
 # controls
 
+## set space to toolbar or brushes
+
+- open preferences
+- <img src="./images/set-space-to-tools.png">
+
 ## zooming & pan
 
 - shift + middle mouse for pan
