@@ -74,6 +74,10 @@
 
 **note:** never undo a remeshed object, because blender add more vertices once remeshed again
 
+# Select brushes
+
+- <img src="./images/select-in-sculpt.png">
+
 # Brush
 
 ## Stroke
