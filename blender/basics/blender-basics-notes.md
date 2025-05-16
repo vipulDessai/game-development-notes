@@ -10,6 +10,7 @@
 - <img src="shadow-catcher-on-object.png" />
 
 ### vertices count
+
 - <img src="vertices-count.png" />
 
 ## Tranformation
@@ -190,6 +191,13 @@ See which face is viewable
 - select the object by clicking on the object
 - <img src="smooth-or-flat-the-object.jpg" alt="smooth-or-flat-the-object" width="600" />
 
+### control the shade auto smooth by angle
+
+- right click and select shade auto smooth
+  - adds a modifier automatically
+    <img src="smooth-auto-shade.png"/>
+- control the smoothness with angle
+
 ### Flatten the edges
 
 To smooth everything based on a certain angle
@@ -207,11 +215,11 @@ To smooth everything based on a certain angle
 - select the 2 objects
 - <kbd>CTRL</kbd> + <kbd>J</kbd>
 
-<b>Note: </b> 
+<b>Note: </b>
+
 - The last mesh origin will be applied to both
 - also the one selected first will be one all other that will be merged into
   - i.e name of the first element will be taken like its a parent
-
 
 ### trim off merged parts of the mesh
 
@@ -589,13 +597,18 @@ To show the edge its moving along press <kbd>E</kbd>
 
 <b>Note: </b> Make sure the scale applied and its value is 1
 
-### Add bevel to the edges or vertices
+### Add bevel to the vertices
 
 - select the vertex
 - <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>B</kbd>
 - drag the mouse to see the `bevel`
 - scroll up or down to increase or decrese the loops
 - <img src="add-bevl-to-90-deg-edges.jpg" alt="add-bevl-to-90-deg-edges" />
+
+### add bevel to edges
+
+- select the edge (press 2)
+- ctrl + b and move the mouse
 
 ## Shear
 
@@ -963,6 +976,15 @@ Create uneven paterns on the mesh
 - <img src="curve-modifier-settings.jpg" alt="curve-modifier-settings" />
 - both path and mesh should have origin at same location (ideally at the world origin)
 - <img src="curve-modifier-2-obj-origin.jpg" alt="curve-modifier-2-obj-origin" />
+
+## remesh - [refer in sculpting](../sculpting/modifiers.md#remesh)
+
+- used in sculpting or fusing joint mesh (that are joined by ctrl + j)
+
+## decimate - [refer in sculpting](../sculpting/modifiers.md#decimate)
+
+- to lower the poly count
+- set the ratio to low value to make a low poly
 
 ### edit the path
 

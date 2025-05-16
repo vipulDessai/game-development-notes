@@ -20,6 +20,10 @@
   - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
   - accumulate - each brush stroke will build upon the previous ones
 
+## view
+
+- <img src="./images/sculpt-settings-cavity.png">
+
 # controls
 
 ## set space to toolbar or brushes
