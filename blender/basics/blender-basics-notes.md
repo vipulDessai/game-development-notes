@@ -923,7 +923,9 @@ To create a flat end with subsurface modifier
 - we can select some other mesh whose origin point acts like a mirror
 - or we can use `empty object`
 
-## Shrink wrap
+## Shrinkwrap
+
+- to flatten a surface of some mesh or stick the mesh to other mesh
 
 - add the target object, select project mode if required
 - <img src="shrink-wrap-modifier.jpg" alt="shrink-wrap-modifier" width="500" />

@@ -8,6 +8,9 @@ Player
 
 - contains skeleton mesh [here](./player.md#skeleton)
 
+#### polycount
+- <img src="./images/mesh-polycount.png">
+
 # skeleton
 
 - <img src="./images/locate-skeletal-mesh.png">
