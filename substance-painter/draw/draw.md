@@ -61,12 +61,32 @@
   - <img src="./images/genrators-settings.png">
   - to soften the edges for the mask
 
+## create smart materials
+
+- right click on the folder containing layer
+  - add a prefix like custom or whatever to search easily in assets
+- select create smart material
+
 # polygon fill
 
 instead of manually painting, paint the mesh using `polygon fill`
+
+## Mesh fill
 
 - <img src="./images/polygon-fill.png">
   - the entire mesh (highlighted in blue)
   - the color slider
     - white - fully masked
     - black - to remove the mask
+
+## UV
+
+- <img src="./images/polygon-fill-uv.png">
+
+# smart materials (paint with custom pattern)
+
+to figure out the folder structure and settings of smart material, disable all layers in it
+
+- <img src="./images/smart-materials-settings.png">
+
+## create

@@ -20,6 +20,11 @@ basically like a photo shop, where we put layers onto each other and mask it
 
 - delete the layer from `Layers`
 
+## export
+
+- file -> export textures
+- <img src="./images/export-textures.png">
+
 # Viewport
 
 - <img src="./images/drag-asset-for-clear-options.png">
