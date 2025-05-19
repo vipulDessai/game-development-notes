@@ -1,6 +1,6 @@
 # Armature (Bones)
 
-- <img src="armature-bones-tools.jpg" alt="armature-bones-tools" width="500" />
+- <img src="./images/armature-bones-tools.jpg" alt="armature-bones-tools" width="500" />
 
 ## Reset the pose
 
@@ -11,7 +11,7 @@
 ## create groups of bones
 
 - Go to edit mode
-- <img src="armature-bones-select-head.jpg" alt="armature-bones-select-head" width="300" />
+- <img src="./images/armature-bones-select-head.jpg" alt="armature-bones-select-head" width="300" />
 - select top head of the bone
 - press <kbd>E</kbd> and drag
 
@@ -19,13 +19,13 @@
 
 - select the mesh first and then the bones
 - Press <kbd>CTRL</kbd> + <kbd>P</kbd>
-- <img src="armature-bones-add-to-mesh.jpg" alt="armature-bones-add-to-mesh" width="600" />
-- <img src="armature-bones-after-bone-added-to-mesh.jpg" alt="armature-bones-after-bone-added-to-mesh.jpg" width="500" />
+- <img src="./images/armature-bones-add-to-mesh.jpg" alt="armature-bones-add-to-mesh" width="600" />
+- <img src="./images/armature-bones-after-bone-added-to-mesh.jpg" alt="armature-bones-after-bone-added-to-mesh.jpg" width="500" />
 
 ## adding the bones we get the modifiers
 
-- <img src="modifier-properties.jpg" alt="modifier-properties" width="200" />
-- <img src="select-modifier.jpg" alt="select-modifier" width="800" />
+- <img src="./images/modifier-properties.jpg" alt="modifier-properties" width="200" />
+- <img src="./images/select-modifier.jpg" alt="select-modifier" width="800" />
 - after adding bones to the mesh
 
 <b>Note:</b> The order of modifiers is important
@@ -37,19 +37,19 @@
 
 ## select bones
 
-- <img src="armature-bones-select-bones.jpg" alt="armature-bones-select-bones.jpg" width="500" />
+- <img src="./images/armature-bones-select-bones.jpg" alt="armature-bones-select-bones.jpg" width="500" />
 
 ## New rest pose
 
-- <img src="new-rest-pose-copy-armature-modifier.jpg" alt="new-rest-pose-copy-armature-modifier" width="500" />
+- <img src="./images/new-rest-pose-copy-armature-modifier.jpg" alt="new-rest-pose-copy-armature-modifier" width="500" />
 - select the mesh you want in new pose
 - copy the armature modifier and apply
 - select the armature and go to pose mode
-- <img src="pose-apply-new-rest-pose.jpg" alt="pose-apply-new-rest-pose" width="700" />
+- <img src="./images/pose-apply-new-rest-pose.jpg" alt="pose-apply-new-rest-pose" width="700" />
 
 ## move bones to layers
 
-- <img src="move-bones-to-layers.jpg" alt="move-bones-to-layers" width="700" />
+- <img src="./images/move-bones-to-layers.jpg" alt="move-bones-to-layers" width="700" />
 - select bones
 - press <kbd>M</kbd>
 - select the layer
