@@ -4,7 +4,7 @@
 
 Drops the new objects over the 3d cursor when they are added in the viewport
 
-- <img src="3d-cursor-enable.jpg" alt="3d-cursor-enable" width="700" />
+- <img src="./images/3d-cursor-enable.jpg" alt="3d-cursor-enable" width="700" />
 - <kbd>SHIFT</kbd> + <kbd>Right Click</kbd> - to move it
 - <kbd>SHIFT</kbd> + <kbd>C</kbd> - to centre the cursor
 
@@ -43,15 +43,15 @@ The origin is the point which will be attached to the surface of the object on w
 ### render object only for shadows
 
 - so that the blender rendered image will NOT include the additional objects and will only render the main objects shadow
-- <img src="shadow-catcher-on-object.png" />
+- <img src="./images/shadow-catcher-on-object.png" />
 
 ### vertices count
 
-- <img src="vertices-count.png" />
+- <img src="./images/vertices-count.png" />
 
 ## Tranformation
 
-- <img src="transform-tools.jpg" alt="transform-tools" width="200" />
+- <img src="./images/transform-tools.jpg" alt="transform-tools" width="200" />
 - <kbd>Left Click</kbd> on the object and tranform it
 - <kbd>Right Click</kbd> to reset the tranform
 
@@ -81,7 +81,7 @@ The origin is the point which will be attached to the surface of the object on w
 - this helps when using modifiers such as Curve etc
 - say suppose we want to move an item which is repositioned in `X` direction
 - copy its moved location (<kbd>CTRL</kbd> + <kbd>C</kbd>)
-- <img src="move-2-items-without-losing-origin.jpg" alt="move-2-items-without-losing-origin" />
+- <img src="./images/move-2-items-without-losing-origin.jpg" alt="move-2-items-without-losing-origin" />
 - select both objects
 - press <kbd>G</kbd> and press <kbd>X</kbd> for direction
 - paste <kbd>CTRL</kbd> + <kbd>V</kbd>
@@ -90,7 +90,7 @@ The origin is the point which will be attached to the surface of the object on w
 
 ### panel
 
-- <img src="flip-the-panel-to-bottom-or-top.jpg" alt="flip-the-panel-to-bottom-or-top" />
+- <img src="./images/flip-the-panel-to-bottom-or-top.jpg" alt="flip-the-panel-to-bottom-or-top" />
 - <kbd>Right Click</kbd> on the `Object Mode` and `flip to bottom`
 
 ### zoom swiftly
@@ -100,7 +100,7 @@ The origin is the point which will be attached to the surface of the object on w
 ### Toggle visibility
 
 - if while importing some mesh from old version are looking as if they are disabled
-- <img src="toggle-viewport-visibility.jpg" alt="toggle-viewport-visibility" width="600" />
+- <img src="./images/toggle-viewport-visibility.jpg" alt="toggle-viewport-visibility" width="600" />
 - also enable the selection and viewport option in filter menu
 
 ### Menu
@@ -116,7 +116,7 @@ The origin is the point which will be attached to the surface of the object on w
 ### Split the viewport
 
 - <kbd>Right Click</kbd> on the red marking
-- <img src="right-click-and-spilt-the-view.jpg" alt="right-click-and-spilt-the-view" width="700" />
+- <img src="./images/right-click-and-spilt-the-view.jpg" alt="right-click-and-spilt-the-view" width="700" />
 
 ### Quad view
 
@@ -127,25 +127,25 @@ The origin is the point which will be attached to the surface of the object on w
 
 To see the light on the object
 
-- <img src="view-rendered-object.jpg" alt="view-rendered-object" width="800" />
+- <img src="./images/view-rendered-object.jpg" alt="view-rendered-object" width="800" />
 - or Press <kbd>Z</kbd> and select `Rendered`
 
 ### Light
 
-- <img src="enable-lighting.jpg" alt="enable-lighting" width="900" />
+- <img src="./images/enable-lighting.jpg" alt="enable-lighting" width="900" />
 
 #### Light settings
 
-- <img src="light-settings.jpg" alt="light-settings" width="900" />
+- <img src="./images/light-settings.jpg" alt="light-settings" width="900" />
 
 ### Change View for the mode (Layout, sculpting, etc)
 
 - Press <kbd>N</kbd>
-- <img src="change-view-zoom.jpg" alt="change-view-zoom" width="600" />
+- <img src="./images/change-view-zoom.jpg" alt="change-view-zoom" width="600" />
 
 ### Render Engine
 
-- <img src="render-engine.jpg" alt="render-engine" width="800" />
+- <img src="./images/render-engine.jpg" alt="render-engine" width="800" />
 - can change the render engine to Eveee (For Low graphics ex. games)
 - can change the render engine to Cycles (For High graphics)
 
@@ -156,13 +156,13 @@ To see the light on the object
 
 ### View through the camera
 
-- <img src="view-through-camera.jpg" alt="view-through-camera" width="400" />
+- <img src="./images/view-through-camera.jpg" alt="view-through-camera" width="400" />
 
 ### Face orientation
 
 See which face is viewable
 
-- <img src="face-orientations.jpg" alt="face-orientations" width="400" />
+- <img src="./images/face-orientations.jpg" alt="face-orientations" width="400" />
 
 ### Start Search
 
@@ -170,24 +170,24 @@ See which face is viewable
 
 ### Toggle X Ray
 
-- <img src="toggle-x-ray.jpg" alt="toggle-x-ray" width="800" />
+- <img src="./images/toggle-x-ray.jpg" alt="toggle-x-ray" width="800" />
 
 ### object view (on individual mesh item)
 
 - set a wire view on individual object
-- <img src="objects-view-settings.jpg" alt="objects-view-settings" />
+- <img src="./images/objects-view-settings.jpg" alt="objects-view-settings" />
 
 ### draw marking (annotations)
 
 - press <kbd>D</kbd> and <kbd>Left Click</kbd> and draw with pencil
 - to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
-- <img src="draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
+- <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
 
 ### Images
 
 #### Opacity
 
-- <img src="image-opacity-using-alpha.jpg" alt="image-opacity-using-alpha" />
+- <img src="./images/image-opacity-using-alpha.jpg" alt="image-opacity-using-alpha" />
 
 ### view region or portion of 3d viewport
 
@@ -214,13 +214,13 @@ See which face is viewable
 ## Smooth the object
 
 - select the object by clicking on the object
-- <img src="smooth-or-flat-the-object.jpg" alt="smooth-or-flat-the-object" width="600" />
+- <img src="./images/smooth-or-flat-the-object.jpg" alt="smooth-or-flat-the-object" width="600" />
 
 ### control the shade auto smooth by angle
 
 - right click and select shade auto smooth
   - adds a modifier automatically
-    <img src="smooth-auto-shade.png"/>
+    <img src="./images/smooth-auto-shade.png"/>
 - control the smoothness with angle
 
 ### Flatten the edges
@@ -229,7 +229,7 @@ To smooth everything based on a certain angle
 
 - select auto smooth
 - smooth everthing above the angle
-- <img src="smooth-the-mesh-flat-property.jpg" alt="smooth-the-mesh-flat-property" />
+- <img src="./images/smooth-the-mesh-flat-property.jpg" alt="smooth-the-mesh-flat-property" />
 
 ## Snap or reset the objects at the center
 
@@ -256,16 +256,16 @@ To smooth everything based on a certain angle
 
 ## convert curve to mesh
 
-- <img src="convert-mesh-to-curve.jpg" alt="convert-mesh-to-curve" />
+- <img src="./images/convert-mesh-to-curve.jpg" alt="convert-mesh-to-curve" />
 
 ## convert mesh to curve
 
-- <img src="convert-curve-to-mesh.jpg" alt="convert-curve-to-mesh" />
+- <img src="./images/convert-curve-to-mesh.jpg" alt="convert-curve-to-mesh" />
 
 ## Apply transform (set transform)
 
 - <kbd>CTRL</kbd> + <kbd>A</kbd>
-- <img src="apply-or-set-transform-menu.png" />
+- <img src="./images/apply-or-set-transform-menu.png" />
 
 NOTE: to make all the transformations as 0, or reset the transformations
 
@@ -273,7 +273,7 @@ NOTE: to make all the transformations as 0, or reset the transformations
 
 ## change the mouse cursor
 
-<img src="change-drag-icon.png" />
+<img src="./images/change-drag-icon.png" />
 
 ## zoom
 
@@ -285,7 +285,7 @@ NOTE: to make all the transformations as 0, or reset the transformations
 ## Symmetry
 
 - to edit the object so that the vertices on the other axis also are modified
-- <img src="edit-mode-symmetry.jpg" alt="edit-mode-symmetry">
+- <img src="./images/edit-mode-symmetry.jpg" alt="edit-mode-symmetry">
 
 ## Subdivide
 
@@ -296,27 +296,27 @@ NOTE: to make all the transformations as 0, or reset the transformations
 
 ### Increase the smoothness
 
-- <img src="subdivide-smoothness.jpg" alt="subdivide-smoothness" width="600" />
+- <img src="./images/subdivide-smoothness.jpg" alt="subdivide-smoothness" width="600" />
 
 ## movement
 
 Switch between transformation orientations of the mesh
 
 - suppose we have a mesh rotated, so while moving the vertices we can avoid global axis and use local
-- <img src="move-along-the-local-mesh-axis.jpg" alt="move-along-the-local-mesh-axis" />
+- <img src="./images/move-along-the-local-mesh-axis.jpg" alt="move-along-the-local-mesh-axis" />
 
 <b>Note:</b> while transforming press the axis being locked, press the `axis key` again to switch between global and local.
 
 ## Edges
 
-- <img src="select-edge-of-the-object.jpg" alt="select-edge-of-the-object" width="300" />
+- <img src="./images/select-edge-of-the-object.jpg" alt="select-edge-of-the-object" width="300" />
 - To open up the Edge menu
 - <kbd>CTRL</kbd> + <kbd>E</kbd>
 
 ### Edge Filling (join 2 vertices)
 
 - select the edge and press <kbd>F</kbd> to add a face to part shown in image
-- <img src="fill-in-face-using-edge.jpg" alt="fill-in-face-using-edge" width="300" />
+- <img src="./images/fill-in-face-using-edge.jpg" alt="fill-in-face-using-edge" width="300" />
 
 ### Expand edge
 
@@ -324,12 +324,12 @@ Switch between transformation orientations of the mesh
 
 ### draw edge
 
-- <img src="create-a-line-between.jpg" alt="create-a-line-between" />
+- <img src="./images/create-a-line-between.jpg" alt="create-a-line-between" />
 - press <kbd>J</kbd> to create a staright line between them
 
 #### Delete edge loops (without deleting faces)
 
-- <img src="delete-edge-loops-not-edges.jpg" alt="delete-edge-loops-not-edges" />
+- <img src="./images/delete-edge-loops-not-edges.jpg" alt="delete-edge-loops-not-edges" />
 - Press <kbd>X</kbd> and select `Edges Loops`
 
 ### subdivide the edge
@@ -350,7 +350,7 @@ to make a perpedicular out of them
 
 #### auto merge vertices
 
-- <img src="auto-merge-vertices.jpg" alt="auto-merge-vertices" />
+- <img src="./images/auto-merge-vertices.jpg" alt="auto-merge-vertices" />
 
 ### Merge overlapping vertices
 
@@ -361,53 +361,53 @@ to make a perpedicular out of them
 
 To stick the dragging object on the surface, instead of going inside the surface of other selections
 
-- <img src="snap-to-face-of-the-object.jpg" alt="snap-to-face-of-the-object" width="600" />
+- <img src="./images/snap-to-face-of-the-object.jpg" alt="snap-to-face-of-the-object" width="600" />
 
 #### to closest vertex
 
-- <img src="snap-to-closest-vertex.jpg" alt="snap-to-face-of-the-object" />
+- <img src="./images/snap-to-closest-vertex.jpg" alt="snap-to-face-of-the-object" />
 - and then press <kbd>CTRL</kbd> while moving them to snap to closest vertex
 
 #### to face of other object
 
 - settings below
-- <img src="snap-to-face-of-the-object-with-rotation.jpg" alt="snap-to-face-of-the-object-with-rotation" />
+- <img src="./images/snap-to-face-of-the-object-with-rotation.jpg" alt="snap-to-face-of-the-object-with-rotation" />
 - press <kbd>CTRL</kbd> move the object to have the closest rotation of the target mesh face
-- <img src="snap-to-face-of-the-object-with-rotation-movement.jpg" alt="snap-to-face-of-the-object-with-rotation-movement" />
+- <img src="./images/snap-to-face-of-the-object-with-rotation-movement.jpg" alt="snap-to-face-of-the-object-with-rotation-movement" />
 
 ### move vertex along the edge (also edges)
 
 - Select the vertex and double press <kbd>G</kbd>
-- <img src="move-vertex-along-the-edge.jpg" alt="move-vertex-along-the-edge" />
+- <img src="./images/move-vertex-along-the-edge.jpg" alt="move-vertex-along-the-edge" />
 
 #### move beyound the original limit
 
 - after double taping <kbd>G</kbd>, hold <kbd>ALT</kbd> or press <kbd>C</kbd> to clamp
-- <img src="move-the-vertices-beyond-limits.jpg" alt="move-the-vertices-beyond-limits" />
+- <img src="./images/move-the-vertices-beyond-limits.jpg" alt="move-the-vertices-beyond-limits" />
 
 ##### move vertex along the rotated angle
 
 - after clamping (refer above point), move `mouse` left to right
-- <img src="shear-operation-move-along.jpg" alt="shear-operation-move-along" />
+- <img src="./images/shear-operation-move-along.jpg" alt="shear-operation-move-along" />
 
 ### align the misaligned vertices
 
 - double tap <kbd>G</kbd> and then press <kbd>E</kbd>
-- <img src="edge-slide-align.jpg" alt="edge-slide-align" />
+- <img src="./images/edge-slide-align.jpg" alt="edge-slide-align" />
 
 ### moving the vertex in a straight line (along its normal)
 
 - select the vertex
 - <kbd>ALT</kbd> + <kbd>S</kbd>
-- <img src="move-vertex-along-its-normal.jpg" alt="move-vertex-along-its-normal" width="600" />
+- <img src="./images/move-vertex-along-its-normal.jpg" alt="move-vertex-along-its-normal" width="600" />
 
 #### show normal direction
 
-- <img src="display-normal-direction.jpg" alt="display-normal-direction" />
+- <img src="./images/display-normal-direction.jpg" alt="display-normal-direction" />
 
 ### align along the (X, Y, Z) axis (flatten the vertices)
 
-- <img src="snap-vertices-to-0.jpg" alt="snap-vertices-to-0" width="600" />
+- <img src="./images/snap-vertices-to-0.jpg" alt="snap-vertices-to-0" width="600" />
 - select the vertices
 - press <kbd>S</kbd> + (<kbd>Z</kbd>, <kbd>Y</kbd>, <kbd>X</kbd>) + 0
 
@@ -415,7 +415,7 @@ To stick the dragging object on the surface, instead of going inside the surface
 
 - select the vertices
 - make sure the active elements is selected
-- <img src="vertices-align-along-active-element.png" alt="vertices-align-along-active-element" />
+- <img src="./images/vertices-align-along-active-element.png" alt="vertices-align-along-active-element" />
 - select the vertex which will act like a reference point at which all the previously selected vertices will align to
 - press <kbd>S</kbd> + (<kbd>Z</kbd>, <kbd>Y</kbd>, <kbd>X</kbd>) + 0
 - press <kbd>ENTER</kbd>
@@ -424,7 +424,7 @@ To stick the dragging object on the surface, instead of going inside the surface
 
 ### make face
 
-- <img src="remove-the-edge-in-between.jpg" alt="remove-the-edge-in-between">
+- <img src="./images/remove-the-edge-in-between.jpg" alt="remove-the-edge-in-between">
 - select the vertices
 - Press <kbd>F</kbd>
 
@@ -432,20 +432,20 @@ To stick the dragging object on the surface, instead of going inside the surface
 
 - select the face
 - press <kbd>X</kbd>
-- <img src="delete-faces.jpg" alt="delete-faces" width="600" />
+- <img src="./images/delete-faces.jpg" alt="delete-faces" width="600" />
 
 ### Select faces
 
-- <img src="select-faces-of-object.jpg" alt="select-faces-of-object" width="600" />
+- <img src="./images/select-faces-of-object.jpg" alt="select-faces-of-object" width="600" />
 - then click on the middle of the faces
 
 <b>Note: </b> with face selection pressing <kbd>L</kbd> select one side of mesh easily
-<img src="face-select-easliy-with-L.jpg" alt="face-select-easliy-with-L" width="600" />
+<img src="./images/face-select-easliy-with-L.jpg" alt="face-select-easliy-with-L" width="600" />
 
 ## Triangles to polygons conversion
 
 - select the faces and go to face
-- <img src="faces-tris-to-quads.jpg" alt="faces-tris-to-quads" />
+- <img src="./images/faces-tris-to-quads.jpg" alt="faces-tris-to-quads" />
 - select the tris to quads
 
 ## Extrude
@@ -466,23 +466,23 @@ To stick the dragging object on the surface, instead of going inside the surface
 ### Boundary
 
 - press <kbd>B</kbd>
-- <img src="boundary-dissolve-mirror-inset.jpg" alt="boundary-dissolve-mirror-inset" />
+- <img src="./images/boundary-dissolve-mirror-inset.jpg" alt="boundary-dissolve-mirror-inset" />
 - so that the edge near the `mirror side` will dissolve
 
 <b>Note: </b> Make sure there are no faces between the mirror or else the boundary wont work, </br> Below image - 0 is no faces where the `boundary` will work perfectly, 1 is where it wont
 
-- <img src="make-sure-no-faces-between-mirror.jpg" alt="make-sure-no-faces-between-mirror" />
+- <img src="./images/make-sure-no-faces-between-mirror.jpg" alt="make-sure-no-faces-between-mirror" />
 
 ## Flip Normals
 
-- <img src="when-to-recalc-normals.jpg" alt="when-to-recalc-normals" width="600" />
+- <img src="./images/when-to-recalc-normals.jpg" alt="when-to-recalc-normals" width="600" />
 - Select all vertices
 - <kbd>SHIFT</kbd> + <kbd>N</kbd>
 - or search for normal recalculations
 
 ## Creating a bridge between cut faces
 
-- <img src="select-cut-faces-of-object.jpg" alt="select-cut-faces-of-object" width="400" />
+- <img src="./images/select-cut-faces-of-object.jpg" alt="select-cut-faces-of-object" width="400" />
 - Select cut faces
 - press <kbd>F3</kbd> and search for Bridge
 
@@ -490,11 +490,11 @@ To stick the dragging object on the surface, instead of going inside the surface
 
 For editing the vertices near by
 
-- <img src="proportional-editing.jpg" alt="proportional-editing" width="400" />
+- <img src="./images/proportional-editing.jpg" alt="proportional-editing" width="400" />
 - Enable it
 - select any vertice or vertices
 - Press <kbd>G</kbd> and move the object
-- <img src="edit-the-vertice-proportionallly.jpg" alt="edit-the-vertice-proportionallly" width="400" />
+- <img src="./images/edit-the-vertice-proportionallly.jpg" alt="edit-the-vertice-proportionallly" width="400" />
 - Scroll mouse up or down to get the lumpiness
 
 <b>Note: </b> Hide the vertices to avoid proportional editing on non required vertices
@@ -502,18 +502,18 @@ For editing the vertices near by
 ### Follow another object
 
 - Atfore joining
-- <img src="before-joining-the-objects.jpg" alt="before-joining-the-objects" width="600" />
+- <img src="./images/before-joining-the-objects.jpg" alt="before-joining-the-objects" width="600" />
 - Select the parent object
 - Then select the child object
 - <kbd>CTRL</kbd> + <kbd>P</kbd> and select the `Object (Keep Transform)`
 - After Joining
-- <img src="after-joining-the-objects.jpg" alt="after-joining-the-objects" width="600" />
+- <img src="./images/after-joining-the-objects.jpg" alt="after-joining-the-objects" width="600" />
 
 ## scaling
 
 ### from the center of 3d cursor
 
-- <img src="scale-from-center.jpg" alt="scale-from-center.jpg" width="600" />
+- <img src="./images/scale-from-center.jpg" alt="scale-from-center.jpg" width="600" />
 
 ## Hide
 
@@ -551,24 +551,24 @@ For editing the vertices near by
 ### loops
 
 - <kbd>ALT</kbd> + <kbd>Left Click</kbd> the vertex for vertical or horizontal selection of the lines running through the vertex
-- <img src="select-loop.jpg" alt="select-loop" width="600" />
+- <img src="./images/select-loop.jpg" alt="select-loop" width="600" />
 - <kbd>CTRL</kbd> + <kbd>I</kbd> to invert the selection
 
 <b>Note:</b> <kbd>ALT</kbd> + <kbd>Left Click</kbd> on the line for vertical selection as shown below
 
-- <img src="alt-loop-selection-vertical.jpg" alt="alt-loop-selection-vertical" />
+- <img src="./images/alt-loop-selection-vertical.jpg" alt="alt-loop-selection-vertical" />
 
 <b>Note:</b> add loop cut to make the edges sharp
 
-- <img src="add-loop-cut-to-make-them-sharp.jpg" alt="add-loop-cut-to-make-them-sharp" />
+- <img src="./images/add-loop-cut-to-make-them-sharp.jpg" alt="add-loop-cut-to-make-them-sharp" />
 - from above to below
-- <img src="adding-loop-cut-for-sharp-edges.jpg" alt="adding-loop-cut-for-sharp-edges" />
+- <img src="./images/adding-loop-cut-for-sharp-edges.jpg" alt="adding-loop-cut-for-sharp-edges" />
 
 ### Elven - Show the edge
 
 To show the edge its moving along press <kbd>E</kbd>
 
-- <img src="loop-cut-along-the-edge.jpg" alt="loop-cut-along-the-edge" />
+- <img src="./images/loop-cut-along-the-edge.jpg" alt="loop-cut-along-the-edge" />
 
 #### Flip
 
@@ -586,7 +586,7 @@ To show the edge its moving along press <kbd>E</kbd>
 
 ### Create a loop on the mesh
 
-- <img src="create-a-loop-on-a-model.jpg" alt="create-a-loop-on-a-model" width="250" />
+- <img src="./images/create-a-loop-on-a-model.jpg" alt="create-a-loop-on-a-model" width="250" />
 - Select the model
 - <kbd>CTRL</kbd> + <kbd>R</kbd>
 - scroll up and down to add more loops or reduce
@@ -598,7 +598,7 @@ To show the edge its moving along press <kbd>E</kbd>
 
 ### Select only next loop (isolate)
 
-- <img src="select-loops-hide-rest.jpg" alt="select-loops-hide-rest" />
+- <img src="./images/select-loops-hide-rest.jpg" alt="select-loops-hide-rest" />
 - select a point
 - <kbd>CTRL</kbd> + <kbd>NUM +</kbd>
 - <kbd>SHIFT</kbd> + <kbd>H</kbd>
@@ -607,7 +607,7 @@ To show the edge its moving along press <kbd>E</kbd>
 
 #### non manifold
 
-- <img src="select-eyelashes.png"  />
+- <img src="./images/select-eyelashes.png"  />
 - like eyelashes in metahuman
 - go into x ray mode and unselect rest
 - press h to hide
@@ -615,7 +615,7 @@ To show the edge its moving along press <kbd>E</kbd>
 
 ## Bevel
 
-- <img src="bevel-operation.jpg" alt="bevel-operation" />
+- <img src="./images/bevel-operation.jpg" alt="bevel-operation" />
 - to create a loop cut only with marked vertices
 - <kbd>CTRL</kbd> + <kbd>B</kbd>
 - scroll up or down to increase or decrese the loops
@@ -628,7 +628,7 @@ To show the edge its moving along press <kbd>E</kbd>
 - <kbd>SHIFT</kbd> + <kbd>CTRL</kbd> + <kbd>B</kbd>
 - drag the mouse to see the `bevel`
 - scroll up or down to increase or decrese the loops
-- <img src="add-bevl-to-90-deg-edges.jpg" alt="add-bevl-to-90-deg-edges" />
+- <img src="./images/add-bevl-to-90-deg-edges.jpg" alt="add-bevl-to-90-deg-edges" />
 
 ### add bevel to edges
 
@@ -641,14 +641,14 @@ when rotating the vertices the height can be affected, use shear instead
 
 - select vertices
 - open up search (<kbd>Space</kbd>) and search shear and then select the option
-- <img src="shear-operation.jpg" alt="shear-operation" />
+- <img src="./images/shear-operation.jpg" alt="shear-operation" />
 
 ## Knife tool
 
 - Press <kbd>K</kbd>
 - select any vertex
 - Press <kbd>C</kbd> to snap the axis along 45<sup>o</sup>
-- <img src="knife-tool-snapping-demonstrations.jpg" alt="knife-tool-snapping-demonstrations" />
+- <img src="./images/knife-tool-snapping-demonstrations.jpg" alt="knife-tool-snapping-demonstrations" />
 
 ## vertex groups
 
@@ -656,14 +656,14 @@ when rotating the vertices the height can be affected, use shear instead
 
 - in edit mode, select vertices
 - assign
-- <img src="assign-vertex-group.jpg" alt="assign-vertex-group" />
+- <img src="./images/assign-vertex-group.jpg" alt="assign-vertex-group" />
 
 ### create group from subtraction
 
 - select the group which contain all vertices
 - create a new group and assign all vertices from the selected group
 - select the group which you want to subtract from the selection
-- <img src="select-subtraction-group.jpg" alt="select-subtraction-group" />
+- <img src="./images/select-subtraction-group.jpg" alt="select-subtraction-group" />
 - select the new group
 - click on `REMOVE`
 - deselect everthing and select the new group only
@@ -671,13 +671,13 @@ when rotating the vertices the height can be affected, use shear instead
 ### shape keys
 
 - make sure the shape keys basis is selected and the 'Apply Shape keys in edit mode' is off
-- <img src="edit-mode-shape-keys.jpg" alt="edit-mode-shape-keys">
+- <img src="./images/edit-mode-shape-keys.jpg" alt="edit-mode-shape-keys">
 
 # World environment
 
 - [Download Environment](http://www.hdrlabs.com/sibl/archive.html)
 - nodes for the world
-- <img src="add-env-to-world.jpg" alt="add-env-to-world" />
+- <img src="./images/add-env-to-world.jpg" alt="add-env-to-world" />
 - add the Texture -> Enviornment Texture
 
 <b>Note: </b>
@@ -687,8 +687,8 @@ when rotating the vertices the height can be affected, use shear instead
 
 # Adding Material
 
-- <img src="add-surface-material.jpg" alt="add-surface-material" width="600" />
-- <img src="add-color-to-surface.jpg" alt="add-color-to-surface" width="600" />
+- <img src="./images/add-surface-material.jpg" alt="add-surface-material" width="600" />
+- <img src="./images/add-color-to-surface.jpg" alt="add-color-to-surface" width="600" />
 
 ## Material Properties
 
@@ -715,11 +715,11 @@ when rotating the vertices the height can be affected, use shear instead
 
 ### or select from the existing
 
-- <img src="copy-existiing-material-to-mesh.jpg" alt="copy-existiing-material-to-mesh" />
+- <img src="./images/copy-existiing-material-to-mesh.jpg" alt="copy-existiing-material-to-mesh" />
 - then create a new material
 - selec the old material
 - copy using the down arrow
-- <img src="select-copy-existiing-material-to-mesh.jpg" alt="select-copy-existiing-material-to-mesh" />
+- <img src="./images/select-copy-existiing-material-to-mesh.jpg" alt="select-copy-existiing-material-to-mesh" />
 - select the new material
 - paste the material
 
@@ -728,16 +728,16 @@ when rotating the vertices the height can be affected, use shear instead
 - add the existing material
 - select it and click on button marked 2
 - rename it to new name
-- <img src="duplicate-materials.jpg" alt="duplicate-materials" />
+- <img src="./images/duplicate-materials.jpg" alt="duplicate-materials" />
 
 ## water like depth and color
 
-- <img src="water-depth-material.jpg" alt="water-depth-material" width="600" />
+- <img src="./images/water-depth-material.jpg" alt="water-depth-material" width="600" />
 
 ## Adding another material
 
 - select the parts or faces of the object
-- <img src="assign-second-material-to-same-object.jpg" alt="assign-second-material-to-same-object" width="600" />
+- <img src="./images/assign-second-material-to-same-object.jpg" alt="assign-second-material-to-same-object" width="600" />
 
 # Modifiers
 
@@ -745,22 +745,22 @@ when rotating the vertices the height can be affected, use shear instead
 
 - select the `mesh` on whose the modifiers will be added
 - create a vertex group and assign to the mesh
-- <img src="modifier-vertex-group.jpg" alt="modifier-vertex-group" />
+- <img src="./images/modifier-vertex-group.jpg" alt="modifier-vertex-group" />
 - select the vertex group in the modifier
 - draw the paint on the `mesh`
 
 ## Solidyfy
 
-- <img src="modifier-solidify-description.jpg" alt="modifier-solidify-description" />
+- <img src="./images/modifier-solidify-description.jpg" alt="modifier-solidify-description" />
 - adds thickness to the mesh
-- <img src="modifier-solidify.jpg" alt="modifier-solidify" />
+- <img src="./images/modifier-solidify.jpg" alt="modifier-solidify" />
 - change the `thickness` and the `offset`
 
 ## Subdivision Surface
 
 We can smooth the surfaces with these
 
-- <img src="modifier-subdivision.jpg" alt="modifier-subdivision" width="600" />
+- <img src="./images/modifier-subdivision.jpg" alt="modifier-subdivision" width="600" />
 
 <b>Note: </b> The faces should have 4 vertices to have loops otherwise the subsurface modifier wont work correctly
 
@@ -768,31 +768,31 @@ We can smooth the surfaces with these
 
 - select vertices
 - Press <kbd>SHIFT</kbd> + <kbd>E</kbd>
-- <img src="edge-crease-sub-d.jpg" alt="edge-crease-sub-d" />
+- <img src="./images/edge-crease-sub-d.jpg" alt="edge-crease-sub-d" />
 
 ### Simple mode
 
 Preserves the corners
 
-- <img src="subsurface-modifier-modes.jpg" alt="subsurface-modifier-modes" />
+- <img src="./images/subsurface-modifier-modes.jpg" alt="subsurface-modifier-modes" />
 
 ### Bulid up
 
-- <img src="how-to-get-rid-of-buildup.jpg" alt="how-to-get-rid-of-buildup" width="300" />
-- <img src="subdivision-surface-enable-realtime.jpg" alt="subdivision-surface-enable-realtime" width="400" />
-- <img src="after-enable-subdivision-surface-realtime.jpg" alt="after-enable-subdivision-surface-realtime" width="300" />
+- <img src="./images/how-to-get-rid-of-buildup.jpg" alt="how-to-get-rid-of-buildup" width="300" />
+- <img src="./images/subdivision-surface-enable-realtime.jpg" alt="subdivision-surface-enable-realtime" width="400" />
+- <img src="./images/after-enable-subdivision-surface-realtime.jpg" alt="after-enable-subdivision-surface-realtime" width="300" />
 
 ### make flat edges
 
 To create a flat end with subsurface modifier
 
 - press <kbd>SHIFT</kbd> + <kbd>E</kbd>
-- <img src="flatten-the-faces-like-no-face.jpg" alt="flatten-the-faces-like-no-face" />
+- <img src="./images/flatten-the-faces-like-no-face.jpg" alt="flatten-the-faces-like-no-face" />
 
 ## Mirror
 
 - mirror the mesh arround the origin (of its own or global)
-- <img src="modifier-mirror-with-diff-origin.jpg" alt="modifier-mirror-with-diff-origin" />
+- <img src="./images/modifier-mirror-with-diff-origin.jpg" alt="modifier-mirror-with-diff-origin" />
 
 ### Mirror object
 
@@ -805,7 +805,7 @@ To create a flat end with subsurface modifier
 - to flatten a surface of some mesh or stick the mesh to other mesh
 
 - add the target object, select project mode if required
-- <img src="shrink-wrap-modifier.jpg" alt="shrink-wrap-modifier" width="500" />
+- <img src="./images/shrink-wrap-modifier.jpg" alt="shrink-wrap-modifier" width="500" />
 
 ## simple deform
 
@@ -815,46 +815,46 @@ bend any surface around the pivot point
 
 Create uneven paterns on the mesh
 
-- <img src="what-is-displace-modifier.jpg" alt="what-is-displace-modifier" />
-- <img src="modifier-displace-add-texture.jpg" alt="modifier-displace-add-texture" width="500" />
+- <img src="./images/what-is-displace-modifier.jpg" alt="what-is-displace-modifier" />
+- <img src="./images/modifier-displace-add-texture.jpg" alt="modifier-displace-add-texture" width="500" />
 - add the texture and go into texture tools
-- <img src="in-texture-select-clouds.jpg" alt="in-texture-select-clouds" />
+- <img src="./images/in-texture-select-clouds.jpg" alt="in-texture-select-clouds" />
 - select the clouds
 
 ## bevel
 
 - to add smooth edges to the mesh
-- <img src="modifier-bevel.jpg" alt="modifier-bevel" />
+- <img src="./images/modifier-bevel.jpg" alt="modifier-bevel" />
 - control the thickness
 - modify the segments to control the sharpness or smoothness of the edge
 
 ### for flat lines
 
-- <img src="modifier-bevel-sideeffects.jpg" alt="modifier-bevel-sideeffects" />
+- <img src="./images/modifier-bevel-sideeffects.jpg" alt="modifier-bevel-sideeffects" />
 - when bevel is applied the lines edge loops are flattened out
-- <img src="modifier-bevel-limit-method.jpg" alt="modifier-bevel-limit-method" />
+- <img src="./images/modifier-bevel-limit-method.jpg" alt="modifier-bevel-limit-method" />
 - apply the above settings
 - anything above 60<sup>o</sup> to be beveled (flattened)
 
 ## Boolean - for slicing mesh on mesh
 
 - set to `Union`
-- <img src="boolean-modifier-settings.jpg" alt="boolean-modifier-settings" />
+- <img src="./images/boolean-modifier-settings.jpg" alt="boolean-modifier-settings" />
 - set wire view on the slicing reference object
-- <img src="boolean-slice-object-property-to-wire.jpg" alt="boolean-slice-object-property-to-wire" />
+- <img src="./images/boolean-slice-object-property-to-wire.jpg" alt="boolean-slice-object-property-to-wire" />
 
 ## Multiresolution
 
 - add this for better sculpting
-- <img src="multiresolution-modifier-settings.jpg" alt="multiresolution-modifier-settings" />
+- <img src="./images/multiresolution-modifier-settings.jpg" alt="multiresolution-modifier-settings" />
 
 ## curve
 
 - have a path whose origin and mesh origin at the same point
 - add curve modifier
-- <img src="curve-modifier-settings.jpg" alt="curve-modifier-settings" />
+- <img src="./images/curve-modifier-settings.jpg" alt="curve-modifier-settings" />
 - both path and mesh should have origin at same location (ideally at the world origin)
-- <img src="curve-modifier-2-obj-origin.jpg" alt="curve-modifier-2-obj-origin" />
+- <img src="./images/curve-modifier-2-obj-origin.jpg" alt="curve-modifier-2-obj-origin" />
 
 ## remesh - [refer in sculpting](../sculpting/modifiers.md#remesh)
 
@@ -875,13 +875,13 @@ Create uneven paterns on the mesh
 
 - select the curve path
 - edit mode
-- <img src="rotate-in-curve-modifier.jpg" alt="rotate-in-curve-modifier" />
+- <img src="./images/rotate-in-curve-modifier.jpg" alt="rotate-in-curve-modifier" />
 - select the second vertice
 - press <kbd>G</kbd> and rotate
 
 ### create curves with proportional editing
 
-- <img src="curve-modifier-with-proportional-editing.jpg" alt="curve-modifier-with-proportional-editing" />
+- <img src="./images/curve-modifier-with-proportional-editing.jpg" alt="curve-modifier-with-proportional-editing" />
 - select the bound path
 - go into edit mode
 - enable proportional editing
@@ -895,13 +895,13 @@ Create uneven paterns on the mesh
 Change its texture pattern
 
 - rename the newly created brush
-- <img src="texture-tool-for-sculpt-brush.jpg" alt="texture-tool-for-sculpt-brush" />
-- <img src="change-the-texture-pattern.jpg" alt="change-the-texture-pattern" />
+- <img src="./images/texture-tool-for-sculpt-brush.jpg" alt="texture-tool-for-sculpt-brush" />
+- <img src="./images/change-the-texture-pattern.jpg" alt="change-the-texture-pattern" />
 - change the color ramp slider (observe the bumpiness in the preview)
 
 ## brush texture
 
-- <img src="texture-brush-texture.jpg" alt="texture-brush-texture" />
+- <img src="./images/texture-brush-texture.jpg" alt="texture-brush-texture" />
 
 # Texture Paint
 
@@ -928,11 +928,11 @@ Change its texture pattern
 
 - Go to texture mask
 - New
-- <img src="texture-masking.jpg" alt="texture-masking" width="500" />
+- <img src="./images/texture-masking.jpg" alt="texture-masking" width="500" />
 
 ### Brush Overlay (darken with same color)
 
-- <img src="texture-overlay-bake.jpg" alt="texture-overlay-bake" width="500" />
+- <img src="./images/texture-overlay-bake.jpg" alt="texture-overlay-bake" width="500" />
 
 ## add drawing image overlay on 3d mesh
 
@@ -940,8 +940,8 @@ Change its texture pattern
   - open mesh texture
   - select `open`
   - select the `unwrapped face texture`
-- <img src="in-mesh-texture-select-image.jpg" alt="in-mesh-texture-select-image" />
-- <img src="image-stencil-overlay.jpg" alt="image-stencil-overlay" />
+- <img src="./images/in-mesh-texture-select-image.jpg" alt="in-mesh-texture-select-image" />
+- <img src="./images/image-stencil-overlay.jpg" alt="image-stencil-overlay" />
 - select `stencil`
 
 ## controls for stencil
