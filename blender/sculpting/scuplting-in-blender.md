@@ -24,6 +24,12 @@
 
 - <img src="./images/sculpt-settings-cavity.png">
 
+## scale
+
+- if the brush shape is not round - apply all transforms or scale
+- also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
+- [solution](../blender.md#object-has-non-uniform-scale)
+
 # controls
 
 ## set space to toolbar or brushes
@@ -69,7 +75,11 @@
 
 - <img src="./images/enable symmerty.png">
 
-# more vertices
+# topology (for more vertices and reformating the vertices)
+
+## Dynamic topology
+
+- <img src="images/dynamic-topology-for-sculpting.jpg" />
 
 ## Remesh - add more vertices (when running out of vertices while drag)
 

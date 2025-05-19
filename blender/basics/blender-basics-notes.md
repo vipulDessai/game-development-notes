@@ -1,4 +1,40 @@
-# Blender
+# **Blender**
+
+# 3D cursor
+
+Drops the new objects over the 3d cursor when they are added in the viewport
+
+- <img src="3d-cursor-enable.jpg" alt="3d-cursor-enable" width="700" />
+- <kbd>SHIFT</kbd> + <kbd>Right Click</kbd> - to move it
+- <kbd>SHIFT</kbd> + <kbd>C</kbd> - to centre the cursor
+
+- <kbd>SHIFT</kbd> + <kbd>S</kbd> to get menu
+- Select `cursor to selected`
+
+## set to center
+
+- shift + c
+
+## menu
+
+- shift + s
+- <img src="./images/view-3d-cursor-menu.png">
+    - move to world origin (snap to world origin)
+
+# origin
+
+## move origin manually
+
+- can be done only in "object mode"
+- <img src="./images/move-origin-manually.png">
+
+## set origin
+
+The origin is the point which will be attached to the surface of the object on which the particles are added
+
+- Select the objects
+- <kbd>Right Click</kbd>
+- set origin -> origin to geometry
 
 # Tools
 
@@ -101,17 +137,6 @@ To see the light on the object
 #### Light settings
 
 - <img src="light-settings.jpg" alt="light-settings" width="900" />
-
-### 3D cursor
-
-Drops the new objects over the 3d cursor when they are added in the viewport
-
-- <img src="3d-cursor-enable.jpg" alt="3d-cursor-enable" width="700" />
-- <kbd>SHIFT</kbd> + <kbd>Right Click</kbd> - to move it
-- <kbd>SHIFT</kbd> + <kbd>C</kbd> - to centre the cursor
-
-- <kbd>SHIFT</kbd> + <kbd>S</kbd> to get menu
-- Select `cursor to selected`
 
 ### Change View for the mode (Layout, sculpting, etc)
 
@@ -794,14 +819,6 @@ when rotating the vertices the height can be affected, use shear instead
 - <img src="open-more-menu-for-vertex-group.jpg" alt="open-more-menu-for-vertex-group" />
 - in the menu select delete all groups
 
-### set origin
-
-The origin is the point which will be attached to the surface of the object on which the particles are added
-
-- Select the objects
-- <kbd>Right Click</kbd>
-- set origin -> origin to geometry
-
 ### set priority
 
 - <img src="set-priority-to-the-particles-in-collection.jpg" alt="set-priority-to-the-particles-in-collection" width="500" />
@@ -1011,84 +1028,6 @@ Create uneven paterns on the mesh
 - select the tip vertex (last vertex or any other)
 - drag it in a direction
 
-# Sculpting
-
-<b>Note: </b> add Multiresolution modifier for better sculpting
-
-## assign keyboard keys shortcuts
-
-- right click on the brush tools
-- <img src="assign-keyboard-keys.jpg" alt="assign-keyboard-keys" />
-
-## Brush
-
-- To adjust the brush press <kbd>F</kbd>
-- To adjust the brush strenth press <kbd>F</kbd> + <kbd>F</kbd>
-
-### Smooth brush
-
-- hold <kbd>SHIFT</kbd> and tap
-
-### Subtract brush
-
-- hold <kbd>CTRL</kbd> and tap
-
-### Texture
-
-- <img src="add-texture-to-sculpt-brush.jpg" alt="add-texture-to-sculpt-brush" />
-- add the new texture
-- select mapping as `Random`
-
-### new brush
-
-- download from - - [link](https://pixologic.com/zbrush/downloadcenter/alpha/)
-- add new brush from texture
-- <img src="add-new-brush-texture.jpg" alt="add-new-brush-texture" />
-- select image
-- <img src="new-brush-settings-sculpting.jpg" alt="new-brush-settings-sculpting" />
-- add above highlighted settings
-
-## for better sculpting - add multiresolution modifier
-
-multiresolution-modifier-settings
-
-## Dynamic topology
-
-- <img src="dynamic-topology-for-sculpting.jpg" alt="dynamic-topology-for-sculpting" />
-
-## cloth brush
-
-- <img src="cloth-brush-tools.jpg" alt="cloth-brush-tools" />
-- in the tools, select the type of brush function
-
-### stroke airbrush
-
-- <img src="cloth-brush-stroke.jpg" alt="cloth-brush-stroke" />
-
-## draw straight line
-
-- <img src="draw-line-in-sculting.jpg" alt="draw-line-in-sculting" />
-
-## Masks (Layers)
-
-- <img src="sculting-layers-masks.jpg" alt="sculting-layers-masks" />
-
-<b>Note: </b> if u cant see the masks (face sets), disable the subsurface modifier
-
-### masks by uv seems
-
-- <img src="masks-by-uv-seems.jpg" alt="masks-by-uv-seems" />
-- now we need to use the face masks, we need to enable advanced setting (refer below options)
-
-#### boundary
-
-- preserving the boundary
-- <img src="faces-sets-boundary.jpg" alt="faces-sets-boundary" />
-
-#### only one face
-
-- <img src="faces-sets-auto-masking.jpg" alt="faces-sets-auto-masking" />
-
 # Texturing
 
 ## Texture tool
@@ -1152,60 +1091,3 @@ Change its texture pattern
   - plus Press <kbd>X</kbd> or <kbd>Y</kbd> - to adjust the size in that coordinate
 - <kbd>CTRL</kbd> to rotate
 - <kbd>Left CLICK</kbd> - to paint
-
-# physics
-
-- <img src="physics-property.jpg" alt="physics-property" />
-- Physics tools
-- its gets applied as a modifier (so need to apply the physics)
-
-- <img src="animation-panel.jpg" alt="animation-panel" />
-- Animation have to be run to see the physics getting applied
-
-## cloths
-
-- <img src="physics-cloths-property.jpg" alt="physics-cloths-property" />
-- Pressure property is very important and controls the wrinkles
-- Turn off gravity
-- bending controls the size of the wrinkles
-
-### simulation area
-
-- we have to the middle circles as drag point and outer circles which define the simulation area
-- <img src="simulation-circle.jpg" alt="simulation-circle" />
-- <img src="simulation-circle-setting.jpg" alt="simulation-circle-setting" />
-
-# Rigify
-
-- Enable it in blender add-on settings
-
-## Enable bone axis
-
-- select metarig
-- go to viewport display
-- <img src="show-bone-rotation-axis.jpg" alt="show-bone-rotation-axis" />
-
-## Bend Bone Direction
-
-- in the pose mode
-- select the bone
-- set the Bend rotaion axis to x manual
-- <img src="rigify-bend-rotation-axis.jpg" alt="rigify-bend-rotation-axis" />
-
-## apply to all the selected bones
-
-- select the bones
-- change the `bone rotataion axis` as per the above step
-- right click as shown in below images (the red marked)
-- <img src="bend-bone-rotation-copy-selected.jpg" alt="bend-bone-rotation-copy-selected" />
-- select `Copy to selected`
-- repeat the same on the other side (like the left or the right side)
-
-# Curve
-
-## Convert a curve path to cylinder
-
-- Go to curve tool
-- select `Fill Mode` as full
-- increase the `Depth` under Geometry -> Bevel
-- <img src="line-to-cylinder.jpg" alt="line-to-cylinder" />
