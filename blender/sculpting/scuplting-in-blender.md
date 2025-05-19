@@ -14,6 +14,11 @@
 - drag out the brush panel
 - <img src="./images/drag-out-brush-panel.png">
 
+## assign keyboard keys shortcuts
+
+- right click on the brush tools
+- <img src="./images/assign-keyboard-keys.jpg" alt="assign-keyboard-keys" />
+
 ## settings
 
 - <img src="./images/sculpting-settings.png">
@@ -29,6 +34,14 @@
 - if the brush shape is not round - apply all transforms or scale
 - also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
 - [solution](../blender.md#object-has-non-uniform-scale)
+
+## for better sculpting - add multiresolution modifier
+
+- <img src="./images/multiresolution-modifier-settings.jpg" />
+
+## draw straight line
+
+- <img src="./images/draw-line-in-sculting.jpg" alt="draw-line-in-sculting" />
 
 # controls
 
@@ -48,6 +61,14 @@
   - tap to exit
 - press shift + F + move mouse up down for strength
   - tap to exit
+
+## Smooth brush
+
+- hold <kbd>SHIFT</kbd> and tap
+
+## Subtract brush
+
+- hold <kbd>CTRL</kbd> and tap
 
 ### avoid these
 
@@ -106,6 +127,12 @@
 - <img src="./images/stroke-method-line.png">
 - click and drag the line to draw the pattern
 
+## add Texture to brush
+
+- <img src="./images/add-texture-to-sculpt-brush.jpg" alt="add-texture-to-sculpt-brush" />
+- add the new texture
+- select mapping as `Random`
+
 ## types
 
 ### mask
@@ -161,8 +188,46 @@ use to scraps areas like sharp cheeks
 
 - <img src="./images/scrapper-application.png">
 
+### cloth brush
+
+- <img src="./images/cloth-brush-tools.jpg" alt="cloth-brush-tools" />
+- in the tools, select the type of brush function
+
+#### stroke cloth airbrush
+
+- <img src="./images/cloth-brush-stroke.jpg" alt="cloth-brush-stroke" />
+
+## download new brush
+
+- download from - - [link](https://pixologic.com/zbrush/downloadcenter/alpha/)
+- add new brush from texture
+- <img src="./images/add-new-brush-texture.jpg" alt="add-new-brush-texture" />
+- select image
+- <img src="./images/new-brush-settings-sculpting.jpg" alt="new-brush-settings-sculpting" />
+- add above highlighted settings
+
 # painting
 
 ## use in shading
 
 - <img src="./images/shading-with-sculpting.png">
+
+## Masks (Layers)
+
+- <img src="./images/sculting-layers-masks.jpg" alt="sculting-layers-masks" />
+
+<b>Note: </b> if u cant see the masks (face sets), disable the subsurface modifier
+
+### masks by uv seems
+
+- <img src="./images/masks-by-uv-seems.jpg" alt="masks-by-uv-seems" />
+- now we need to use the face masks, we need to enable advanced setting (refer below options)
+
+#### boundary
+
+- preserving the boundary
+- <img src="./images/faces-sets-boundary.jpg" alt="faces-sets-boundary" />
+
+#### only one face
+
+- <img src="./images/faces-sets-auto-masking.jpg" alt="faces-sets-auto-masking" />
