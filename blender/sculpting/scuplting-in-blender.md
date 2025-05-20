@@ -31,6 +31,22 @@
   - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
   - accumulate - each brush stroke will build upon the previous ones
 
+### for better sculpting - add multiresolution modifier
+
+- <img src="./images/multiresolution-modifier-settings.jpg" />
+
+#### For better performance
+
+- add subdivision modifier
+  - level viewport - 5
+  - render - 5
+- apply the subdivision
+- multiresolution modifier
+  - level viewport - 5
+  - sculpt - 5
+  - render - 5
+- dont apply the multiresolution
+
 ### viewport
 
 #### control opaqueness of inactive sculpt object
@@ -51,10 +67,6 @@
 - also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
 - [solution](../blender.md#object-has-non-uniform-scale)
 
-## for better sculpting - add multiresolution modifier
-
-- <img src="./images/multiresolution-modifier-settings.jpg" />
-
 ## draw straight line
 
 - <img src="./images/draw-line-in-sculting.jpg" alt="draw-line-in-sculting" />
@@ -63,7 +75,8 @@
 
 ## switch between object sculpts
 
-- alt + q
+- hover over the object
+- press alt + q
 - or press here
 - <img src="./images/switch-objects-scuplt.png">
 

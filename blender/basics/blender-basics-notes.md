@@ -49,6 +49,125 @@ The origin is the point which will be attached to the surface of the object on w
 
 - <img src="./images/transformed-pivot-point.png">
 
+# Viewport
+
+## vertices count
+
+- <img src="./images/vertices-count.png" />
+- or
+- right click on the bottom menu (status bar) -> select "scene statistics"
+- <img src="./images/enable-scene-stats.png" />
+
+## panel
+
+- <img src="./images/flip-the-panel-to-bottom-or-top.jpg" alt="flip-the-panel-to-bottom-or-top" />
+- <kbd>Right Click</kbd> on the `Object Mode` and `flip to bottom`
+
+## zoom swiftly
+
+- <kbd>CTRL</kbd> + <kbd>Middle</kbd>
+
+## Toggle visibility
+
+- if while importing some mesh from old version are looking as if they are disabled
+- <img src="./images/toggle-viewport-visibility.jpg" alt="toggle-viewport-visibility" width="600" />
+- also enable the selection and viewport option in filter menu
+
+## Menu
+
+- Press <kbd>N</kbd>
+
+## Change the axis
+
+- <kbd>`</kbd> to open the menu
+- Numpad keys
+- <kbd>ALT</kbd> + <kbd>Middle Mouse</kbd> + move mouse
+
+## Split the viewport
+
+- <kbd>Right Click</kbd> on the red marking
+- <img src="./images/right-click-and-spilt-the-view.jpg" alt="right-click-and-spilt-the-view" width="700" />
+
+## Quad view
+
+- divide the view port in top, front, side and movable viewports
+- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Q</kbd>
+
+## Rendered
+
+To see the light on the object
+
+- <img src="./images/view-rendered-object.jpg" alt="view-rendered-object" width="800" />
+- or Press <kbd>Z</kbd> and select `Rendered`
+
+## Light
+
+- <img src="./images/enable-lighting.jpg" alt="enable-lighting" width="900" />
+
+### Light settings
+
+- <img src="./images/light-settings.jpg" alt="light-settings" width="900" />
+
+## Change View for the mode (Layout, sculpting, etc)
+
+- Press <kbd>N</kbd>
+- <img src="./images/change-view-zoom.jpg" alt="change-view-zoom" width="600" />
+
+## Render Engine
+
+- <img src="./images/render-engine.jpg" alt="render-engine" width="800" />
+- can change the render engine to Eveee (For Low graphics ex. games)
+- can change the render engine to Cycles (For High graphics)
+
+## Create a image
+
+- Render -> Render Image
+- Or Press <kbd>F12</kbd>
+
+## View through the camera
+
+- <img src="./images/view-through-camera.jpg" alt="view-through-camera" width="400" />
+
+## Face orientation
+
+See which face is viewable
+
+- <img src="./images/face-orientations.jpg" alt="face-orientations" width="400" />
+
+## Start Search
+
+- <kbd>F3</kbd>
+
+## Toggle X Ray
+
+- <img src="./images/toggle-x-ray.jpg" alt="toggle-x-ray" width="800" />
+
+## object view (on individual mesh item)
+
+- set a wire view on individual object
+- <img src="./images/objects-view-settings.jpg" alt="objects-view-settings" />
+
+## draw marking (annotations)
+
+- press <kbd>D</kbd> and <kbd>Left Click</kbd> and draw with pencil
+- to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
+- <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
+
+## Images
+
+### Opacity
+
+- <img src="./images/image-opacity-using-alpha.jpg" alt="image-opacity-using-alpha" />
+
+## view region or portion of 3d viewport
+
+- <kbd>CTRL</kbd> + <kbd>B</kbd>
+- mark a portion
+
+### exit region view
+
+- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>B</kbd>
+
 # Tools
 
 ## Object Properties
@@ -57,10 +176,6 @@ The origin is the point which will be attached to the surface of the object on w
 
 - so that the blender rendered image will NOT include the additional objects and will only render the main objects shadow
 - <img src="./images/shadow-catcher-on-object.png" />
-
-### vertices count
-
-- <img src="./images/vertices-count.png" />
 
 ## Tranformation
 
@@ -99,118 +214,6 @@ The origin is the point which will be attached to the surface of the object on w
 - press <kbd>G</kbd> and press <kbd>X</kbd> for direction
 - paste <kbd>CTRL</kbd> + <kbd>V</kbd>
 
-## viewport
-
-### panel
-
-- <img src="./images/flip-the-panel-to-bottom-or-top.jpg" alt="flip-the-panel-to-bottom-or-top" />
-- <kbd>Right Click</kbd> on the `Object Mode` and `flip to bottom`
-
-### zoom swiftly
-
-- <kbd>CTRL</kbd> + <kbd>Middle</kbd>
-
-### Toggle visibility
-
-- if while importing some mesh from old version are looking as if they are disabled
-- <img src="./images/toggle-viewport-visibility.jpg" alt="toggle-viewport-visibility" width="600" />
-- also enable the selection and viewport option in filter menu
-
-### Menu
-
-- Press <kbd>N</kbd>
-
-### Change the axis
-
-- <kbd>`</kbd> to open the menu
-- Numpad keys
-- <kbd>ALT</kbd> + <kbd>Middle Mouse</kbd> + move mouse
-
-### Split the viewport
-
-- <kbd>Right Click</kbd> on the red marking
-- <img src="./images/right-click-and-spilt-the-view.jpg" alt="right-click-and-spilt-the-view" width="700" />
-
-### Quad view
-
-- divide the view port in top, front, side and movable viewports
-- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Q</kbd>
-
-### Rendered
-
-To see the light on the object
-
-- <img src="./images/view-rendered-object.jpg" alt="view-rendered-object" width="800" />
-- or Press <kbd>Z</kbd> and select `Rendered`
-
-### Light
-
-- <img src="./images/enable-lighting.jpg" alt="enable-lighting" width="900" />
-
-#### Light settings
-
-- <img src="./images/light-settings.jpg" alt="light-settings" width="900" />
-
-### Change View for the mode (Layout, sculpting, etc)
-
-- Press <kbd>N</kbd>
-- <img src="./images/change-view-zoom.jpg" alt="change-view-zoom" width="600" />
-
-### Render Engine
-
-- <img src="./images/render-engine.jpg" alt="render-engine" width="800" />
-- can change the render engine to Eveee (For Low graphics ex. games)
-- can change the render engine to Cycles (For High graphics)
-
-### Create a image
-
-- Render -> Render Image
-- Or Press <kbd>F12</kbd>
-
-### View through the camera
-
-- <img src="./images/view-through-camera.jpg" alt="view-through-camera" width="400" />
-
-### Face orientation
-
-See which face is viewable
-
-- <img src="./images/face-orientations.jpg" alt="face-orientations" width="400" />
-
-### Start Search
-
-- <kbd>F3</kbd>
-
-### Toggle X Ray
-
-- <img src="./images/toggle-x-ray.jpg" alt="toggle-x-ray" width="800" />
-
-### object view (on individual mesh item)
-
-- set a wire view on individual object
-- <img src="./images/objects-view-settings.jpg" alt="objects-view-settings" />
-
-### draw marking (annotations)
-
-- press <kbd>D</kbd> and <kbd>Left Click</kbd> and draw with pencil
-- to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
-- <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
-
-### Images
-
-#### Opacity
-
-- <img src="./images/image-opacity-using-alpha.jpg" alt="image-opacity-using-alpha" />
-
-### view region or portion of 3d viewport
-
-- <kbd>CTRL</kbd> + <kbd>B</kbd>
-- mark a portion
-
-#### exit region view
-
-- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>B</kbd>
-
 # Object Mode
 
 ## Zoom
@@ -226,11 +229,22 @@ See which face is viewable
 
 ## duplicate objects
 
+### different mesh data
+
 - shift + d
   - create seperate vertex group
+
+### sharing mesh data
+
+- <img src="./images/shared-mesh-data-duplicates.png" />
 - alt + d
   - two mesh will share the same vertext group
   - useful for sculpting same on both the object
+
+#### seperate the mesh data
+
+- to seperate the mesh data apply the scale
+- warning shows up, say "Apply"
 
 ## Smooth the object
 
@@ -463,6 +477,21 @@ To stick the dragging object on the surface, instead of going inside the surface
 <b>Note: </b> with face selection pressing <kbd>L</kbd> select one side of mesh easily
 <img src="./images/face-select-easliy-with-L.jpg" alt="face-select-easliy-with-L" width="600" />
 
+## Normals
+
+### flip
+
+- will inverse the normals
+- to flip, in edit mode menu -> mesh -> normals -> flip
+
+### recalculate normals to the outside
+
+- <img src="./images/when-to-recalc-normals.jpg" alt="when-to-recalc-normals" width="600" />
+- Select all vertices
+- <kbd>SHIFT</kbd> + <kbd>N</kbd>
+- or search for normal recalculations
+- or from edit mode menu -> mesh -> normals -> recalculate outside
+
 ## Triangles to polygons conversion
 
 - select the faces and go to face
@@ -493,13 +522,6 @@ To stick the dragging object on the surface, instead of going inside the surface
 <b>Note: </b> Make sure there are no faces between the mirror or else the boundary wont work, </br> Below image - 0 is no faces where the `boundary` will work perfectly, 1 is where it wont
 
 - <img src="./images/make-sure-no-faces-between-mirror.jpg" alt="make-sure-no-faces-between-mirror" />
-
-## Flip Normals
-
-- <img src="./images/when-to-recalc-normals.jpg" alt="when-to-recalc-normals" width="600" />
-- Select all vertices
-- <kbd>SHIFT</kbd> + <kbd>N</kbd>
-- or search for normal recalculations
 
 ## Creating a bridge between cut faces
 
