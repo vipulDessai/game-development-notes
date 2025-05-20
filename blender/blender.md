@@ -20,6 +20,10 @@
 
   <img src="./images/view-options.png" >
 
+## edit mode stats (vertices, edges, faces details)
+
+  <img src="./images/enable-vertices-stats.png" >
+
 # settings
 
 ctrl + ,

@@ -8,13 +8,6 @@ Drops the new objects over the 3d cursor when they are added in the viewport
 - <kbd>SHIFT</kbd> + <kbd>Right Click</kbd> - to move it
 - <kbd>SHIFT</kbd> + <kbd>C</kbd> - to centre the cursor
 
-- <kbd>SHIFT</kbd> + <kbd>S</kbd> to get menu
-- Select `cursor to selected`
-
-## set to center
-
-- shift + c
-
 ## menu
 
 - shift + s
@@ -23,18 +16,38 @@ Drops the new objects over the 3d cursor when they are added in the viewport
 
 # origin
 
+The origin is the point which will be attached to the surface of the object on which the particles are added
+
+## menu
+
+- shift + s
+- <img src="./images/view-3d-cursor-menu.png">
+    - move to world origin (snap to world origin)
+
 ## move origin manually
 
 - can be done only in "object mode"
 - <img src="./images/move-origin-manually.png">
 
-## set origin
+## set origin to center of a mesh
 
-The origin is the point which will be attached to the surface of the object on which the particles are added
+- Select the object
+- <kbd>Right Click</kbd> -> set origin -> origin to geometry
+- or
+- <img src="./images/set-origin.png">
 
-- Select the objects
-- <kbd>Right Click</kbd>
-- set origin -> origin to geometry
+## transformed pivot point
+
+- set object pivot point to a different reference point
+- by default the pivot point is origin (individual origin)
+
+### default
+
+- <img src="./images/default-pivot-point.png">
+
+### set to 3d cursor
+
+- <img src="./images/transformed-pivot-point.png">
 
 # Tools
 
@@ -210,6 +223,14 @@ See which face is viewable
 ## Add
 
 - <kbd>SHIFT</kbd> + <kbd>A</kbd> to add mesh
+
+## duplicate objects
+
+- shift + d
+  - create seperate vertex group
+- alt + d
+  - two mesh will share the same vertext group
+  - useful for sculpting same on both the object
 
 ## Smooth the object
 

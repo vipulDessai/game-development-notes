@@ -21,9 +21,25 @@
 
 ## settings
 
+### preferences (basic)
+
+- [refer](../blender.md#settings)
+
+### recommended
+
 - <img src="./images/sculpting-settings.png">
   - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
   - accumulate - each brush stroke will build upon the previous ones
+
+### viewport
+
+#### control opaqueness of inactive sculpt object
+
+- <img src="./images/fade-inactive-sculpt-objects.png">
+
+### shading
+
+- <img src="./images/shading-settings.png">
 
 ## view
 
@@ -44,6 +60,12 @@
 - <img src="./images/draw-line-in-sculting.jpg" alt="draw-line-in-sculting" />
 
 # controls
+
+## switch between object sculpts
+
+- alt + q
+- or press here
+- <img src="./images/switch-objects-scuplt.png">
 
 ## set space to toolbar or brushes
 
@@ -75,24 +97,35 @@
 - pen pressure radius
   - <img src="./images/never-set-pen-pressure-radius.png">
 
-# move entire sculpt
+# operations
 
-## using base pivot
+## duplicates
+
+- [refer](../basics/blender-basics-notes.md#duplicate-objects)
+
+## move
+
+### base pivot (still moves only the unmasked)
 
 - <img src="./images/base-location.png">
   - or just the selected sculpt
 
-## pivot to unmasked
+### set pivot to unmasked
 
+- move the pivot
 - <img src="./images/move-only-unmasked-using-pivot.png">
 - then select the move
 - <img src="./images/move-button-in-sculpt.png">
 
-## Symmetry
+## Selection
+
+- <img src="./images/select-in-sculpt.png">
+
+# Symmetry
 
 - <img src="./images/symeetry.png">
 
-### to enable the symmetry after the sculpting (or transfer the symmetry)
+## to enable the symmetry after the sculpting (or transfer the symmetry)
 
 - <img src="./images/enable symmerty.png">
 
@@ -108,10 +141,6 @@
 - to apply this remesh press ctrl + r
 
 **note:** never undo a remeshed object, because blender add more vertices once remeshed again
-
-# Select brushes
-
-- <img src="./images/select-in-sculpt.png">
 
 # Brush
 
