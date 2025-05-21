@@ -31,7 +31,7 @@
   - front faces - so that to prevent accidental back of the mesh sculpting, which are very close
   - accumulate - each brush stroke will build upon the previous ones
 
-### for better sculpting - add multiresolution modifier
+### for better sculpting - add multires modifier - [refer](../basics/blender-basics-notes.md#multiresolution)
 
 - <img src="./images/multiresolution-modifier-settings.jpg" />
 
@@ -175,6 +175,12 @@
 - add the new texture
 - select mapping as `Random`
 
+## falloff
+
+make the brush either like a ball or like a pipe
+
+- <img src="./images/brush-falloff.png"/>
+
 ## types
 
 ### mask
@@ -191,6 +197,26 @@
 #### drag and select
 
 - press b and drag to mark it mask
+
+### Grab brush
+
+- press G
+
+#### to not touch or affect sculpt next to the grabbed shape
+
+- <img src="./images/unaffect-others-grab-brush.png" />
+- enable "grab silhouette"
+- <img src="./images/grab-button-settings.png" />
+
+### smooth brush
+
+- press s to switch to smooth brush
+- while using other brush, press and hold shift to use smooth brush
+
+#### invert the smooth brush
+
+- press s to switch to smooth brush
+- press ctrl + left click
 
 ### crease polish
 
@@ -224,11 +250,25 @@ use when want to preseve creases but smoothen overall
 - <img src="./images/flatten-brush-settings.png">
   - more radius more smoothness
 
-### scrapper
+### scrape
 
 use to scraps areas like sharp cheeks
 
 - <img src="./images/scrapper-application.png">
+
+#### invert to fill
+
+- <img src="./images/scrape-settings.png">
+
+### fill/deepen
+
+- use with crease brush
+
+#### invert to scrape
+
+- <img src="./images/fill-deppen-settings.png" />
+
+### scrape
 
 ### cloth brush
 

@@ -14,7 +14,7 @@ Drops the new objects over the 3d cursor when they are added in the viewport
 - <img src="./images/view-3d-cursor-menu.png">
     - move to world origin (snap to world origin)
 
-# origin
+# Origin
 
 The origin is the point which will be attached to the surface of the object on which the particles are added
 
@@ -890,6 +890,7 @@ Create uneven paterns on the mesh
 
 - add this for better sculpting
 - <img src="./images/multiresolution-modifier-settings.jpg" alt="multiresolution-modifier-settings" />
+- click on subdivide to add more resolution
 
 ## curve
 
