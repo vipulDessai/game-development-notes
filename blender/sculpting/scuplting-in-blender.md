@@ -142,6 +142,12 @@
 
 - <img src="./images/enable symmerty.png">
 
+## transfer symmetry while using multires modifier
+
+- <img src="./images/disable-enable-modifier.png">
+- disable the modifier in the modifier section
+- then the transfer symmetry will be enabled
+
 # topology (for more vertices and reformating the vertices)
 
 ## Dynamic topology
