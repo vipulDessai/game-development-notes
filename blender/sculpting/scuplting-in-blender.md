@@ -2,10 +2,12 @@
 
 # setup
 
+## open sculpt mode
+
 - <img src="./images/sculpting-mode-start.png">
 - open blender, on the landing pageclick on the sculpting, this gives a sphere
 
-## Or manually
+### Or manually
 
 - always start with a UV Sphere
 - <img src="./images/basic-sculpt-uv-sphere.png">
@@ -47,25 +49,23 @@
   - render - 5
 - dont apply the multiresolution
 
-### viewport
-
-#### control opaqueness of inactive sculpt object
-
-- <img src="./images/fade-inactive-sculpt-objects.png">
-
 ### shading
 
 - <img src="./images/shading-settings.png">
 
-## view
+## viewport settings
+
+### cavity or deep areas
 
 - <img src="./images/sculpt-settings-cavity.png">
 
-## scale
+### wireframe
 
-- if the brush shape is not round - apply all transforms or scale
-- also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
-- [solution](../blender.md#object-has-non-uniform-scale)
+- <img src="./images/enable-overlay-wireframe.png">
+
+### control opaqueness of inactive sculpt object
+
+- <img src="./images/fade-inactive-sculpt-objects.png">
 
 ## draw straight line
 
@@ -134,6 +134,43 @@
 
 - <img src="./images/select-in-sculpt.png">
 
+## face set selection
+
+- shift + w
+- hold space to adjust
+- <img src="./images/selection-by-faceset-or-mask.png">
+- press f to invert
+- press 2 for different kinf of selection (its called falloff)
+
+### delete face set
+
+- use the Draw face set brush
+- <img src="./images/draw-face-set.png">
+
+## trim or delete
+
+### using face set
+
+- select the face set
+- <img src="./images/delete-face-set-selection.png">
+- in the sculpt menu -> sculpt -> fair positions
+- click on the faceset selection
+
+**note** - later use dyno mesh
+
+## mask
+
+- shift + a
+- hold space to adjust
+- <img src="./images/selection-by-faceset-or-mask.png">
+- press f to invert
+- press 2 for different kinf of selection (its called falloff)
+
+### open mask menu
+
+- press a and move mouse to select the options
+- options such as invert, clear, smooth etc
+
 # Symmetry
 
 - <img src="./images/symeetry.png">
@@ -154,6 +191,11 @@
 
 - <img src="images/dynamic-topology-for-sculpting.jpg" />
 
+### constant
+
+- this lets you pick a size using a dropper
+- <img src="images/constant-type-dyntope.png" />
+
 ## Remesh - add more vertices (when running out of vertices while drag)
 
 - r and drag the grid to make it finer and left click to set
@@ -162,6 +204,14 @@
 **note:** never undo a remeshed object, because blender add more vertices once remeshed again
 
 # Brush
+
+## size
+
+### brush size contant on zoom
+
+keep the size of the brush constant on zoom
+
+- <img src="./images/fixed-brush-size-on-zoom.png">
 
 ## Stroke
 
@@ -241,6 +291,10 @@ to draw shapes like muscle strands
   - set 5% spacing and disable `adjust strength`
   - make sure the pinch in the brush details panel (right panel) is 0
 
+### draw sharp
+
+- to draw creases without pinch and easier than crease smooth or sharp
+
 ### clay strips
 
 usually to be used with higher res (remesh 0.008 or like so)
@@ -274,7 +328,9 @@ use to scraps areas like sharp cheeks
 
 - <img src="./images/fill-deppen-settings.png" />
 
-### scrape
+### Density
+
+- can be only used if dyntope is enabled
 
 ### cloth brush
 
@@ -319,3 +375,11 @@ use to scraps areas like sharp cheeks
 #### only one face
 
 - <img src="./images/faces-sets-auto-masking.jpg" alt="faces-sets-auto-masking" />
+
+# Errors / Issues
+
+## apply scale
+
+- if the brush shape is not round - apply all transforms or scale
+- also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
+- [solution](../blender.md#object-has-non-uniform-scale)
