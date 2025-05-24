@@ -931,3 +931,29 @@ Create uneven paterns on the mesh
 - enable proportional editing
 - select the tip vertex (last vertex or any other)
 - drag it in a direction
+
+# Asset Manager
+
+- go to project whose mesh or objects you want to expose as assets
+- go to preferences
+- file paths -> Asset Libraries -> + (add) -> choose a folder where all the assets will be saved -> Add Asset Library button -> rename (optional)
+- change the import method to append
+- <img src="./images/expose-assets.png"/>
+- close the preferences
+
+## Blender Official Human Base Mesh
+
+- <img src="./images/copy-option-for-human-base.png"/>
+- click on "Copy bundle to asset Library"
+- choose the newly created asset -> select the location -> click on "copy to asset library"
+- open any new project
+- switch to "Asset Browser" in the viewport
+- <img src="./images/see-asset-browser.png"/>
+
+### import
+
+- after dragging the mesh to the layout
+- change to proper mesh
+- <img src="./images/change-the-collection-instance.png"/>
+- or select the collection and press f9 -> disable instance
+- <img src="./images/f9-to-change-the-collection-instance.png"/>

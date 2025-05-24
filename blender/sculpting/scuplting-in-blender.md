@@ -130,6 +130,10 @@
 - then select the move
 - <img src="./images/move-button-in-sculpt.png">
 
+### manually set pivot
+
+- shift + right click
+
 ## Selection
 
 - <img src="./images/select-in-sculpt.png">
@@ -141,6 +145,10 @@
 - <img src="./images/selection-by-faceset-or-mask.png">
 - press f to invert
 - press 2 for different kinf of selection (its called falloff)
+
+### view hide face sets
+
+- <img src="./images/face-set-visibility.png">
 
 ### delete face set
 
@@ -168,8 +176,10 @@
 
 ### open mask menu
 
-- press a and move mouse to select the options
+- press `a` and move mouse to select the options
 - options such as invert, clear, smooth etc
+  - increase contrast to darken
+  - grow mask to make it cover more area
 
 # Symmetry
 
@@ -331,6 +341,12 @@ use to scraps areas like sharp cheeks
 ### Density
 
 - can be only used if dyntope is enabled
+
+### pose brush
+
+to move legs, arms like FK
+
+- <img src="./images/edit-using-pose-brush.png"/>
 
 ### cloth brush
 
