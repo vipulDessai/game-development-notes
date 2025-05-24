@@ -957,3 +957,10 @@ Create uneven paterns on the mesh
 - <img src="./images/change-the-collection-instance.png"/>
 - or select the collection and press f9 -> disable instance
 - <img src="./images/f9-to-change-the-collection-instance.png"/>
+
+### to apply scale
+
+if the mesh is resized then applying scales gives issue, to fix it
+
+- <img src="./images/to-fix-apply-scale-issue.png"/>
+- goto to object menu -> relations -> Make single user -> Object and Data
