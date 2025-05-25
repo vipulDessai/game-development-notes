@@ -46,12 +46,13 @@ ctrl + ,
 ## Object has non uniform scale
 
 We get the error because the scales are different </br>
-<img src="why-non-uniform-object-err.jpg" alt="why-non-uniform-object-err" width="500" />
+<img src="./images/why-non-uniform-object-err.jpg" alt="why-non-uniform-object-err" width="500" />
 
 ### solution
 
 - Select the Object
 - Go to object mode
 - Apply transformation
-  - <kbd>CTRL</kbd> + <kbd>A</kbd>
-- Scale
+  - especially `Scale`
+- or
+- press <kbd>CTRL</kbd> + <kbd>A</kbd>
