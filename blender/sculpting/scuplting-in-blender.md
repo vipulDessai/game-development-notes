@@ -399,3 +399,6 @@ to move legs, arms like FK
 - if the brush shape is not round - apply all transforms or scale
 - also at the bottom blender will show "object has non uniform scale, sculpting might me unpredictable"
 - [solution](../blender.md#object-has-non-uniform-scale)
+
+## pinch not happening properly on high poly mesh
+- use bigger size for the brush
