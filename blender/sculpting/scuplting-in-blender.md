@@ -36,6 +36,8 @@
 ### for better sculpting - add multires modifier - [refer](../basics/blender-basics-notes.md#multiresolution)
 
 - <img src="./images/multiresolution-modifier-settings.jpg" />
+- remesh the mesh with 0.0500 - so that around 10k poly count
+- later apply multires - subdivide - 5 - 9M polycount
 
 #### For better performance
 
@@ -213,159 +215,6 @@
 
 **note:** never undo a remeshed object, because blender add more vertices once remeshed again
 
-# Brush
-
-## size
-
-### brush size contant on zoom
-
-keep the size of the brush constant on zoom
-
-- <img src="./images/fixed-brush-size-on-zoom.png">
-
-## Stroke
-
-- used to create pattern by pressing down and dragging the brush
-  - automatically it sill add the spaces, and no need to tap again and again
-- <img src="./images/brush-stroke-spacing.png">
-
-### method
-
-- select stroke method as line
-- <img src="./images/stroke-method-line.png">
-- click and drag the line to draw the pattern
-
-## add Texture to brush
-
-- <img src="./images/add-texture-to-sculpt-brush.jpg" alt="add-texture-to-sculpt-brush" />
-- add the new texture
-- select mapping as `Random`
-
-## falloff
-
-make the brush either like a ball or like a pipe
-
-- <img src="./images/brush-falloff.png"/>
-
-## types
-
-### mask
-
-- enable - m
-- shift - smooth the mask
-- invert - ctrl + i
-- clear - Alt + M
-
-#### mark vertices that should not be sculpted
-
-- <img src="./images/mark-non-affected-vertices.png">
-
-#### drag and select
-
-- press b and drag to mark it mask
-
-### Grab brush
-
-- press G
-
-#### to not touch or affect sculpt next to the grabbed shape
-
-- <img src="./images/unaffect-others-grab-brush.png" />
-- enable "grab silhouette"
-- <img src="./images/grab-button-settings.png" />
-
-### smooth brush
-
-- press s to switch to smooth brush
-- while using other brush, press and hold shift to use smooth brush
-
-#### invert the smooth brush
-
-- press s to switch to smooth brush
-- press ctrl + left click
-
-### crease polish
-
-- <img src="./images/pinch-brush-settings.png">
-- set Pinch to 0
-
-#### make it sharper
-
-- <img src="./images/crease-sharper-falloff.png">
-
-#### sharper lines
-
-to draw shapes like muscle strands
-
-- <img src="./images/set-stroke-for-crease-brush.png">
-  - set 5% spacing and disable `adjust strength`
-  - make sure the pinch in the brush details panel (right panel) is 0
-
-### draw sharp
-
-- to draw creases without pinch and easier than crease smooth or sharp
-
-### clay strips
-
-usually to be used with higher res (remesh 0.008 or like so)
-
-### flatten
-
-use when want to preseve creases but smoothen overall
-
-- <img src="./images/when-to-use-flatten-brush.png">
-
-#### settings
-
-- <img src="./images/flatten-brush-settings.png">
-  - more radius more smoothness
-
-### scrape
-
-use to scraps areas like sharp cheeks
-
-- <img src="./images/scrapper-application.png">
-
-#### invert to fill
-
-- <img src="./images/scrape-settings.png">
-
-### fill/deepen
-
-- use with crease brush
-
-#### invert to scrape
-
-- <img src="./images/fill-deppen-settings.png" />
-
-### Density
-
-- can be only used if dyntope is enabled
-
-### pose brush
-
-to move legs, arms like FK
-
-- <img src="./images/edit-using-pose-brush.png"/>
-
-### cloth brush
-
-- <img src="./images/cloth-brush-tools.jpg" alt="cloth-brush-tools" />
-- in the tools, select the type of brush function
-
-#### stroke cloth airbrush
-
-- <img src="./images/cloth-brush-stroke.jpg" alt="cloth-brush-stroke" />
-
-## download new brush
-
-- download from - - [link](https://pixologic.com/zbrush/downloadcenter/alpha/)
-- add new brush from texture
-- <img src="./images/add-new-brush-texture.jpg" alt="add-new-brush-texture" />
-- select image
-- <img src="./images/new-brush-settings-sculpting.jpg" alt="new-brush-settings-sculpting" />
-- add above highlighted settings
-
 # painting
 
 ## use in shading
@@ -401,4 +250,5 @@ to move legs, arms like FK
 - [solution](../blender.md#object-has-non-uniform-scale)
 
 ## pinch not happening properly on high poly mesh
+
 - use bigger size for the brush

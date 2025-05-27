@@ -436,10 +436,6 @@ To stick the dragging object on the surface, instead of going inside the surface
 - <kbd>ALT</kbd> + <kbd>S</kbd>
 - <img src="./images/move-vertex-along-its-normal.jpg" alt="move-vertex-along-its-normal" width="600" />
 
-#### show normal direction
-
-- <img src="./images/display-normal-direction.jpg" alt="display-normal-direction" />
-
 ### align along the (X, Y, Z) axis (flatten the vertices)
 
 - <img src="./images/snap-vertices-to-0.jpg" alt="snap-vertices-to-0" width="600" />
@@ -478,6 +474,10 @@ To stick the dragging object on the surface, instead of going inside the surface
 <img src="./images/face-select-easliy-with-L.jpg" alt="face-select-easliy-with-L" width="600" />
 
 ## Normals
+
+### show normal direction
+
+- <img src="./images/display-normal-direction.jpg" alt="display-normal-direction" />
 
 ### flip
 
