@@ -677,6 +677,7 @@ To show the edge its moving along press <kbd>E</kbd>
 
 - select the edge (press 2)
 - ctrl + b and move the mouse
+- <img src="./images/bevel-to-edges.png" />
 
 ## Shear
 

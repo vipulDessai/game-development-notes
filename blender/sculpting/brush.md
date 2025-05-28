@@ -187,3 +187,9 @@ to move legs, arms like FK
 - stroke method to anchored
 - set the strength to 1
 - <img src="./images/import-vdm-brush-settings.png" />
+
+# mask filter
+
+to apply sculpt to entire mesh
+
+- <img src="./images/mask-filter.png" />

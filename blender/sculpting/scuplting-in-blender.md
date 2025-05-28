@@ -174,7 +174,7 @@
 - hold space to adjust
 - <img src="./images/selection-by-faceset-or-mask.png">
 - press f to invert
-- press 2 for different kinf of selection (its called falloff)
+- press 2 for different kind of selection (its called falloff)
 
 ### open mask menu
 
@@ -182,6 +182,23 @@
 - options such as invert, clear, smooth etc
   - increase contrast to darken
   - grow mask to make it cover more area
+
+### diagonal side
+
+- if u drag the shift + a, then 2 and drag from the side, then we can draw mask in diagonal direction
+- <img src="./images/mask-gradient.png">
+
+#### make diamond shape
+
+- drag from both corners and add gradient
+
+### mask gradient
+
+- while doing `shift + a`, press b
+
+### loop cut
+
+- while doing `shift + a`, press w, and more w to increase or decrease
 
 # Symmetry
 
