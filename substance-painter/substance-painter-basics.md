@@ -36,6 +36,12 @@ basically like a photo shop, where we put layers onto each other and mask it
 
 - f1, f2, f3
 
+## move, rotate, zoom
+
+- rotate - alt + left click and move
+- zoom - alt + right click and move
+- move - ctrl + alt + left click and move
+
 ## adjust light
 
 - shift + right click

@@ -15,10 +15,11 @@ node wrangler add on lets you see the rendering of the node
 
 ### Shortcuts
 
-#### Mapping
+#### enable auto mapping
 
 - select the image texture
 - <kbd>CTRL</kbd> + <kbd>T</kbd>
+- <img src="./images/auto-texture-map.png" />
 
 ## enable lighting
 
