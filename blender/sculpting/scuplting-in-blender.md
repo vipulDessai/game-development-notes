@@ -9,12 +9,16 @@
 
 ### Or manually
 
-- always start with a UV Sphere
-- <img src="./images/basic-sculpt-uv-sphere.png">
+- always start with either cube and subsurface modifier to make it round
+- or start with add-on mesh extras -> shift + a -> round cube
+- <img src="./images/enable-extra-mesh-add-on.png">
+- <img src="./images/add-extras-mesh-round-cube.png">
 - goto sculpt mode
 - <img src="./images/sculpt-mode.png">
 - drag out the brush panel
 - <img src="./images/drag-out-brush-panel.png">
+
+**Note**: dont use UV sphere because it has traingles at its top and bottom pole
 
 ## assign keyboard keys shortcuts
 
