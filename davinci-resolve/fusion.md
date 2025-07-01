@@ -9,6 +9,13 @@
 - pressing <kbd>SHIFT</kbd> and dragging the node will snap it out
 - pressing <kbd>SHIFT</kbd> and dragging the node over a line will attach it to other nodes
 
+### add connected nodes
+
+- select the node
+- <kbd>SHIFT</kbd> + <kbd>SPACE</kbd> and add another node
+- automatically the new node is attached to previously selected node
+- <img src="./images/connect-nodes.png" />
+
 ### grouping
 
 - <img src="./images/group-nodes.png" />
@@ -76,3 +83,39 @@
 - then drag any media and merge it as `background`
   - and the delta keyer should be `foreground`
 - <img src="./images/connection-for-delta-keyer-and-media.png" />
+
+## matte
+
+### create and animate pattern
+
+- add two background merged together
+- <img src="./images/create-pattern-fusion.png" />
+- select one background and make it white
+- other make the alpha to zero (so that its transparent)
+- <img src="./images/pattern-fusion-property.png" />
+- to the white background add some shapes
+  - example some rectangles
+- select the rectangle and make sure the frame is 0
+- add one keyframe
+- <img src="./images/add-keyframe-pattern-fusion.png" />
+- move to frame 10 or more and drag the shape to a new place
+- <img src="./images/move-pattern-to-animate-fusion.png" />
+- repeat to animate more
+
+### export matte
+
+- go to deliver
+- under custom export
+- select
+  - render as individual file
+  - codec - DNxHR
+  - check export alpha
+- in the timeline panel
+  - select render "in/Out range"
+  - and drag the time line to start and end of the fusion
+- click on "Add to render queue"
+  - this might ask to select the folder, where the .mov file will be saved on the drive
+- under render queue, select and render the job
+- <img src="./images/export-matte-fusion.png" />
+
+### import matte
