@@ -108,7 +108,7 @@
 - under custom export
 - select
   - render as individual file
-  - codec - DNxHR
+  - codec - `DNxHR`
   - check export alpha
 - in the timeline panel
   - select render "in/Out range"
@@ -119,3 +119,9 @@
 - <img src="./images/export-matte-fusion.png" />
 
 ### import matte
+
+- in the media tab, locate the video on the hard drive
+- <img src="./images/import-video-as-matte.png" />
+- right click and "add to media pool as matte"
+- <img src="./images/imported-video-as-matte.png" />
+- now the imported media in the pool will have this icon on it

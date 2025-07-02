@@ -15,6 +15,17 @@ used for cliping the imported audio and video
 - move the slider to the time period
 - press <kbd>m</kbd>
 
+### disable clip
+
+- <img src="./images/edit-disable-clip.png" />
+- press <kbd>d</kbd>
+
+### group clips (compound)
+
+- select multiple clips
+- right click -> new compound clip
+- give name and save
+
 ## effects
 
 - <img src="./images/effects-menu.png" />
@@ -35,6 +46,21 @@ used for cliping the imported audio and video
 - in order to see the nodes per clip, first slide the timeline onto the clip that you want to view the nodes
 - <img src="./images/how-to-select-or-view-nodes-per-clip.png" />
 - then click on `fusion`
+
+#### edit opacity
+
+- <img src="./images/edit-fusion-composition-opacity.png" />
+- select the fusion clip
+- under inspector -> composite -> composite mode to "Luminosity"
+- change the
+
+## filters
+
+- <img src="./images/edit-add-filter.png" />
+- select the fusion clip or any clip that you want the filters
+- go to filters
+- drag the filter (ex. Guassian Blur) to clip
+- now the effects under inspector will appear
 
 ## Speed controls (timelapse effect)
 
