@@ -84,6 +84,12 @@ used for cliping the imported audio and video
 - else move the speed point to increase the speed
 - <img src="./images/set-speed-time-percentage.png" />
 
+## link clips or audio or unlink them
+
+- select clips or audio clips
+- right click and select "Link Clips" to link even the unlinked
+- then again right click and uncheck "Link Clips"
+
 ## audio
 
 ### remove
