@@ -51,8 +51,13 @@ used for cliping the imported audio and video
 
 - <img src="./images/edit-fusion-composition-opacity.png" />
 - select the fusion clip
-- under inspector -> composite -> composite mode to "Luminosity"
-- change the
+- under inspector -> composite -> composite mode
+- increase/decrease the opacity
+
+##### composite mode (TODO: learn the difference)
+
+- Luminosity
+- Add
 
 ## filters
 

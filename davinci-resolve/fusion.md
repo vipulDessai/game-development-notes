@@ -4,10 +4,14 @@
 
 <b>Note:</b> keyboard shortcut
 
-- press <kbd>SHIFT</kbd> + <kbd>SPACE</kbd>
+- press <kbd>SHIFT/CTRL</kbd> + <kbd>SPACE</kbd>
   - to bring up menu to select all types of nodes
 - pressing <kbd>SHIFT</kbd> and dragging the node will snap it out
 - pressing <kbd>SHIFT</kbd> and dragging the node over a line will attach it to other nodes
+
+### arrange node snapping to grid
+
+- <img src="./images/arage-node-snap-to-grid-cell.png" />
 
 ### add connected nodes
 
@@ -73,6 +77,21 @@
 <b>Note:</b> keyboard shortcut
 
 - select the node and press <kbd>1</kbd> or <kbd>2</kbd> to assign the node to viewer 1 or 2
+
+## shapes
+
+### enable border only
+
+- <img src="./images/fusion-make-shape-border-only.png" />
+- uncheck solid to make it border only
+
+### draw traingle
+
+- use polygon node
+- click on the screen
+- <img src="./images/fusion-draw-triangle.png" />
+- click here and connect the dots
+- click on polygon and move it using the arrows
 
 ## Replace green screen
 

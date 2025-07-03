@@ -29,3 +29,37 @@
 - select the video clip
 - select the rectangle icon (Node key)
 - click the key input icons to have desired result
+
+## Primaries - COlor Wheels
+
+- <img src="./images/color-primary-wheel.png">
+
+### change color
+
+- modify the offset
+
+### saturation
+
+- <img src="./images/color-primary-saturation.png">
+
+## HDR
+
+- <img src="./images/color-hdr.png">
+
+### global saturation
+
+- more aware of the scene
+- <img src="./images/color-hdr-global-saturation.png">
+
+## Color Graph
+
+- adjust the hue, sat etc based on the colors instead of global setting
+- <img src="./images/color-curve-adjustments.png">
+
+### pick the color from video
+
+- <img src="./images/color-use-qualifier-color.png">
+- the color picked from the video will be marked on the graph
+- adjust the middle dot up or down for color levels
+
+**Note:** right click on dots on the graph to remove them
