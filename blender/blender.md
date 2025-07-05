@@ -12,10 +12,6 @@
 - go to armature property
   <img src="./images/get-bone-in-front-view.png">
 
-## move or place the 3D cursor
-
-- shift + right click
-
 ## view options
 
   <img src="./images/view-options.png" >

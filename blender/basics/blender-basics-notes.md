@@ -24,6 +24,10 @@ The origin is the point which will be attached to the surface of the object on w
 - <img src="./images/view-3d-cursor-menu.png">
     - move to world origin (snap to world origin)
 
+## place the 3D cursor with mouse
+
+- shift + right click
+
 ## move origin manually
 
 - can be done only in "object mode"
