@@ -15,11 +15,6 @@
 - <img src="./images/paintbrush-disable-pen-settings.png" />
 - disable this
 
-## move tool setting - in case curve is displayed on mouse
-
-- <img src="./images/move-tool-settings.png" />
-- select this to move anything properly
-
 # Viewport
 
 - rotate - shift + middle mouse and move
@@ -35,3 +30,21 @@
   - black to remove
 - <img src="./images/fine-selection-mask.png" />
 - to exit press shift + q again
+
+## move selection
+
+# Tools
+
+## move
+
+### in case curve is displayed on mouse (path move is selected)
+
+- <img src="./images/move-tool-settings.png" />
+- select this to move layers properly
+
+# issues
+
+## scaled iamge produces transformation layer
+
+- <img src="./images/extra-layer-on-resize.png" />
+- clear the selction
