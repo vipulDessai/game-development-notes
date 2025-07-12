@@ -17,5 +17,5 @@
     - if the color become too white then use mode [dodge](../basics/gimp.md#layers-modes)
     - if the color are too dark then use mode [multiply](../basics/gimp.md#layers-modes)
 - make sure the original image is at the end and blur and edge refine layers are above
-- adjust the levels if required to highlight more black and white
+- adjust the levels of `edge refine` layer required to highlight more black and white
   - input levels -> mid tone (middle triangle) -> to left or right to darken or lighten
