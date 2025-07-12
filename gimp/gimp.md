@@ -19,6 +19,13 @@
 
 - rotate - shift + middle mouse and move
 
+## UI
+
+### how to show the tabs
+
+- <img src="./images/open-dialog-window-in-tabs.png" />
+- clicking on any will open that window in these tab area
+
 # layers
 
 ## move all layers
@@ -27,6 +34,11 @@
 - hold shift and move them
 
 # Selections
+
+## select only the layer content (not the border) or silhouette
+
+- <img src="./images/select-layer-outline.png" />
+- hold alt and click on the layer in the layer panel
 
 ## fine selection
 
@@ -43,7 +55,7 @@
 - in the move tool select "Selection" and then we can move the selection
 - <img src="./images/move-selection-with-move-tool.png" />
 
-## save selection
+## save selection as path
 
 - go to paths and "click on selection to path"
 - <img src="./images/save-selection.png" />
@@ -81,7 +93,36 @@
 - <img src="./images/alt-select-for-text-seelction.png" />
 - press alt + click on the layers to select only text
 - <img src="./images/save-selection.png" />
-- save the selection by converting it to a path
+- save the selection by converting it to a [path](./gimp.md#save-selection-as-path)
+
+### draw stroke around the text
+
+- you need to have the [selection saved as path](./gimp.md#save-selection-as-path)
+- <img src="./images/stroke-the-path.png" />
+  - select the path and click on draw along the path
+
+# Effects (filters)
+
+## long shadows
+
+- <img src="./images/shadow-effect.png" />
+- select the layers
+- goto filters and "Light and shadow" -> long shawdow
+- chose different styles, length, angle and color for customizations
+
+**Note**: if you only want to keep shadow - choose the `Composition` settings
+
+## drop shadows (for hover effect)
+
+### using drop shawdow
+
+- filters -> "Light and shadow" -> drop shawdow
+
+### using long shawdow
+
+- filters -> "Light and shadow" -> long shawdow
+- style -> as finite or fading
+- <img src="./images/drop-shadow-2.png" />
 
 # issues
 
