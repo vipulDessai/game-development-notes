@@ -26,6 +26,11 @@
 - <img src="./images/open-dialog-window-in-tabs.png" />
 - clicking on any will open that window in these tab area
 
+### break aspect ratio etc
+
+- <img src="./images/break-aspect-ratio.png" />
+- click this icon to disconnect ratios
+
 ## Image
 
 ### find the center of the image
@@ -40,6 +45,12 @@
 - select all layers
 - hold shift and move them
 
+## layers modes
+
+- <img src="./images/layer-modes.png" />
+  - multiply to darken
+  - dodge to lighten
+
 # Selections
 
 ## select only the layer content (not the border) or silhouette
@@ -47,7 +58,12 @@
 - <img src="./images/select-layer-outline.png" />
 - hold alt and click on the layer in the layer panel
 
-## subject bound path selector
+## path tool
+
+- <img src="./images/path-tools.png" />
+- or press b, click and drag
+
+## subject bound path selector (intelligent scissor)
 
 - <img src="./images/fuzzy-0scissor.png" />
 - click the points
@@ -80,6 +96,11 @@
 - <img src="./images/path-to-selection.png" />
 
 # Tools
+
+## clear (delete backgroun)
+
+- make the selection
+- edit -> clear
 
 ## move
 
@@ -117,6 +138,12 @@
 
 # Effects (filters)
 
+## blur
+
+### gaussian blur
+
+- effects -> blur -> gaussian blur
+
 ## long shadows
 
 - <img src="./images/shadow-effect.png" />
@@ -137,6 +164,26 @@
 - filters -> "Light and shadow" -> long shawdow
 - style -> as finite or fading
 - <img src="./images/drop-shadow-2.png" />
+
+# colors
+
+## colors desaturate
+
+i.e. remove saturation / remove colors / black and white
+
+- colors -> desaturate -> desaturate
+
+## colors invert
+
+i.e. black to white and vice versa
+
+- colors -> invert
+
+## colors levels
+
+powerful tool for adjusting the brightness, contrast, and tonal range of an image using its histogram
+
+- colors -> levels
 
 # issues
 
