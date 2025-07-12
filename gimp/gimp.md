@@ -26,6 +26,13 @@
 - <img src="./images/open-dialog-window-in-tabs.png" />
 - clicking on any will open that window in these tab area
 
+## Image
+
+### find the center of the image
+
+- <img src="./images/guides-for-image-center.png" />
+- add horizontal and vertical guide
+
 # layers
 
 ## move all layers
@@ -39,6 +46,13 @@
 
 - <img src="./images/select-layer-outline.png" />
 - hold alt and click on the layer in the layer panel
+
+## subject bound path selector
+
+- <img src="./images/fuzzy-0scissor.png" />
+- click the points
+
+**NOTE**: you can add more by clicking on the line and dragging it
 
 ## fine selection
 
@@ -130,10 +144,3 @@
 
 - <img src="./images/extra-layer-on-resize.png" />
 - clear the selction
-
-# Image
-
-## find the center of the image
-
-- <img src="./images/guides-for-image-center.png" />
-- add horizontal and vertical guide
