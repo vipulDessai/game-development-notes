@@ -185,6 +185,20 @@ powerful tool for adjusting the brightness, contrast, and tonal range of an imag
 
 - colors -> levels
 
+# colors curves
+
+add any color to lighter or darkish areas of the image (layer), i.e. selecting a red, green or blue channel will add the color irrespective of perceived color
+
+- graph colors
+- <img src="./images/color-curves-graph-reference.jpg" />
+
+## how to add colors to dark or light tones
+
+- select the layer
+- go to colors -> curves
+- select the channel
+- <img src="./images/add-color-dark-light-tone.png" />
+
 # issues
 
 ## scaled iamge produces transformation layer
