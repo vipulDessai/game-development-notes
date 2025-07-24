@@ -145,7 +145,14 @@ to open press ctrl + space
 ### snap to another object (object below it or the floor / ground)
 
 - select object
-- press end
+- press <kbd>end</kbd>
+  - or if `fn` is on "fn + end"
+
+#### new snap to floor
+
+- <img src="./images/new-snap-to-floor.png">
+
+**Note:** if doesnt work then try disabling the snap and move the object up, enable the snap again and try to move closer to the floor
 
 ### lock and move
 
