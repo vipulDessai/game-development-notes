@@ -1,4 +1,4 @@
-# metahuman ( )
+# metahuman
 
 ## enable the plugin
 
@@ -46,7 +46,7 @@
 - add the mesh to the sequencer
 - <img src="./images/metahuman-in-sequencer.png">
 - right click on `BP_*` -> "Export..."
-- <img src="./images/export-setting-level-sequencer.png">
+- <img src="../basics/images/export-setting-level-sequencer.png">
 
 ### seperate (body and face as seperate)
 
@@ -65,26 +65,28 @@
 ## import in blender
 
 ### basic face edit (retain the bones)
+
 - import the converted .fbx
-- <img src="./images/add-shape-key-twice.png">
+- <img src="../basics/images/add-shape-key-twice.png">
 - select the "Body"
 - add 2 shape keys (Basis and New Key)
 - set the Value to 1
 - for face add only 1 key
 - set the Value to 1
-- <img src="./images/hide-metahuman-face-bones.png">
+- <img src="../basics/images/hide-metahuman-face-bones.png">
 - hide the bones and the uncheck select bones as well
 
 ### advanced face editing
+
 - import the converted .fbx
 - select the Face.001 mesh
-- alt + p -> clear parent and keep transformation 
+- alt + p -> clear parent and keep transformation
   - so that the mesh do not resize
 - remove the armature modifier
 - delete all vertex group and shape keys
 - delete materials (click on the -ve button)
-- to remove the eyelashes 
-  - in edit mode and in its menu 
+- to remove the eyelashes
+  - in edit mode and in its menu
     - select -> select all by trait -> Non Manifold
       - go into wireframe and x ray mode and unselect all other vertices apart from lashes
 - delete eye ball and mouth
@@ -115,6 +117,7 @@
 - select first root (group) and then `Body.001` and then export
 
 ### export settings
+
 - <img src="./images/metahuman-export-settings.png">
 - Include
   - Limit to "Selected Objects"

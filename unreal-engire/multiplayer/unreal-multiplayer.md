@@ -57,10 +57,15 @@ right click anywhere
 
 - <img src="./images/rpc-server-some-action.png">
 
-# packaging
+# Server
 
-- pack and create executable files
-- <img src="./images/pack-project.png">
+## local server from game
+
+- mode (click on the menu next to the play button)
+  - set New Editor window
+  - number of players 2
+  - Net Mode -> stand alone
+- use the create session, find session and join session to join it
 
 ## start the server
 
@@ -71,14 +76,6 @@ right click anywhere
 
 - start the client by just clicking on the .exe
   - press ` and type open 127.0.0.1
-
-# start local server from game
-
-- mode (click on the menu next to the play button)
-  - set New Editor window
-  - number of players 2
-  - Net Mode -> stand alone
-- use the create session, find session and join session to join it
 
 ## Network simulation
 

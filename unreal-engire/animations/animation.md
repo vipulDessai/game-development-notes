@@ -48,7 +48,7 @@ Animation
 - locate and right click on animation sequence -> retarget animations
 - <img src="./images/retarget-animations-to-diff-skeleton.png">
 
-## modify 
+## modify
 
 # blend multiple animation
 

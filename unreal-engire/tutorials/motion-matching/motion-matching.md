@@ -95,7 +95,7 @@
 
 #### pose history
 
-- <img src="./images/pose-history-bind-trajectory.png">
+- <img src="../../basics/images/pose-history-bind-trajectory.png">
 - right click on the trajectory and set binding
   - only variable of type `Pose Search Query Trajectory` and `Character Trajectory Component` will show
 - select pose history and in the "Details" tab set following settings for the generate trajectory
