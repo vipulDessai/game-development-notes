@@ -72,6 +72,9 @@ Blueprint
 - to open the blueprints event graph
 - <img src="./images/open-level-blueprint.png">
 
+### Add event dispatcher
+- <img src="./images/add-event-dispatcher.png">
+
 ## Node editor
 
 ### destroy or disconnect edge
