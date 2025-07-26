@@ -13,3 +13,19 @@ lets you export independent clip, that can be used somewhere else
 - the Render should automatically change to "in/Out Range"
 - click on "Add to render queue"
 - then click on "Render all"
+
+## export as png sequence
+
+**Note:** if a saver node is present in fusion remove it
+
+- go to deliver tab
+- select the `location`
+- <img src="./images/deliver-export-png-seq-settings.png" />
+    - select format as PNG
+    - if transparency is there select "Export Alpha"
+- <img src="./images/deliver-export-png-seq-file-settings.png" />
+    - go to file
+    - give name (acts as prefix)
+    - give suffix if needed
+    - click on "Add to Render Queue"
+    - click on "Render All"
