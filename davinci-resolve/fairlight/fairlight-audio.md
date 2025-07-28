@@ -1,5 +1,9 @@
 # **Fairlight Audio**
 
+## Tip
+
+- if there is so much of noise, them final result will have low volume, that why add music to fill noise up
+
 ## preparations
 
 - right click on the audio clip and [unlink them if possible](./edit.md#link-clips-or-audio-or-unlink-them)
@@ -18,3 +22,25 @@
 
 - select track
 - <img src="./images/open-equilizer.png" />
+
+# effects
+
+- <img src="./images/effects.png" />
+
+## Noise Reduction
+
+- restoration -> noise reduction
+
+### learn
+
+- use `learn` before using the setting, to capture the noise frequencies
+- <img src="./images/effects-noise-reduction-learn.png" />
+- move the slider to the point where you want the learning to start
+- press learn and play the audio and then stop
+
+## Noise Gate
+
+- <img src="./images/dynamics-noise-gate.png" />
+- click on dynamics
+- flip to gate
+- set the threshold - this cuts any sound that is under this value

@@ -93,16 +93,6 @@
 - click here and connect the dots
 - click on polygon and move it using the arrows
 
-## Replace green screen
-
-### Delta keyer
-
-- <img src="./images/delta-keyer-to-replace-green-screen.png" />
-- drag the color picker over the green color to replace it
-- then drag any media and merge it as `background`
-  - and the delta keyer should be `foreground`
-- <img src="./images/connection-for-delta-keyer-and-media.png" />
-
 ## matte
 
 ### create and animate pattern
