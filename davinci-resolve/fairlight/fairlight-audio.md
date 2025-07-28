@@ -17,6 +17,7 @@
 - <img src="./images/order.png" />
     - set the order for processing audio
         - ex. EQ FX DY
+            - set first equilizer -> effects -> dynamics
 
 # Equilizer
 
