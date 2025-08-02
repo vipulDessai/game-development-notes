@@ -8,6 +8,10 @@ used for cliping the imported audio and video
 
 - press alt and mouse scroll
 
+### move frame by frame
+
+- press left or right key
+
 ### add markers
 
 - <img src="./images/markers.png" />

@@ -5,6 +5,7 @@ Notes to make an awesome game
 ## other tools
 
 - pure ref
+- ScreenToGif
 
 # TODO
 
