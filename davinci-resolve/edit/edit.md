@@ -4,6 +4,10 @@ used for cliping the imported audio and video
 
 ## Interface
 
+### switch between animated and source clips
+
+- <img src="./images/edit-switch-animated-to-source.png" />
+
 ### zoom timeline
 
 - press alt and mouse scroll
@@ -29,6 +33,41 @@ used for cliping the imported audio and video
 - select multiple clips
 - right click -> new compound clip
 - give name and save
+
+### inspector
+
+#### Transforms
+
+- to apply video zoom, rotate, etc
+- <img src="./images/edit-transforms-panel.png" />
+
+## key frames
+
+### add key frames
+
+- go to the first frame
+- click on the diamond button
+- <img src="./images/add-keyframe.gif" />
+- it will make the diamond red
+- move to another frame
+- increase decrease any transform values and automatically it will add the keyframe to that frame
+
+### switch or navigate between next / previous keyframes
+
+- <img src="./images/edit-inspector-switch-keyframes.png" />
+    - click the left or the right arrow
+
+**Note:** this can be helpful to remove / delete the keyframes
+
+### reset keyframes
+
+- <img src="./images/reset-transforms.png" />
+
+### keyframe curve editor
+
+fine time key frame animation or transitions, add bezier curve, ease in / out etc
+
+- <img src="./images/open-keyframes-editor.gif" />
 
 ## effects
 
@@ -71,7 +110,7 @@ used for cliping the imported audio and video
 - drag the filter (ex. Guassian Blur) to clip
 - now the effects under inspector will appear
 
-## Speed controls (timelapse effect)
+## Speed controls (timelapse effect) - retime controls
 
 - right click on the clip
 - <img src="./images/retime-controls.png" />
@@ -87,6 +126,9 @@ used for cliping the imported audio and video
 - increase the speed by 400% or anything
 - else move the speed point to increase the speed
 - <img src="./images/set-speed-time-percentage.png" />
+- later adjust the clips
+- <img src="./images/speed-a-portion-of-clip.png" />
+- once satisfied we can close the retime controls by right click on the clip and click on "Retime Controls"
 
 ## link clips or audio or unlink them
 
