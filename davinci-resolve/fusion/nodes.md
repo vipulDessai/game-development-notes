@@ -29,6 +29,18 @@ lets you zoom in, move to specific portions of a video
 - select the curve keyframes point
 - press <kbd>s</kbd>
 
+#### remove the bezier or make it linear
+
+- select the curve keyframes point
+- press <kbd>shift</kbd> + <kbd>l</kbd>
+
+#### make a quick / fast transition
+
+- select 2 keyframe
+- right click on any of the keyframe
+- select step in or out
+- <img src="./images/quick-transition.gif" />
+
 ### Features Settings
 
 here we can add more effects automatically, like motion blur
