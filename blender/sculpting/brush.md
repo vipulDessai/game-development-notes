@@ -139,7 +139,19 @@ use to scraps areas like sharp cheeks
 
 ### Density
 
-- can be only used if dyntope is enabled
+- relaxes the vertices or faces
+- works great with dyntope
+
+### relax brush
+
+- can be really helpful after retopology and while working on fine details of multires modifier
+- <img src="./images/relax-slide-brush.png" />
+- drag through multiple lines of the wireframes
+- <img src="./images/how-relax-slide-brush-works.gif" />
+- 3 modes of deformations
+  - drag
+  - expand
+  - pinch
 
 ### pose brush
 
