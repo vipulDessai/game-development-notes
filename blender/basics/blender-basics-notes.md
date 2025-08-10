@@ -157,6 +157,11 @@ See which face is viewable
 - to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
 - <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
 
+### stick on the mesh (surface)
+
+- <img src="./images/annotate-on-surface.png" />
+  - change "placement" to "Surface"
+
 ## Images
 
 ### Opacity
