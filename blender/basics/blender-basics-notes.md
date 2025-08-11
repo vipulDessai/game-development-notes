@@ -151,17 +151,6 @@ See which face is viewable
 - set a wire view on individual object
 - <img src="./images/objects-view-settings.jpg" alt="objects-view-settings" />
 
-## draw marking (annotations)
-
-- press <kbd>D</kbd> and <kbd>Left Click</kbd> and draw with pencil
-- to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
-- <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
-
-### stick on the mesh (surface)
-
-- <img src="./images/annotate-on-surface.png" />
-  - change "placement" to "Surface"
-
 ## Images
 
 ### Opacity
@@ -178,6 +167,23 @@ See which face is viewable
 - <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>B</kbd>
 
 # Tools
+
+## draw marking (annotations)
+
+- press <kbd>D</kbd> and <kbd>Left Click</kbd> and draw with pencil
+- to clear the marking open up the menu <kbd>N</kbd> and go to annotation and click on `Subtract` button
+- <img src="./images/draw-annotations-with-pencil-tool.jpg" alt="draw-annotations-with-pencil-tool" />
+
+**Note:** You can also click on the annotate tool to enable it
+
+### stick on the mesh (surface)
+
+- <img src="./images/annotate-on-surface.png" />
+  - change "placement" to "Surface"
+
+### erase
+
+- using annotate erase tool or press <kbd>d</kbd> + <kbd>right click</kbd> and move the mouse over annotations
 
 ## Object Properties
 
@@ -392,9 +398,15 @@ to make a perpedicular out of them
 - to get the merge menu
 - <kbd>ALT</kbd> + <kbd>M</kbd> or just <kbd>M</kbd>
 
-#### auto merge vertices
+#### Auto Merge vertices (or edges)
+
+merges two vertices when they are moved nearer
 
 - <img src="./images/auto-merge-vertices.jpg" alt="auto-merge-vertices" />
+
+- <img src="./images/what-is-auto-merge-of-vertices.gif" />
+  - to adjust the merge radius
+- <img src="./images/adjust-auto-merge-threshold.png" />
 
 ### Merge overlapping vertices
 
@@ -434,10 +446,12 @@ To stick the dragging object on the surface, instead of going inside the surface
 - after clamping (refer above point), move `mouse` left to right
 - <img src="./images/shear-operation-move-along.jpg" alt="shear-operation-move-along" />
 
-### align the misaligned vertices
+### slide the vertice along the edge
 
-- double tap <kbd>G</kbd> and then press <kbd>E</kbd>
+- double tap <kbd>G</kbd>
 - <img src="./images/edge-slide-align.jpg" alt="edge-slide-align" />
+
+**Note**: Works for edges as well
 
 ### moving the vertex in a straight line (along its normal)
 
