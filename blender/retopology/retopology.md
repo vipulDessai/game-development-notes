@@ -65,7 +65,7 @@
 
 - <img src="./images/add-more-existing-topo.gif" />
 - select the edge where you want more "retopology"
-- draw using anotations
+- draw using annotations
 - in b surface menu -> "Add Surface"
 
 #### using f2 add on
