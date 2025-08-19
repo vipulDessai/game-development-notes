@@ -1,0 +1,12 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+85a1de61-3034-409d-96e3-5f68d1990928:Brushes:Brushes
+0f0242d5-bfd0-4690-8f94-ed6d1a90372d:Brushes/Mesh Sculpt:Brushes-Mesh Sculpt
+e0ce5b1c-ee06-410e-9309-1b9f2aa64375:Brushes/Mesh Sculpt/General:Brushes-Mesh Sculpt-General
+3816beb8-2926-4d77-a22e-4f543f3efcdf:Brushes/Mesh Sculpt/General/Add & Subtract:Brushes-Mesh Sculpt-General-Add & Subtract

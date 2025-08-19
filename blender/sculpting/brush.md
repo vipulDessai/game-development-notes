@@ -186,6 +186,7 @@ to move legs, arms like FK
 ### Create
 
 - <img src="./images/create-sculpt-plane.png" />
+- sculpt anything using any brush
 - save
 - <img src="./images/save-vdm-brush.png" />
 - search
