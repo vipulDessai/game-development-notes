@@ -170,7 +170,7 @@
 - in the sculpt menu -> sculpt -> fair positions
 - click on the faceset selection
 
-**note** - later use dyno mesh
+**note** - later use dyno mesh or remesh
 
 ## mask
 
