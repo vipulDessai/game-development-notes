@@ -12,7 +12,7 @@
 - click "initialize"
 - <img src="./images/after-ijit-bsurf.png" />
 
-### markings
+### markings annotations
 
 - <img src="./images/mark-anotations-directions.png" />
     - marking direction is important
@@ -28,6 +28,8 @@
     - cyclic cross
     - change faces count by changing "cross" and "follow"
 
+**Note:** use annotation lines instead of pencil
+
 #### make the back surface transparent
 
 - <img src="./images/transparent-backside.png" />
@@ -37,8 +39,11 @@
 #### shrinkwrap enhancement
 
 - <img src="./images/shrinkwrap-optimization-settings.png" />
-    - wrap method -> project
-    - enable Negetive
+    - wrap method -> Nearest Surface
+    - snap mode - Above Surface
+    - offset can be - 0.001 m - 0.005 m
+      - adjust it so that retope mesh just hovers and is slightly inside
+      - as we are going to bake the sculpt texture onto the low poly retopologized mesh
 
 ## resume retopology
 
