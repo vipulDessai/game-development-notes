@@ -363,6 +363,11 @@ Switch between transformation orientations of the mesh
 - To open up the Edge menu
 - <kbd>CTRL</kbd> + <kbd>E</kbd>
 
+### edge loop
+
+- alt + tap
+- if emulate 3 mouse button is on then shift + double click
+
 ### Edge Filling (join 2 vertices)
 
 - select the edge and press <kbd>F</kbd> to add a face to part shown in image
@@ -431,6 +436,17 @@ To stick the dragging object on the surface, instead of going inside the surface
 - press <kbd>CTRL</kbd> move the object to have the closest rotation of the target mesh face
 - <img src="./images/snap-to-face-of-the-object-with-rotation-movement.jpg" alt="snap-to-face-of-the-object-with-rotation-movement" />
 
+#### face project
+
+snap the vertice to a face viewed from the camera angle
+
+- enable the face project
+- <img src="./images/select-snap-face-project.png" />
+- select the vertex and change the camera view so that the face (onto which the vertex should snap) is right behind the vertex
+- <img src="./images/change-cam-view-pointing-face.png" />
+- press <kbd>g</kbd> and enter or left click to set it
+- <img src="./images/vertex-snaps-to-projected-face.png" />
+
 ### move vertex along the edge (also edges)
 
 - Select the vertex and double press <kbd>G</kbd>
@@ -481,6 +497,18 @@ To stick the dragging object on the surface, instead of going inside the surface
 - <img src="./images/remove-the-edge-in-between.jpg" alt="remove-the-edge-in-between">
 - select the vertices
 - Press <kbd>F</kbd>
+
+### fill faces
+
+#### triangles
+
+- use fill
+  - ctrl + f -> fill
+
+#### quads
+
+- use grid fill
+  - ctrl + f -> grid fill
 
 ### delete face
 
