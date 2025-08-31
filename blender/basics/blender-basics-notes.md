@@ -321,6 +321,12 @@ NOTE: to make all the transformations as 0, or reset the transformations
 
 # Edit Mode
 
+## repeat
+
+actions like merge vetices at center can be repeated
+
+- shift + r
+
 ## change the mouse cursor
 
 <img src="./images/change-drag-icon.png" />

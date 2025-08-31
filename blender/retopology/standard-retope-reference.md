@@ -36,7 +36,17 @@
 
 # where to form edge loops
 
+## sharp edges
+
+- <img src="./images/retope-where-to-handle-edges.png" />
+
 ## Face
+
+### markings
+
+- <img src="./images/face-eyes-lips-retope-markings.png" />
+
+### edge loops
 
 - <img src="./images/front-face-retope.png" />
 - <img src="./images/side-face-retope.png" />

@@ -22,6 +22,7 @@
   - with a subsurface and solidify modifier
     - disable them as needed
   - snapping is on
+  - in the viewport shading popover color should be set to "Material"
 - auto merge is on - [refer](../basics/blender-basics-notes.md#auto-merge-vertices-or-edges)
 - <img src="./images/surfaces-settings-1.png" />
     - enable mirror
@@ -39,7 +40,7 @@
 #### shrinkwrap enhancement
 
 - <img src="./images/shrinkwrap-optimization-settings.png" />
-    - wrap method -> Nearest Surface
+    - wrap method -> "Nearest Surface Point" or "Target Normal Project"
     - snap mode - Above Surface
     - offset can be - 0.001 m - 0.005 m
       - adjust it so that retope mesh just hovers and is slightly inside
@@ -111,6 +112,11 @@
 
 - add smooth modifier
 - use sculpt -> relax slide brush
+
+### use looptools
+
+- to relax the vertices
+- ctrl + e -> loop tools -> relax
 
 ## final checks
 
