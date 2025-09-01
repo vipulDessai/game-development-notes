@@ -40,6 +40,10 @@
 
 - <img src="./images/retope-where-to-handle-edges.png" />
 
+### avoid poles on edges
+
+- <img src="./images/incorrect-3-1-retope.png" />
+
 ## Face
 
 ### markings
