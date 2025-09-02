@@ -42,7 +42,7 @@
 - <img src="./images/shrinkwrap-optimization-settings.png" />
     - wrap method -> "Nearest Surface Point" or "Target Normal Project"
     - snap mode - Above Surface
-    - offset can be - 0.001 m - 0.005 m
+    - offset can be - 0.01 m - 0.005 m
       - adjust it so that retope mesh just hovers and is slightly inside
       - as we are going to bake the sculpt texture onto the low poly retopologized mesh
 
