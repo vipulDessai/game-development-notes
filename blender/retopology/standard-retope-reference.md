@@ -34,7 +34,7 @@
 - use inset (press <kbd>i</kbd>)
   - opposite of extrude
 
-# where to form edge loops
+# where to add more vertices
 
 ## sharp edges
 
@@ -43,6 +43,19 @@
 ### avoid poles on edges
 
 - <img src="./images/incorrect-3-1-retope.png" />
+
+## retope mesh is NOT wrapping on base mesh
+
+- <img src="./images/add-more-vertices.png" />
+- delete and add more vertices and join them using 1 to many joint
+
+## Ratio
+
+| Type    | Edge loop vertices |
+| ------- | ------------------ |
+| Nails   | 6 - 8              |
+| Teeth   | 6 - 8              |
+| Fingers | 10 - 12            |
 
 ## Face
 

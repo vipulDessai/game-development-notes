@@ -778,6 +778,14 @@ when rotating the vertices the height can be affected, use shear instead
 - make sure the shape keys basis is selected and the 'Apply Shape keys in edit mode' is off
 - <img src="./images/edit-mode-shape-keys.jpg" alt="edit-mode-shape-keys">
 
+## transformation
+
+- pivot point
+
+### spin vertices
+
+- <img src="./images/spin-vertices.png" />
+
 # World environment
 
 - [Download Environment](http://www.hdrlabs.com/sibl/archive.html)
