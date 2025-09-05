@@ -75,3 +75,8 @@
 # reduce count
 
 - <img src="./images/reduce-topology-count.png" />
+
+# how or when to divide
+
+- keep the scull or face with teeth together, dont have it seperately
+  - because mirror is important
