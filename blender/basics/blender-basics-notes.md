@@ -55,6 +55,10 @@ The origin is the point which will be attached to the surface of the object on w
 
 # Viewport
 
+## measurement
+
+- <img src="./images/measurement-blender.png" />
+
 ## vertices count
 
 - <img src="./images/vertices-count.png" />
@@ -407,7 +411,7 @@ to make a perpedicular out of them
 ### Merge
 
 - to get the merge menu
-- <kbd>ALT</kbd> + <kbd>M</kbd> or just <kbd>M</kbd>
+- <kbd>M</kbd>
 
 #### Auto Merge vertices (or edges)
 
@@ -418,6 +422,10 @@ merges two vertices when they are moved nearer
 - <img src="./images/what-is-auto-merge-of-vertices.gif" />
   - to adjust the merge radius
 - <img src="./images/adjust-auto-merge-threshold.png" />
+
+### unmerge
+
+- <kbd>V</kbd>
 
 ### Merge overlapping vertices
 

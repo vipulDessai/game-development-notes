@@ -2,4 +2,5 @@
 
 ## Sculpting
 
-- safe zone vertices remesh count - 1 - 3.00 Million
+- mine is RTX 3050TI with 2.00 - 2.50 million vertices max
+  - this is total of all the mesh visible in the viewport
