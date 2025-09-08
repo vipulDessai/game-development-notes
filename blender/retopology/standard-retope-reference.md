@@ -34,6 +34,21 @@
 - use inset (press <kbd>i</kbd>)
   - opposite of extrude
 
+## Face
+
+### markings
+
+- <img src="./images/face-eyes-lips-retope-markings.png" />
+
+### edge loops
+
+- <img src="./images/front-face-retope.png" />
+- <img src="./images/side-face-retope.png" />
+
+## Fingers or Elbows
+
+- <img src="./images/fingers-elbows-etc-edge-loops-ref.png" />
+
 # where to add more vertices
 
 ## sharp edges
@@ -57,26 +72,30 @@
 | Teeth   | 6 - 8              |
 | Fingers | 10 - 12            |
 
-## Face
-
-### markings
-
-- <img src="./images/face-eyes-lips-retope-markings.png" />
-
-### edge loops
-
-- <img src="./images/front-face-retope.png" />
-- <img src="./images/side-face-retope.png" />
-
-## Fingers or Elbows
-
-- <img src="./images/fingers-elbows-etc-edge-loops-ref.png" />
-
-# reduce count
+# reduce vertices count (creates redirection)
 
 - <img src="./images/reduce-topology-count.png" />
 
-# how or when to divide
+# Retope in parts
+
+## how or when to divide
 
 - keep the scull or face with teeth together, dont have it seperately
   - because mirror is important
+
+# how to space or add gap different object
+
+## fingers
+
+- make sure the gap between all the fingers is same so that retope is easy
+- also align the fingers properly
+- <img src="./images/gap-between-fingers-equal.png" />
+
+## armpit and chest
+
+- there should be enough gap between chest and arms, i.e. the model should be in relaxed t pose
+- <img src="./images/retope-easy-relaxed-t-pose.png" />
+
+# redirect topology or edge flow
+
+- <img src="./images/redirect-edge-loops.png" />
