@@ -78,10 +78,14 @@
 
 # Retope in parts
 
+but always keep one retope mesh only, otherwise join and editing vertices is a pain
+
 ## how or when to divide
 
 - keep the scull or face with teeth together, dont have it seperately
   - because mirror is important
+- hands and half torso
+- legs and half torso
 
 # how to space or add gap different object
 
