@@ -22,6 +22,7 @@
   - with a subsurface and solidify modifier
     - disable them as needed
   - snapping is on
+    - set snap mode to "face nearest" instead of "face project"
   - in the viewport shading popover color should be set to "Material"
 - auto merge is on - [refer](../basics/blender-basics-notes.md#auto-merge-vertices-or-edges)
 - <img src="./images/surfaces-settings-1.png" />
