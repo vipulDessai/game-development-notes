@@ -1,41 +1,10 @@
 # UV Editing
 
-<img src="select-uv-editor.jpg" alt="select-uv-editor" width="900" />
+**Note:** before beginning please make sure the scale is applied
 
-## enable UVs
+<img src="./images/select-uv-editor.jpg" alt="select-uv-editor" width="900" />
 
-- go to `UV Editor`
-- Enable `UV sync selection`
-- go back to the image editor
-- - <img src="image-editor-enable-uv.jpg" alt="image-editor-enable-uv.jpg" />
-- make sure the `paint` is also selected - refer above image
-
-## UV Menu
-
-- <img src="uv-editing-viewport-menu.jpg" alt="uv-editing-viewport-menu" width="500" />
-
-### Enable Heat maps (show stretching)
-
-- <img src="enable-stretching-uv-map.jpg" alt="enable-stretching-uv-map" width="500" />
-
-## Aling the edge
-
-align the edges horizontaly or vertically (along X or Y axis)
-
-- <kbd>SHIFT</kbd> + <kbd>W</kbd>
-- <img src="uv-edge-align-straight.jpg" alt="uv-edge-align-straight" />
-
-## Perform UV editing
-
-- select the lines on the object and <kbd>Right Click</kbd> and Mark Seam
-- Press <kbd>U</kbd> for UV editing menu and select `Unwrap`
-- also we can use the <kbd>CTRL</kbd> + <kbd>E</kbd> edge menu to mark seam
-
-### brush select
-
-- Press <kbd>C</kbd>
-  - <kbd>Right Click</kbd> to exit
-  - Scroll up / down for brush size
+## UV editor viewport
 
 ### Reset UV unwrap
 
@@ -43,28 +12,59 @@ align the edges horizontaly or vertically (along X or Y axis)
 - Press <kbd>U</kbd> for UV editing menu
 - Reset
 
+### Enable Heat maps (show stretching)
+
+- <img src="./images/enable-stretching-uv-map.jpg" alt="enable-stretching-uv-map" width="500" />
+
 ### keep the UV without mesh selection
 
 Enable Uv Sync selection
 
-- <img src="uv-keep-selection-without-select-all-on-mesh.jpg" alt="uv-keep-selection-without-select-all-on-mesh" width="400" />
+- <img src="./images/uv-keep-selection-without-select-all-on-mesh.jpg" alt="uv-keep-selection-without-select-all-on-mesh" width="400" />
 
 <b>Note:</b> when the sync selection is ON, pressing <kbd>L</kbd> wont work to select connected `UVs`
+
+## create a UV image
+
+this is just a UV checker image
+
+- <img src="./images/new-button-uv-editor.png"/>
+- give name like "UV.checker"
+- <img src="./images/create-uv-image.png"/>
+- <img src="./images/new-uv-checker-ready.png"/>
+
+## map uvs
+
+- first reset the faces if any
+- <img src="./images/prepare-uv-reset-all-uv.png"/>
+- change the view, which naturally describes the primary feature of the subject
+- <img src="./images/prepare-uv-change-view.png"/>
+- enable the x ray mode (alt + z or from menu)
+- <img src="./images/prepare-uv-toggle-on-xray-mode.png"/>
+- select all the vertices
+- go to UV menu and select "Project from view"
+- <img src="./images/prepare-uv-project-to-view-uv.gif"/>
+- scale and move the mapped UV
+- <img src="./images/prepare-uv-scale-first-mapped-uv.gif"/>
+
+### Perform UV editing
+
+- select the lines on the object and <kbd>Right Click</kbd> and Mark Seam
+- Press <kbd>U</kbd> for UV editing menu and select `Unwrap`
+- also we can use the <kbd>CTRL</kbd> + <kbd>E</kbd> edge menu to mark seam
+
+### Aling the edge
+
+align the edges horizontaly or vertically (along X or Y axis)
+
+- <kbd>SHIFT</kbd> + <kbd>W</kbd>
+- <img src="./images/uv-edge-align-straight.jpg" alt="uv-edge-align-straight" />
 
 ## exporting uv map
 
 - select the map by pressing the <kbd>A</kdb>
 - to go menu option `UV` and select
-- <img src="uv-map-select-and-export.png" alt="uv-map-select-and-export" />
-
-## Create an image (Baking)
-
-This gives us the UV Map - only after the uv are baked and saved in image file we can edit the UV mesh
-
-- Once the unwrap is done
-- go to camera tool
-- <img src="create-uv-map-by-baking.jpg" alt="create-uv-map-by-baking" width="400" />
-- Bake it to write maps in the file
+- <img src="./images/uv-map-select-and-export.png" alt="uv-map-select-and-export" />
 
 ## Create normal map
 
@@ -72,7 +72,7 @@ This gives us the UV Map - only after the uv are baked and saved in image file w
 
 - select the node where the blender should save the bake to
 - do not join the node to diffuse BSDF or the output node
-- <img src="baking-nodes.jpg" alt="baking-nodes" />
+- <img src="./images/baking-nodes.jpg" alt="baking-nodes" />
 
 ### bake settings
 
@@ -80,7 +80,7 @@ settings for the creating the normal map from high poly mesh to low poly mesh
 
 - select the mesh u want to have as normal (source mesh)
 - select the destination mesh
-- <img src="baking-normal-map-ray-distance.jpg" alt="baking-normal-map-ray-distance" width="400" />
+- <img src="./images/baking-normal-map-ray-distance.jpg" alt="baking-normal-map-ray-distance" width="400" />
 - keep the `ray distance` as low but slightyly higher than 0
 
 #### Bug of normal maps with low resolution details
