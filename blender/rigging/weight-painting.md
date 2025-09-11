@@ -46,6 +46,14 @@
 - <img src="./images/weight-paint-transfer-weight.jpg" alt="weight-paint-transfer-weight" width="500" />
 - vertex will be added for that bone
 
+## weight transfer from selected bones (one or more)
+
+- create a new vertex group
+- select the bone
+- go to "Weight paint menu"
+- select "assign automatic from bones"
+- <img src="./images/selected-bones-weight-transfer.gif" />
+
 ## Adding Particles
 
 - Select the object on which you want to add particles
