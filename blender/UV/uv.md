@@ -83,6 +83,16 @@ align the edges horizontaly or vertically (along X or Y axis)
 - <kbd>SHIFT</kbd> + <kbd>W</kbd>
 - <img src="./images/uv/uv-edge-align-straight.jpg" alt="uv-edge-align-straight" />
 
+### straighten up the islands
+
+- TODO - https://www.youtube.com/watch?v=8nvgo266xG4&ab_channel=StevenScott%28OnlineRender%29
+
+### live unwrap
+
+- enable live unwrap
+- pin few vertices on ur uv map
+- scale rest of the map
+
 ## exporting uv map
 
 - select the map by pressing the <kbd>A</kdb>
