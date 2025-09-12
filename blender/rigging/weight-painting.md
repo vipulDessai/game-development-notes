@@ -37,18 +37,10 @@
 
 - <img src="./images/weight-transfer-data-transfer.jpg" alt="weight-transfer-data-transfer.jpg" width="500" />
 
-## Tranfer weight
-
-- select the bones
-- select the mesh
-- go to weight paint
-- select the envelop
-- <img src="./images/weight-paint-transfer-weight.jpg" alt="weight-paint-transfer-weight" width="500" />
-- vertex will be added for that bone
-
 ## weight transfer from selected bones (one or more)
 
-- create a new vertex group
+- NO need to create a new vertex group, as a new vertex group will be created
+  - if a vertex group is created, select it
 - select the bone
 - go to "Weight paint menu"
 - select "assign automatic from bones"

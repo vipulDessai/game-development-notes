@@ -16,13 +16,16 @@
 
 - <img src="./images/uv/enable-stretching-uv-map.jpg" alt="enable-stretching-uv-map" width="500" />
 
-### keep the UV without mesh selection
+### Sync Selection - OFF
 
-Enable Uv Sync selection
+#### selection mode
 
+- <img src="./images/uv/sync-off-selection-option.png" />
+
+### Sync Selection - ON
+
+- if the sync selection is ON, we can select from the edit mode window (right side window), and this will select individual vertices
 - <img src="./images/uv/uv-keep-selection-without-select-all-on-mesh.jpg" alt="uv-keep-selection-without-select-all-on-mesh" width="400" />
-
-<b>Note:</b> when the sync selection is ON, pressing <kbd>L</kbd> wont work to select connected `UVs`
 
 ## UV unwrap
 
@@ -87,13 +90,36 @@ align the edges horizontaly or vertically (along X or Y axis)
 
 - TODO - https://www.youtube.com/watch?v=8nvgo266xG4&ab_channel=StevenScott%28OnlineRender%29
 
-### live unwrap
+## live unwrap
 
 - enable live unwrap
 - pin few vertices on ur uv map
 - scale rest of the map
 
+## use multiple uv maps
+
+note that each uv map should be assigned to a new material
+
+- add a new uv map in the side panel of the mesh
+- <img src="./images/uv/add-multiple-uv-map.png"/>
+- select the map
+- <img src="./images/uv/select-uv-map.png"/>
+- create a new material - (refer blender basics note - duplcate material)
+- go to edit mode and assign faces to this material (refer blender basics note - assign custom faces to material)
+- configure shader editor setting for using multiple uv map
+  - use `UV Map` node and select the uv map
+  - connect the output to `image texture` node
+  - connect `image texture` node to base color of `Principled BSDF` node
+  - <img src="./images/uv/multiple-uv-map-shader-node-configs.png"/>
+
 ## exporting uv map
+
+### pack islands (to save space)
+
+- <img src="./images/uv/uv-pack-islands-menu-option.png" />
+- <img src="./images/uv/uv-pack-islands-popup-settings.png" />
+
+### export uvs
 
 - select the map by pressing the <kbd>A</kdb>
 - to go menu option `UV` and select

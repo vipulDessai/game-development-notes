@@ -1,5 +1,10 @@
 # **Modifiers**
 
+## order of modifer
+
+- mirror
+- subdiv
+
 ## view final result preview
 
 - enable the "on-cage" option

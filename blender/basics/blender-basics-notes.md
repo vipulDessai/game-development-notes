@@ -824,7 +824,7 @@ when rotating the vertices the height can be affected, use shear instead
 - Transmission - make it 1 for glass
   - to remove the tint the base color should vue should be 1
 
-## Copying material
+## Copying material to a different mesh
 
 - Select the object which you want to apply material to
 - Select the object which you want to apply material from
@@ -844,12 +844,21 @@ when rotating the vertices the height can be affected, use shear instead
 - select the new material
 - paste the material
 
-### duplcate material
+## duplcate material
 
-- add the existing material
-- select it and click on button marked 2
-- rename it to new name
 - <img src="./images/duplicate-materials.jpg" alt="duplicate-materials" />
+- select the material
+- click on button marked 2
+- rename it (marker 1)
+
+## assign custom faces to material
+
+- go to edit mode
+- press "select" to see all its assigned faces
+- unselect all (alt + a)
+- select only the faces that you need
+- click assign
+- <img src="./images/assign-faces-to-material.png" />
 
 ## water like depth and color
 
