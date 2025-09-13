@@ -637,6 +637,12 @@ For editing the vertices near by
 
 <b>Note:</b> Edit mode should be on
 
+### select linked
+
+#### by seam
+
+- <img src="./images/select-linked-by-seam.png" />
+
 ### enable brush selection
 
 - Press <kbd>C</kbd> and
@@ -853,8 +859,9 @@ when rotating the vertices the height can be affected, use shear instead
 
 ## assign custom faces to material
 
+**Note:** you cannot deassign faces, but once u assign faces to other material, the otherones are deassgined
+
 - go to edit mode
-- press "select" to see all its assigned faces
 - unselect all (alt + a)
 - select only the faces that you need
 - click assign

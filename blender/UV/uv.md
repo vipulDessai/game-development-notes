@@ -11,6 +11,11 @@
 - Select the object you want to reset the UV
 - Press <kbd>U</kbd> for UV editing menu
 - Reset
+- <img src="./images/uv/prepare-uv-reset-all-uv.png"/>
+
+### mark seam
+
+- select the edges -> right click (or press u) -> mark seam
 
 ### Enable Heat maps (show stretching)
 
@@ -40,17 +45,18 @@ this is just a UV checker image
 
 ### map uvs
 
-- first reset the faces if any
-- <img src="./images/uv/prepare-uv-reset-all-uv.png"/>
-- change the view, which naturally describes the primary feature of the subject
-- <img src="./images/uv/prepare-uv-change-view.png"/>
-- enable the x ray mode (alt + z or from menu)
-- <img src="./images/uv/prepare-uv-toggle-on-xray-mode.png"/>
-- select all the vertices
-- go to UV menu and select "Project from view"
-- <img src="./images/uv/prepare-uv-project-to-view-uv.gif"/>
-- scale and move the mapped UV
-- <img src="./images/uv/prepare-uv-scale-first-mapped-uv.gif"/>
+- first reset the faces (refer above for reset)
+- for hard surface do as follows
+  - if change the view, which naturally describes the primary feature of the subject (ignore the organic example in the images 😉)
+  - <img src="./images/uv/prepare-uv-change-view.png"/>
+  - enable the x ray mode (alt + z or from menu)
+  - <img src="./images/uv/prepare-uv-toggle-on-xray-mode.png"/>
+  - select all the vertices
+  - go to UV menu and select "Project from view"
+  - <img src="./images/uv/prepare-uv-project-to-view-uv.gif"/>
+  - scale and move the mapped UV
+  - <img src="./images/uv/prepare-uv-scale-first-mapped-uv.gif"/>
+- for organic select the edges -> mark seam using key u -> mark seams
 
 ### enable the UV checker image in the material
 
@@ -61,10 +67,6 @@ this is just a UV checker image
 - in the UV editor switch from solid to material mode
 
 **Note:** the texture coordinates are important, otherwise the UV won't show correctly
-
-### mark seam
-
-- select the edges -> right click (or press u) -> mark seam
 
 ### mirror seam
 
@@ -86,9 +88,9 @@ align the edges horizontaly or vertically (along X or Y axis)
 - <kbd>SHIFT</kbd> + <kbd>W</kbd>
 - <img src="./images/uv/uv-edge-align-straight.jpg" alt="uv-edge-align-straight" />
 
-### straighten up the islands
+### make two island of same size
 
-- TODO - https://www.youtube.com/watch?v=8nvgo266xG4&ab_channel=StevenScott%28OnlineRender%29
+- <img src="./images/uv/uv-equalize-size.png" />
 
 ## live unwrap
 
@@ -96,9 +98,19 @@ align the edges horizontaly or vertically (along X or Y axis)
 - pin few vertices on ur uv map
 - scale rest of the map
 
-## use multiple uv maps
+## Use multiple uv maps (NOT ideal for substance painter)
 
-note that each uv map should be assigned to a new material
+**Note:**
+
+- that each uv map should be assigned to a new material
+- also substance painter cant have seperate UV Map, even for multiple materials
+  - so only the first UV map from UV map side panel will be picked
+  - not even the active for rendering
+  - <img src="./images/uv/uv-export-settings-substance-painter.png"/>
+  - keep like this, i.e. no extra UV map
+
+<br/>
+<br/>
 
 - add a new uv map in the side panel of the mesh
 - <img src="./images/uv/add-multiple-uv-map.png"/>

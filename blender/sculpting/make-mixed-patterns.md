@@ -7,3 +7,8 @@
 - disable dynotopo
 - use pinch
 - then use crease sharp
+
+# draw round mask
+
+- shift + a
+  - yes its same as faceset spread mask
