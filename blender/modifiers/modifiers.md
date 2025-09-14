@@ -90,6 +90,16 @@ Create uneven paterns on the mesh
 - <img src="./images/in-texture-select-clouds.jpg" alt="in-texture-select-clouds" />
 - select the clouds
 
+### from image
+
+- select the displace type as "Texture"
+- head to the texture tab
+- <img src="./images/displace-mod-with-img-texture-select-texture.png" />
+- select the pattern image
+  - should be black and white
+- go back to modifiers and adjust the settings
+- <img src="./images/displace-mod-with-img-texture-settings.png" />
+
 ## bevel
 
 - to add smooth edges to the mesh

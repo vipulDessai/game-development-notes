@@ -37,12 +37,22 @@ ctrl + ,
 
 - preferences -> keymap -> Tab for pie menu
 
-# errors
+# errors and issue
 
 ## Object has non uniform scale
 
 We get the error because the scales are different </br>
 <img src="./images/why-non-uniform-object-err.jpg" alt="why-non-uniform-object-err" width="500" />
+
+## weird brush size
+
+- apply scale
+
+## black lines or spots on a mesh
+
+- recalculate normals
+  - go to edit mode
+  - alt + n -> recalulate outside
 
 ### solution
 
