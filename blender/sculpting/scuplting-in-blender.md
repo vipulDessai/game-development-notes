@@ -187,20 +187,7 @@
   - increase contrast to darken
   - grow mask to make it cover more area
 
-### diagonal side
-
-- if u drag the shift + a, then 2 and drag from the side, then we can draw mask in diagonal direction
-- <img src="./images/mask-gradient.png">
-
-#### make diamond shape
-
-- drag from both corners and add gradient
-
-### mask gradient
-
-- while doing `shift + a`, press b
-
-### loop cut
+### loop cut in the mask
 
 - while doing `shift + a`, press w, and more w to increase or decrease
 
