@@ -38,28 +38,11 @@
 - press alt and select the mask
 - <img src="./images/select-mask-by-press-alt.png">
 
-### smart mask layer (pattern for mask)
+# smart materials (paint with custom pattern)
 
-- drag and drop the asset to the mask
-- <img src="./images/add-mask-pattern.png">
-  - the mask pattern appears below the layer details
+to figure out the folder structure and settings of smart material, disable all layers in it
 
-### create custom smart mask (pattern for mask)
-
-- add fill layer
-- <img src="./images/fill-for-smart-mask.png">
-- disable all except color
-  - if we dont want to adjust the shinyness or anything
-- <img src="./images/add-genrator.png">
-- add generator
-  - click on the magic wand
-  - select add generator
-  - click on generator section and select mask editor
-- modify generator settings
-  - select the mask
-  - adjust the curvature
-  - <img src="./images/genrators-settings.png">
-  - to soften the edges for the mask
+- <img src="./images/smart-materials-settings.png">
 
 ## create smart materials
 
@@ -82,11 +65,3 @@ instead of manually painting, paint the mesh using `polygon fill`
 ## UV
 
 - <img src="./images/polygon-fill-uv.png">
-
-# smart materials (paint with custom pattern)
-
-to figure out the folder structure and settings of smart material, disable all layers in it
-
-- <img src="./images/smart-materials-settings.png">
-
-## create
