@@ -23,3 +23,7 @@ Notes to make an awesome game
 # AI
 
 https://github.com/DreamTechAI/Direct3D-S2
+
+# software alternatives
+
+- substance painter and designer - [InstaMat](https://instamaterial.com/)
