@@ -63,7 +63,7 @@ pushes the shape from inside to outside
 
 ## negetive
 
-pull the shape from outside to inside
+pulls the shape from outside to inside
 
 - <img src="./images/nodes/bevel-node-negetive.gif">
 
@@ -71,14 +71,45 @@ pull the shape from outside to inside
 
 - <img src="./images/nodes/bevel-node-smoothness.png">
 
-# checker
+## normal map
 
-checker board pattern
+bevel node outputs a norml map
 
-- <img src="./images/nodes/checker-board-node-example.png">
+### normal format
 
-# Noise - `TODO`
+- set to OpenGL
+  - `TODO` - find what is required for adobe substance painter material
 
-## bnw spots 2
+# vector warp greyscale
 
-todo - note settings hear
+- <img src="./images/nodes/vector-warp-greyscale.png">
+
+## normal format
+
+- set to OpenGL
+  - `TODO` - find what is required for adobe substance painter material
+
+# blend node
+
+- use to merge different nodes and
+- control visibility with black and white with [`curve node`](./nodes.md#curve-node)
+- <img src="./images/nodes/blending-node.gif">
+
+## mode
+
+- <img src="./images/nodes/blending-mode-options.png">
+    - copy is sharp
+    - subtract kind of fuse together
+    - multiply 
+        - gets rid of white from the foreground
+        - overlays black only from background
+    - overlay is subtle and smooth like
+
+# curve node
+
+- same as photoshop or gimp node
+- <img src="./images/nodes/curve-node.gif">
+
+## add more rings
+
+- <img src="./images/nodes/curve-node-add-more-rings.gif">

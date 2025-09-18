@@ -18,7 +18,13 @@
   - ambient occlusion
   - height
 
+**Note:** opening existing projects reset the 3d view, so set the 3d view again using `view in 3d view`
+
 # Viewport
+
+## light
+
+- to adjust light - shift + right click and move mouse
 
 ## search
 
@@ -65,6 +71,18 @@
 
 - press shift and pull out or plug in the pins
 - <img src="./images/basics/pull-out-plug-in-pins.gif">
+
+### search and connect
+
+- select the node press space and drop and node
+
+## group
+
+- <img src="./images/basics/group-nodes.gif">
+
+# enviornment
+
+- <img src="./images/basics/env-settings.gif">
 
 # export
 

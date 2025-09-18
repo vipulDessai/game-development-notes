@@ -51,3 +51,19 @@ under instance paratmeters -> patterns
 ### random
 
 - <img src="./images/shape-nodes/random-tile-color-random.png">
+
+# checker
+
+checker board pattern
+
+- <img src="./images/shape-nodes/checker-board-node-example.png">
+
+# cells
+
+- <img src="./images/shape-nodes/cells-like-structure.png">
+
+# Noise - `TODO`
+
+## bnw spots 2
+
+todo - note settings hear
