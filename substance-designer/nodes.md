@@ -89,22 +89,6 @@ bevel node outputs a norml map
 - set to OpenGL
   - `TODO` - find what is required for adobe substance painter material
 
-# blend node
-
-- use to merge different nodes and
-- control visibility with black and white with [`curve node`](./nodes.md#curve-node)
-- <img src="./images/nodes/blending-node.gif">
-
-## mode
-
-- <img src="./images/nodes/blending-mode-options.png">
-    - copy is sharp
-    - subtract kind of fuse together
-    - multiply 
-        - gets rid of white from the foreground
-        - overlays black only from background
-    - overlay is subtle and smooth like
-
 # curve node
 
 - same as photoshop or gimp node
