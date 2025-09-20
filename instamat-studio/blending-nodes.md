@@ -1,4 +1,4 @@
-# blending
+# blend node
 
 ## swap inputs (foregroud and background)
 
@@ -18,3 +18,7 @@ cuts sharp between the foreground and background
 - IMPORTANT - input greyscale pattern should have grey color bricks or pattern
   - as the pattern is not shown on white
 - lower the opacity (eg. 7)
+
+# blend height
+
+- <img src="./images/blend-nodes/blend-height-node-offset-adjustments.gif">

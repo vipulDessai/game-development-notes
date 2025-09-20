@@ -26,19 +26,6 @@ the name and type is like the usage in substance designer
 
 - <img src="./images/nodes/height-to-output-conversion.gif">
 
-# Noise Nodes
-
-- clouds alien
-- clouds heavy
-  - scale - 1
-  - freq gain - 0.2
-  - freq smooth - 0.8
-- stone noise
-- swipes and wipes
-  - scale - 35%
-  - variance - 65%
-  - smudge blur - 20%
-
 # solid color
 
 - <img src="./images/nodes/solid-color-slider.gif">
@@ -46,25 +33,6 @@ the name and type is like the usage in substance designer
 - S - saturation
 - V - Value
 - square box - hue
-
-# transform node
-
-- <img src="./images/nodes/transform-node-exmaple.gif">
-
-# slope blur
-
-for distorting greyscale's image white portion
-
-## intensity
-
-- controls the mode effect and input from height or direction
-
-## modes
-
-- <img src="./images/nodes/slope-blur-node-modes.png">
-    - avg - extends into black
-    - min - extends black into white, shrinking the white
-    - max - extends more into black
 
 # Flood fill (hand pick shapes of greyscale)
 

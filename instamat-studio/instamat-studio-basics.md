@@ -63,6 +63,11 @@ if the image is NOT a greyscale then it will have a alpha channel
 - press ctrl + click on the node connectors and drag
   - in SD its shift + click and drag
 
+## group nodes or frame nodes
+
+- shift + c
+  - add title, description and color
+
 ## organise nodes
 
 use the reroute image node
