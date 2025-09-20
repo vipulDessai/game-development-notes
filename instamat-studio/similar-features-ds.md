@@ -17,3 +17,4 @@
 | Action                    | Substance Designer (SD) | instamat element graph |
 | ------------------------- | ----------------------- | ---------------------- |
 | drag node connector group | shift                   | ctrl                   |
+| disable node              | shift + d               | h                      |

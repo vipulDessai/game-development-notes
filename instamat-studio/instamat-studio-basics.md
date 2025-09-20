@@ -6,6 +6,10 @@
 
 <img src="./images/basics/enable-2d-3d-view.png">
 
+## 2d view
+
+<img src="./images/basics/enable-disable-checkerboard-in-2d-view.gif">
+
 ## 3d view
 
 - adjust camera - alt + left click and move move
@@ -19,6 +23,15 @@
 ### change env
 
 - ctrl + b
+
+### 3d viewport settings
+
+- <img src="./images/basics/open-viewport-settings.png">
+
+#### height intensity
+
+- <img src="./images/basics/height-intensity-view-settings.png">
+- make the "Material AO intensity" to 1
 
 ## search
 
@@ -41,16 +54,11 @@ if the image is NOT a greyscale then it will have a alpha channel
 - select the pen to type the value
 - select greyscale for using it for drawing patterns
 
-## settings
+## disable node
 
-- <img src="./images/basics/open-viewport-settings.png">
+- select node and press h, press h to unhide
 
-### height intensity
-
-- <img src="./images/basics/height-intensity-view-settings.png">
-- make the "Material AO intensity" to 1
-
-### drag node connector group
+## drag node connector group
 
 - press ctrl + click on the node connectors and drag
   - in SD its shift + click and drag
@@ -65,3 +73,9 @@ use the reroute image node
 
 - <img src="./images/basics/how-to-use-reroute-image-node.gif">
     - use ctrl and drag the node connectors group
+
+## how to add node in between
+
+- <img src="./images/basics/add-node-on-connector.gif">
+- right click and search for the node
+- double click to drop the node
