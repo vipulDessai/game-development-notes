@@ -38,12 +38,21 @@
 - <img src="./images/guides-for-image-center.png" />
 - add horizontal and vertical guide
 
+## preview gif files
+
+- Go to Filters → Animation → Playback
+
 # layers
 
-## move all layers
+## move all layers (aka linked layers)
 
 - select all layers
 - hold shift and move them
+
+### eneble move all layers otherwise
+
+- <img src="./images/move-all-linked-layers.png" />
+- enable the optiona and now we can when without pressing shift
 
 ## layers modes
 

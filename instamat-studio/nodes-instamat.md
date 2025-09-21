@@ -1,5 +1,12 @@
 # **Nodes**
 
+# common
+
+## nodes input
+
+- for input like height etc, we can input noises, also we can input output of other nodes
+- <img src="./images/nodes/output-blur-to-output.gif">
+
 # output
 
 ## name and type - output property
