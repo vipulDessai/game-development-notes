@@ -33,7 +33,9 @@ the name and type is like the usage in substance designer
 
 - <img src="./images/nodes/height-to-output-conversion.gif">
 
-# solid color
+# colors
+
+## solid color
 
 - <img src="./images/nodes/solid-color-slider.gif">
 
@@ -41,13 +43,19 @@ the name and type is like the usage in substance designer
 - V - Value
 - square box - hue
 
+## gradient map
+
+allows multiple colors based on the greyscale
+
+- <img src="./images/nodes/gradient-map.png">
+
 # Flood fill (hand pick shapes of greyscale)
 
 convert black-and-white masks into region-aware data structures
 
 ## convert the uv details to mask
 
-use flood fill to mask
+use `flood fill to mask`
 
 - <img src="./images/nodes/flood-fill-to-mask-usage.gif">
 
@@ -57,3 +65,11 @@ use flood fill to mask
   - flood fill to random greyscale
   - histogram scan
   - contrast
+
+## convert to random greyscale colors
+
+- <img src="./images/nodes/flood-fill-to-random-greyscale.png">
+
+- add a `flood fill to color`
+- connect it to "greyscale to color", so that it can be plugged in to blend node
+- now adjusting the `seed` of `flood fill to color` will generate random colors

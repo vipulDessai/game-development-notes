@@ -8,7 +8,13 @@
 
 ## 2d view
 
+### checkboard texture
+
 <img src="./images/basics/enable-disable-checkerboard-in-2d-view.gif">
+
+### image resolution or size
+
+<img src="./images/basics/output-2d-image-resolution.png">
 
 ## 3d view
 
@@ -40,6 +46,10 @@
 ## multi select
 
 - shift + click and drag
+
+## duplicate
+
+- select the node, alt + click and drag
 
 ## alpha or transparency
 

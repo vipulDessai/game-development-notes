@@ -22,6 +22,12 @@
 
 - default settings
 
+## sloped fractal sum
+
+add a dusty look
+
+- default settings
+
 # cracks
 
 ## swipes and wipes

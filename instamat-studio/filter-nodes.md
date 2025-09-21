@@ -10,9 +10,40 @@
 
  <img src="./images/filter-nodes/highpass-dense-noise-example.gif">
 
-# transform node
+# sharpen (high pass filter i.e. makes high frequency image)
 
-- <img src="./images/filter-nodes/transform-node-exmaple.gif">
+- rapid changes in intensity (e.g. edges, fine details, noise)
+  - A zebra’s stripes = high frequency (black ↔ white rapidly)
+
+# blur (low pass filter i.e. makes low frequency image)
+
+- Low frequency = gradual changes (e.g. smooth gradients, flat regions)
+  - A foggy sky = low frequency (soft, slow tonal shifts)
+
+# slope blur
+
+for distorting greyscale's image white portion
+
+## sample count (quality)
+
+- from 16 to 32
+
+## intensity
+
+- controls the mode effect and input from height or direction
+
+## modes
+
+- <img src="./images/filter-nodes/slope-blur-node-modes.png">
+    - avg - extends into black
+    - min - extends black into white, shrinking the white
+    - max - extends more into black
+
+# guided blur
+
+## works better with
+
+- with liquid noise
 
 # levels
 
