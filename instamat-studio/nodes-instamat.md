@@ -13,12 +13,13 @@
 
 the name and type is like the usage in substance designer
 
-| Name             | Type             | coversion node              |
-| ---------------- | ---------------- | --------------------------- |
-| Height           | ElementImageGray | -                           |
-| AmbientOcclusion | ElementImageGray | Height to ambient occlusion |
-| Normal           | ElementImage     | Height to normal            |
-| BaseColor        | ElementImage     | Solid Color                 |
+| Name             | Type             | coversion node                                    |
+| ---------------- | ---------------- | ------------------------------------------------- |
+| Height           | ElementImageGray | -                                                 |
+| AmbientOcclusion | ElementImageGray | Height to ambient occlusion                       |
+| Normal           | ElementImage     | Height to normal                                  |
+| BaseColor        | ElementImage     | Solid Color, gradient                             |
+| Roughness        | ElementImageGray | Height to normal -> Normal to curvature -> levels |
 
 ## create variable
 

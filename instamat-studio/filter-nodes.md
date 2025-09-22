@@ -57,11 +57,15 @@ for distorting greyscale's image white portion
 - move the bottom left slider to right to make image white
 - move the bottom right slider to left to remove white from image
 
+## inverse or flip output
+
+- <img src="./images/filter-nodes/levels-flip-output.gif">
+
 # histogram
 
-## select
+## histogram select
 
-### inverse greyscale
+### inverse greyscale with black and white only component
 
 - <img src="./images/filter-nodes/histo-select-inverse.gif">
 - lower the position to zero

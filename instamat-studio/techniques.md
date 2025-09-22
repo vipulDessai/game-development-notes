@@ -1,5 +1,14 @@
 # Techniques
 
+# create basic mask to seperate 2 parts of material
+
+- use height blend
+  - have top and bottom input be somehow seperated with histogram select (refer `histogram select - inverse greyscale` notes)
+- once the base and mask is output from the `height blend`, create 2 nodes from the `output` pin and connect as foreground and background to a blend node
+- connect the mask output pin from the `blend height` to the opacity of the blend node
+- adjusting the foreground levels will control top portion of `blend height`
+- adjusting the background levels will control bottom portion of `blend height`
+
 # inflate the noise texture
 
 <img src="./images/techniques/inflate-effect.png">
@@ -66,3 +75,13 @@
 
 - instead of `normal to curvature` and using convex/concave, just use `facing normal` node
 - connect it to levels directly and adjust the levels to select only mid whites
+
+# select the edges
+
+<img src="./images/techniques/select-only-edges.gif">
+
+## how to create
+
+- use normal to curvature with radius around 0.17
+- use concave output with blend mode subtract, foreground H0 S0 V0.094
+- use convex output with blend mode overlay, foreground H0 S0 V0.95

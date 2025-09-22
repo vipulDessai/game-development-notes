@@ -94,3 +94,7 @@ use the reroute image node
 - <img src="./images/basics/add-node-on-connector.gif">
 - right click and search for the node
 - double click to drop the node
+
+## rearrange output variables
+
+- <img src="./images/basics/rearrange-output-vars.gif">

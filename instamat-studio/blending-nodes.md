@@ -29,6 +29,14 @@ divides the non white background colors by the non white foregroud colors
 - make sure both the foreground and background has some non white component, otherwise there will be NO visible changes
   - same for greyscale and non greyscale nodes
 
+## invert mask
+
+inverts the opacity mask
+
+- <img src="./images/blend-nodes/blend-node-inverse-mask.gif">
+
 # blend height node
+
+has a output mask, that seperates the input top and bottom
 
 - <img src="./images/blend-nodes/blend-height-node-offset-adjustments.gif">
