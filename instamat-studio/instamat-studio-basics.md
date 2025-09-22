@@ -1,5 +1,16 @@
 # **Insta Mat**
 
+# packages
+
+- <img src="./images/basics/manage-packages.gif">
+- click on packages
+- in the top menu -> File -> new Project
+
+## projects
+
+- packages is parent of projects
+- add new projects of type such as element graph, asset texturing etc
+
 # Viewport
 
 ## enable 2d or 3d view
@@ -95,6 +106,58 @@ use the reroute image node
 - right click and search for the node
 - double click to drop the node
 
-## rearrange output variables
+## variables
+
+### expose variables
+
+- select the node
+- in the properties panel -> right click -> expose
+
+#### expose multiple
+
+- right click node -> expose input parameters
+- select the variables -> rename if requred
+- hit expose
+
+### exapose variable manually
+
+- <img src="./images/basics/expose-var-attach-manually.gif">
+  - create the varible and add type, adjust the more properties
+  - drop it
+  - drag the pin onto expand and attach to desired pin
+
+**Note**: same way a local variable can be attached
+
+### rearrange output variables
 
 - <img src="./images/basics/rearrange-output-vars.gif">
+
+### resize input / output var name
+
+- <img src="./images/basics/resize-input-var-names.gif">
+
+### rename input variable
+
+- <img src="./images/basics/rename-vars.gif">
+
+### more properties
+
+- <img src="./images/basics/var-more-properties.gif">
+- adjust properties such as
+  - control -> make it a slider
+  - unit -> a custom name that will appear next to variable value
+
+### remove category
+
+- <img src="./images/basics/var-more-prop-remove-category.gif">
+
+# export
+
+- <img src="./images/basics/export-material-menu.gif">
+- file -> expoert image and data outputs
+
+## creating template
+
+so that exporting is structured format
+
+`TODO` - notes
