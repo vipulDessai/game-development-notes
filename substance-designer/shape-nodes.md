@@ -57,13 +57,3 @@ under instance paratmeters -> patterns
 checker board pattern
 
 - <img src="./images/shape-nodes/checker-board-node-example.png">
-
-# cells
-
-- <img src="./images/shape-nodes/cells-like-structure.png">
-
-# Noise - `TODO`
-
-## bnw spots 2
-
-todo - note settings hear

@@ -10,7 +10,7 @@
 - <img src="./images/basics/basic-setup-control-height-AO.png">
 - add ambient occlusion HBAO node
 - add histograme range node
-- connect them as above
+- connect it to ambient occlusion hbao and height
 - <img src="./images/basics/basic-project-setup.gif">
 - set `view in 3d view` for following
   - base color
