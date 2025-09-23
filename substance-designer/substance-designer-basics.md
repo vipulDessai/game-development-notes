@@ -79,6 +79,9 @@
 ## group
 
 - <img src="./images/basics/group-nodes.gif">
+- select nodes
+- right click
+- add frame
 
 # enviornment
 

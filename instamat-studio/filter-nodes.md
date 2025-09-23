@@ -26,7 +26,7 @@ for distorting greyscale's image white portion
 
 ## sample count (quality)
 
-- from 16 to 32
+- increase from 16 to 32
 
 ## intensity
 

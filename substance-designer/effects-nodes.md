@@ -35,3 +35,13 @@ bevel node outputs a norml map
 
 - set to OpenGL
   - `TODO` - find what is required for adobe substance painter material
+
+# swirl geryscale
+
+## increase mask size
+
+- <img src="./images/effects-nodes/swirl-greyscale-inc-size-cover.png">
+
+## how to swirl
+
+- properties -> instance parameters -> amount
