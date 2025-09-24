@@ -52,7 +52,8 @@ allows multiple colors based on the greyscale
 
 # Flood fill (hand pick shapes of greyscale)
 
-convert black-and-white masks into region-aware data structures
+- convert black-and-white masks into region-aware data structures
+- the input should have defined edges i.e. the details should not be too smooth or low frequency
 
 ## convert the uv details to mask
 

@@ -15,3 +15,15 @@ default settings
 ## settings
 
 - adjust max and min levels
+
+# gaussian noise
+
+## applications
+
+### stepping cut kind of effect
+
+- <img src="./images/noise-nodes/gaussian-noise-applications-1.png">
+- use slope blur grayscale with min belnding mode
+- gaussian node settings
+  - scale - 23
+  - disorder - adjust as required

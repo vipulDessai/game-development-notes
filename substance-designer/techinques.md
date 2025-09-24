@@ -12,6 +12,11 @@
 - <img src="./images/techniques/blending-adjust-bevel-curve-for-edge-texture.gif">
 - adjust bevel and curve
 
+## add the colors along the edges or rims
+
+- <img src="./images/techniques/color-only-edges-of-some-shape.png">
+- this is the curve node settings for coloring the edges
+
 # binary fluid pattern using guassian noise
 
 <img src="./images/techniques/fluid-pattern-from-guassian-histo.png">
@@ -29,16 +34,17 @@
 # create cracks using noise
 
 - <img src="./images/techniques/create-cracks-effects.png">
-- use cloud noise as foreground and background for a blend node
-- adjust the scale of both of them
-- use the above - `binary fluid pattern using guassian noise` to create a mask for the blend
-- add a edge detect and directional warp with clouds 1 noise
+- use `cells 4` noise as foreground and background for a blend node
+  - adjust the scale of both of them
+  - blending mode is `copy`
+- use the above - [`binary fluid pattern using guassian noise`](./techinques.md#binary-fluid-pattern-using-guassian-noise) to create a mask for the blend
+- add a `edge detect` and `directional warp` with `clouds 1` noise
 
 # make edges jagged with noise
 
 <img src="./images/techniques/make-edges-jagged-with-noise.png">
 
-- add directional warp, increase the intensity, set more than value 1
+- add `directional warp`, increase the intensity, set more than value 1
 - <img src="./images/techniques/jagged-edges-directional-warp.gif">
 
 # scratches from tile sampler greyscale
@@ -69,3 +75,5 @@
 - slope blur with fractal base sum
   - <img src="./images/techniques/why-slope-blur-fractal-noise-with-scratches.gif">
     - why to use slope blur with fractal sum base here
+
+#

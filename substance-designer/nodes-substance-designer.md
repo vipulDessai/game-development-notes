@@ -46,3 +46,19 @@ controls the detail of the output node
 make normal details more visible
 
 - <img src="./images/nodes/normal-input-node-intensity.png">
+
+# Flood fill (hand pick shapes of greyscale)
+
+- convert black-and-white masks into region-aware data structures
+- the input should have defined edges i.e. the details should not be too smooth or low frequency
+
+## flood fill to gradient
+
+allows to control the gradient of each item seperated using `flood fill`
+
+- <img src="./images/nodes/flood-fill-gradient.gif">
+
+### applications
+
+- could be used to create overlapping grid
+- <img src="./images/nodes/flood-fill-to-overlap-grid.png">

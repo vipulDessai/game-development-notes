@@ -4,14 +4,15 @@
 - control visibility with black and white with [`curve node`](./nodes.md#curve-node)
 - <img src="./images/blend-nodes/blending-node.gif">
 
-## blending modes
+## opacity mask
 
-**Note:**
-
-- mask is common for all i.e. white is visible and black is removed
+- <img src="./images/blend-nodes/blend-node-mask-influence.png">
+- mask is common for all blending nodes
+- white takes details from foreground
+- black takes details from background
 - if no mask is attached then full layer is visible
 
-<br />
+## blending modes
 
 - copy - default
 - subtract
