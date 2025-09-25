@@ -2,9 +2,10 @@
 
 ## Nodes
 
-| Substance Designer (SD) | instamat element graph |
-| ----------------------- | ---------------------- |
-| uniform color           | solid color            |
+| Substance Designer (SD)    | instamat element graph |
+| -------------------------- | ---------------------- |
+| uniform color              | solid color            |
+| flood fill to random color | flood fill to color    |
 
 ## Properties
 

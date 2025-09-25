@@ -20,28 +20,21 @@ whatever is black is hidden, and only white is visible
 - <img src="./images/nodes/opacity-node-init.png">
 - select the usage as `Opacity`
 
-# Input Node
+# uniform color
 
-## uniform color
-
-### Properties
-
-#### change color
+## change color
 
 controls the detail of the output node
 
 - <img src="./images/nodes/set-uniform-color-white.png">
 
-##### by output
+### open color picker
 
-- roughness -> controls reflection
-- metallic -> metal
+- <img src="./images/nodes/uniform-color-picker.png">
 
-## normal
+# normal
 
-### properties
-
-#### intesity
+## intesity
 
 make normal details more visible
 
@@ -62,3 +55,9 @@ allows to control the gradient of each item seperated using `flood fill`
 
 - could be used to create overlapping grid
 - <img src="./images/nodes/flood-fill-to-overlap-grid.png">
+
+## flood fill to random color
+
+### convert it to greyscale
+
+use `rgba split`

@@ -45,3 +45,28 @@ bevel node outputs a norml map
 ## how to swirl
 
 - properties -> instance parameters -> amount
+
+# directional warp
+
+## how to use
+
+- use with a cloud noise to make make jagged lines
+
+# directional scratches
+
+## settings
+
+- angle
+- angle random
+
+## application
+
+### scrtaches with dots
+
+- <img src="./images/effects-nodes/directional-scratches-app-1.png">
+
+#### how to use
+
+- <img src="./images/effects-nodes/direcational-scratches-with-noise-n-vector-wrap.png">
+- vector map can take the `normal` node output (normal from height node)
+- blend mode overlap

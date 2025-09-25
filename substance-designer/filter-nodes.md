@@ -1,19 +1,35 @@
-# blur
+# sharpen (high pass filter i.e. makes high frequency image)
 
-## slope blur
+- rapid changes in intensity (e.g. edges, fine details, noise)
+  - A zebra’s stripes = high frequency (black ↔ white rapidly)
 
-### settings
+## where to use
+
+- good place is just at the end of creating the base color (albedo), just before output node
+
+# slope blur
+
+## settings
 
 - increase the samples
 - keep the intensity low like 0.07
 
-### how to use
+## how to use
 
 - can be used with noises like `fractal sum base`, `Gaussian Noise`
 
 # edge detect
 
 - <img src="./images/filter-nodes/edge-detect.png">
+
+# edge wear
+
+its like wears and tears the edges
+
+## how to use
+
+- use normal -> curvature -> edge wear
+- use the edge wear as the mask to blend with mode of `soft color`
 
 # curve node
 
@@ -42,3 +58,10 @@ use the histogram select as a mask for the blend to select different parts of th
 - either double click on the gradient slider
 - or click on "Gradient Editor"
 - color can be greyscale or any color
+
+# levels
+
+## invert example
+
+- <img src="./images/filter-nodes/levels-node-invert-example.gif">
+- drag the white level handle onto the other side and vice versa

@@ -15,6 +15,10 @@
 - rapid changes in intensity (e.g. edges, fine details, noise)
   - A zebra’s stripes = high frequency (black ↔ white rapidly)
 
+## where to use
+
+- good place is just at the end of creating the base color (albedo), just before output node
+
 # blur (low pass filter i.e. makes low frequency image)
 
 - Low frequency = gradual changes (e.g. smooth gradients, flat regions)

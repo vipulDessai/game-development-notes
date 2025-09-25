@@ -20,6 +20,10 @@ Notes to make an awesome game
 
 - [reptile scales](https://www.youtube.com/@GetLearnt/search?query=scales)
 
+## hair
+
+- how to make hair textures
+
 # AI
 
 https://github.com/DreamTechAI/Direct3D-S2

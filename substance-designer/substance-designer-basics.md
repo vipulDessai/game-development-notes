@@ -31,9 +31,10 @@
 - in the graph press "space"
 - <img src="./images/basics/viewport-search-space.png">
 
-### search and connect
+## add node in between
 
-- select the node press space and drop and node
+- select the node -> press space -> search and select the node -> drops the node connecting to previous node
+- or select a connector wire -> press space -> search and select the node -> drops the node on the connecting wire
 
 ## duplicate
 

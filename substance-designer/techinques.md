@@ -76,4 +76,25 @@
   - <img src="./images/techniques/why-slope-blur-fractal-noise-with-scratches.gif">
     - why to use slope blur with fractal sum base here
 
-#
+# pick details from normal map
+
+- <img src="./images/techniques/normal-details-to-levels.png">
+- use curvature to extract details from normal
+- use levels to invert or fine tune the details
+- use uniform color with blend node to fill the color
+
+# dried color
+
+- <img src="./images/techniques/dried-color-looks.png">
+
+## where its needed
+
+- scales, like the edges or rims of the scales, like a wear and tear effect
+
+## how to create dried color
+
+- <img src="./images/techniques/how-create-dried-color.png">
+- use any color that you want to displayed as dried color with blend and blend mode `soft color`
+- use normal to curvature and connect curvature node to curvature input of edge wear
+- edge wear settings
+  - adjust the level, contrast, edge width
