@@ -8,8 +8,8 @@
 
 - <img src="./images/blend-nodes/blend-node-mask-influence.png">
 - mask is common for all blending nodes
-- white takes details from foreground
-- black takes details from background
+- white part of the mask will be replaced by details from foreground
+- black part of the mask will be replaced by details from background
 - if no mask is attached then full layer is visible
 
 ## blending modes

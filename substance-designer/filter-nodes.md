@@ -18,6 +18,12 @@
 
 - can be used with noises like `fractal sum base`, `Gaussian Noise`
 
+# blur HQ greyscale
+
+## how to use
+
+- use with histogram scan, to blur the greyscale
+
 # edge detect
 
 - <img src="./images/filter-nodes/edge-detect.png">

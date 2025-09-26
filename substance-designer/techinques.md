@@ -1,5 +1,19 @@
 # **techniques**
 
+# select only few bricks or scales
+
+<img src="./images/techniques/select-selective.png">
+
+## how to
+
+- <img src="./images/techniques/select-selective-how.png">
+- use flood fill -> flood fill to random greyscale
+- histogram scan
+  - set contrast to full to have binary mask
+  - adjust the position to select random
+- further improvement
+  - can be combined with `blur HQ geryscale` for smoother transitions
+
 # add any pattern only along the edges
 
 <img src="./images/techniques/blending-edge-texture-pattern-result.png">
@@ -98,3 +112,14 @@
 - use normal to curvature and connect curvature node to curvature input of edge wear
 - edge wear settings
   - adjust the level, contrast, edge width
+
+# unblur a blur
+
+<img src="./images/techniques/unblur-a-blur.gif">
+
+ofcouse reducing the intensity of blur node does the trick, but for finer tuning use a curve node
+
+## how to
+
+- <img src="./images/techniques/blur-grey-curve.png">
+- connect the `blur HQ geryscale` to curve and adjust the curve

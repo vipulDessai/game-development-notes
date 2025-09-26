@@ -12,4 +12,4 @@
 
 - pick any mask output and add as the foreground for the blend node
 - set the blend node to `screen`
-- also opacity mask to control the parts of material if required
+- add opacity mask to control the parts of material if required

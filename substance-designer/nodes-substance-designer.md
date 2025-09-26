@@ -32,14 +32,6 @@ controls the detail of the output node
 
 - <img src="./images/nodes/uniform-color-picker.png">
 
-# normal
-
-## intesity
-
-make normal details more visible
-
-- <img src="./images/nodes/normal-input-node-intensity.png">
-
 # Flood fill (hand pick shapes of greyscale)
 
 - convert black-and-white masks into region-aware data structures
@@ -47,7 +39,7 @@ make normal details more visible
 
 ## flood fill to gradient
 
-allows to control the gradient of each item seperated using `flood fill`
+allows to control the gradient's rotation or direction of each item seperated using `flood fill`
 
 - <img src="./images/nodes/flood-fill-gradient.gif">
 
@@ -60,4 +52,5 @@ allows to control the gradient of each item seperated using `flood fill`
 
 ### convert it to greyscale
 
-use `rgba split`
+- use directly `flood fill to random greyscale`
+- use `rgba split`

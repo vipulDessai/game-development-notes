@@ -27,3 +27,26 @@ default settings
 - gaussian node settings
   - scale - 23
   - disorder - adjust as required
+
+# dirt
+
+## dirt 1
+
+<img src="./images/noise-nodes/dirt-1-result.png" />
+
+### how to
+
+- <img src="./images/noise-nodes/how-to-dirt-1.png" />
+  how-to-dirt-1.png
+- use blend mode as required, here in the example its default i.e. copy
+- use histogram to control the `dirt 1` greyscale
+
+# crystal
+
+## crystal 2
+
+<img src="./images/noise-nodes/how-to-dirt-1.png" />
+
+### aplications
+
+- muscle tendons

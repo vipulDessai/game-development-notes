@@ -29,6 +29,7 @@ bevel node outputs a norml map
 
 # vector warp greyscale
 
+- warps the greyscale input details around the normal input
 - <img src="./images/effects-nodes/vector-warp-greyscale.png">
 
 ## normal format
