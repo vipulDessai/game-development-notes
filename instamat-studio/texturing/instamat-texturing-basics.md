@@ -6,3 +6,16 @@
 - select "Asset Texturing"
 - select the low poly mesh
 - select create empty template
+
+# library
+
+- <img src="./images/basics/open-mat-library.png">
+
+# 2d
+
+## view layer output on UV
+
+- <img src="./images/basics/view-2d-image-uv.png">
+- first enable the the `2d image view`
+- right click on any layer
+- select `view output for current channel`
