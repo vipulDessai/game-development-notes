@@ -27,3 +27,7 @@
     - foreground is that glass layer
 - divide
   - needs non pure white in the foreground and background
+
+**Note:** 
+- overlay and multiply help keep multiple blends hue synced
+- <img src="./images/blend-nodes/multiply-overlay-blend-mode-note.png">

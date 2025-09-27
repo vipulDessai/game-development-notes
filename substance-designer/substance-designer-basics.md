@@ -108,11 +108,36 @@
 
 - <img src="./images/basics/env-settings.gif">
 
+# parameters
+
+to see all the input and output parameters
+
+- <img src="./images/basics/all-input-output-params.png">
+- double click anywhere which is not a node or frame
+
+## expose parameters
+
+- <img src="./images/basics/expose-node-params.gif">
+- select node -> right click -> manage parameters -> expose parameters
+- or
+- <img src="./images/basics/expose-params-via-props.gif">
+- expose via property panel
+
+## rename parameters
+
+- <img src="./images/basics/rename-params.png">
+
+## preview the material params
+
+- <img src="./images/basics/preview-input-params.png">
+
 # export
 
 ## material
 
 - <img src="./images/basics/publish-material.gif">
+- or from explorer
+- <img src="./images/basics/expose-mat-from-explorer.gif">
 
 ## alpha (for substance painter brush)
 
