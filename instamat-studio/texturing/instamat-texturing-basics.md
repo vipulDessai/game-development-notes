@@ -19,3 +19,15 @@
 - first enable the the `2d image view`
 - right click on any layer
 - select `view output for current channel`
+
+# 3d
+
+## cycle maps
+
+- press c
+
+### switch to PBR (restore lights and env)
+
+- <img src="./images/basics/switch-back-to-pbr.gif">
+- go to the viewport settings
+- switch from solo material to PBR

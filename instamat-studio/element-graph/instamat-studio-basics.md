@@ -161,3 +161,7 @@ use the reroute image node
 so that exporting is structured format
 
 `TODO` - notes
+
+## export and use in other projects
+
+`TODO` - how to expose element graph as brush to other projects in the same or different packages

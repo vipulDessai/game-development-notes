@@ -18,6 +18,14 @@
 - select the layer
 - click the menu button and choose mask type
 
+## add filter
+
+- <img src="./images/layers/layer-add-filter.png">
+
+## add effects
+
+- <img src="./images/layers/layer-add-effects.png">
+
 # material
 
 ## add
@@ -32,10 +40,42 @@
 
 ## view mask
 
-- `TODO`
+- right click on mask -> `view output for current channel`
 
 ## invert mask
 
 - <img src="./images/layers/invert-mask.gif">
 - goto mask property
 - toggle invert
+
+## mask builder
+
+### adjust contrast
+
+adjusts the gradient's fading between point A and B
+
+- <img src="./images/layers/mask-builder-gradient-contrast.gif">
+- adjust -> gradient -> contrast
+
+# brush layer
+
+- <img src="./images/layers/add-brush-layer.gif">
+- to change the brush pattern -> from the mat library -> double click on any `paintbrush/templates`
+
+## change brush texture
+
+- <img src="./images/layers/change-brush-texture.gif">
+- **note:** if nothing is visible then switch off the "user library content"
+
+## brush side panel
+
+- <img src="./images/layers/brush-layer-side-panel.png">
+
+## enable tablet
+
+- <img src="./images/layers/for-tablet-brusg.png">
+
+## shortcuts
+
+- draw line - hold shift and drag
+- z - eraser
