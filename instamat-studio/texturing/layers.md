@@ -79,3 +79,9 @@ adjusts the gradient's fading between point A and B
 
 - draw line - hold shift and drag
 - z - eraser
+
+## basic settings
+
+- <img src="./images/layers/basic-brush-layer-settings.png">
+- set the position, space to 0, otherwise the brush strokes are displaced
+- increase the opacity to view brush more
