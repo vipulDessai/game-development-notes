@@ -26,3 +26,18 @@ control the direction of dripping like effect
 ## works better with
 
 - sloped fractal sum
+
+# guided scatter
+
+- <img src="./images/effects-nodes/guided-scatter.png">
+
+## count
+
+- enable the "mask input" and "scale input" in the node property panel
+- <img src="./images/effects-nodes/guided-scatter-count.gif">
+- count property increases the density in the of the input shape in the given area limited by the mask
+- scale input gradient affects the clutter disttribution
+
+## random color
+
+- <img src="./images/effects-nodes/guided-clutter-shape-random-greyscale.png">

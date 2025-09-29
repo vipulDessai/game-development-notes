@@ -32,6 +32,11 @@
 - adjust camera - alt + left click and move move
 - adjust light - shift + right click and move mouse
 
+### view output in 3d view
+
+- <img src="./images/basics/view-immediate-output.png">
+- out of the final node that you want to see in the 3d view, drag the `Output` pin and select `Expose 'Output' as graph output`
+
 ### mesh
 
 - <img src="./images/basics/change-3d-view-rendered-mesh.png">
@@ -164,4 +169,13 @@ so that exporting is structured format
 
 ## export and use in other projects
 
-`TODO` - how to expose element graph as brush to other projects in the same or different packages
+- <img src="./images/basics/expose-brush-p1.gif">
+- expose the node output pin
+- set the project type as "Paintbrush/Mask"
+
+### use the brush
+
+- <img src="./images/basics/use-project-brush-as-mask.gif">
+- in the multi channel brush layer, change the mask
+- to view the brush from the current package, click on `Show objects from current package`
+- now if you modify the element graph of the brush and come back to texture project, the modified brush output will be available

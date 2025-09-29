@@ -19,3 +19,14 @@ for brick size and gap between nodes
 ## color
 
 adjust inputs -> luminance -> variance
+
+# shape generator
+
+lets you create different shapes like, polygon, circle etc
+
+- search brick in the graph (press space)
+- <img src="./images/shape-nodes/shape-generator.png">
+
+## rings
+
+- <img src="./images/shape-nodes/rings-shape-gen.png">

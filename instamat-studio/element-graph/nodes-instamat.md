@@ -75,3 +75,13 @@ use `flood fill to mask`
 - add a `flood fill to color`
 - connect it to "greyscale to color", so that it can be plugged in to blend node
 - now adjusting the `seed` of `flood fill to color` will generate random colors
+
+# grayscale to mask
+
+Grayscale to Mask node converts a grayscale image into a binary or soft mask that can be used to control layer influence, effects, or material properties
+
+## how to use
+
+say both shape and soft shape are needed in one node, ex a guided clutter with "mask input" and "scale input"
+
+- <img src="./images/nodes/greyscale-to-mask-application.png">
