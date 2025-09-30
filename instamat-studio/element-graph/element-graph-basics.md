@@ -167,13 +167,17 @@ so that exporting is structured format
 
 `TODO` - notes
 
-## export and use in other projects
+## export and use in other projects (Non PBR)
 
 - <img src="./images/basics/expose-brush-p1.gif">
 - expose the node output pin
 - set the project type as "Paintbrush/Mask"
 
-### use the brush
+## export and use in other projects (PBR)
+
+- `TODO`
+
+## use the brush
 
 - <img src="./images/basics/use-project-brush-as-mask.gif">
 - in the multi channel brush layer, change the mask

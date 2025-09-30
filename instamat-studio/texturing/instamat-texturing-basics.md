@@ -31,3 +31,8 @@
 - <img src="./images/basics/switch-back-to-pbr.gif">
 - go to the viewport settings
 - switch from solo material to PBR
+
+## hide a mesh or material
+
+- <img src="./images/basics/hide-mesh.png">
+- click on the x button
