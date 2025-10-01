@@ -30,3 +30,7 @@ lets you create different shapes like, polygon, circle etc
 ## rings
 
 - <img src="./images/shape-nodes/rings-shape-gen.png">
+
+# Hexagon patterns atom
+
+- <img src="./images/shape-nodes/hexagon-pattern-atom.png">

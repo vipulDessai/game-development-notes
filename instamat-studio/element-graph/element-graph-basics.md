@@ -183,3 +183,11 @@ so that exporting is structured format
 - in the multi channel brush layer, change the mask
 - to view the brush from the current package, click on `Show objects from current package`
 - now if you modify the element graph of the brush and come back to texture project, the modified brush output will be available
+- make sure all the maps are used in the layer channel
+- <img src="./images/basics/brush-maps-check-all-used.png">
+
+### settings
+
+#### softness is like photoshops opacity
+
+- <img src="./images/basics/brush-softness-like-ps-opacity.png">

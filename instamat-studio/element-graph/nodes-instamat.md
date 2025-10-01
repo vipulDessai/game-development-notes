@@ -73,7 +73,7 @@ use `flood fill to mask`
 - <img src="./images/nodes/flood-fill-to-random-greyscale.png">
 
 - add a `flood fill to color`
-- connect it to "greyscale to color", so that it can be plugged in to blend node
+- connect it to `greyscale to color`, so that it can be plugged in to blend node
 - now adjusting the `seed` of `flood fill to color` will generate random colors
 
 # grayscale to mask
