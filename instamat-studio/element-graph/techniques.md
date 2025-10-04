@@ -89,3 +89,7 @@
 - use normal to curvature with radius around 0.17
 - use concave output with blend mode subtract, foreground H0 S0 V0.094
 - use convex output with blend mode overlay, foreground H0 S0 V0.95
+
+# scratches
+
+`TODO` - scratches from tile sampler greyscale from SD

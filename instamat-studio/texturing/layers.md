@@ -57,6 +57,13 @@ adjusts the gradient's fading between point A and B
 - <img src="./images/layers/mask-builder-gradient-contrast.gif">
 - adjust -> gradient -> contrast
 
+### select sharp curves (AO)
+
+- <img src="./images/layers/select-sharp-corners.gif">
+- global invert is off
+- AO - increase the opacity
+- AO - invert - off
+
 # brush layer
 
 - <img src="./images/layers/add-brush-layer.gif">

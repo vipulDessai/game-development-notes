@@ -72,11 +72,11 @@
   - size ramdom
     - adjust as required
   - scale - 3.71
-  - scale ramdom -
+  - scale ramdom - 0.52
 - Position
   - position random - 3.15
 - rotation
-  rotation random - 0.23
+  - rotation random - 0.23
 - color
   - mask random - 0.4
   - color random - 0.4
