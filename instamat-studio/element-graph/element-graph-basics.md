@@ -186,6 +186,8 @@ so that exporting is structured format
 - make sure all the maps are used in the layer channel
 - <img src="./images/basics/brush-maps-check-all-used.png">
 
+**Note:** while using the brush if the new input params are not visible, then make sure all the projects are saved
+
 ### settings
 
 #### softness is like photoshops opacity
