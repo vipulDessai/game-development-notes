@@ -423,7 +423,7 @@ merges two vertices when they are moved nearer
   - to adjust the merge radius
 - <img src="./images/adjust-auto-merge-threshold.png" />
 
-### unmerge
+### unmerge (seperate or disjoin)
 
 - <kbd>V</kbd>
 
