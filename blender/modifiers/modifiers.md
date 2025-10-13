@@ -2,6 +2,8 @@
 
 ## order of modifer
 
+the bottom most modifier will have all the effect of modifiers above ones
+
 - mirror
 - subdiv
 
