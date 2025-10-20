@@ -199,7 +199,9 @@ to move legs, arms like FK
 - set the texture
 - stroke method to anchored
 - set the strength to 1
-- <img src="./images/import-vdm-brush-settings.png" />
+- <img src="./images/brush/import-vdm-brush-settings.png" />
+- set the brush hardness to 0.9
+- <img src="./images/brush/vdm-import-brush-hardness.png" />
 
 # mask filter
 
