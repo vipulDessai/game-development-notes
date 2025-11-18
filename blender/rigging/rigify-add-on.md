@@ -18,7 +18,7 @@
 ## apply to all the selected bones
 
 - select the bones
-- change the `bone rotataion axis` as per the above step
+- change the `bone rotation axis` as per the above step
 - right click as shown in below images (the red marked)
 - <img src="./images/bend-bone-rotation-copy-selected.jpg" alt="bend-bone-rotation-copy-selected" />
 - select `Copy to selected`
