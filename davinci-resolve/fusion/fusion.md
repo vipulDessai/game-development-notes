@@ -134,3 +134,27 @@
 - right click and "add to media pool as matte"
 - <img src="./images/imported-video-as-matte.png" />
 - now the imported media in the pool will have this icon on it
+
+## Expose or reusable fusion
+
+### as nodes
+
+- <img src="./images/fusion-save-node-settings.png" />
+- select the nodes, right click -> settings -> either save all as or save as
+- this creates .setting file that can draged and droped in the davinci fusion to get the nodes
+
+### as macros
+
+this will hide the nodes and create a single node and that cant be edited
+
+- right click on the node and go to macro -> create macro
+- <img src="./images/macro-select-node.png" />
+- give name and check box the ones that you want to expose in the macro
+- <img src="./images/macro-select-node-settings.png" />
+- save it -> click on the 3 dots above
+  - it saves it as \*.setting
+  - later we have to move it to `C:\Users\<user name>\AppData\Roaming\Blackmagic Design\DaVinci Resolve\Support\Fusion\Templates\Edit\Titles`
+    - create the folder if it doesnt exist
+  - restart the davinci
+- you should be able to see it in effects
+- <img src="./images/macro-in-efffect-lib.png" />
