@@ -1,5 +1,11 @@
 # **Fairlight Audio**
 
+## viewport
+
+### adjust audio clip waveform height
+
+- <img src="./images/viewport-adjust-audio-clip.png" />
+
 ## Tip
 
 - if there is so much of noise, them final result will have low volume, that why add music to fill noise up
