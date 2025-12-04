@@ -51,3 +51,15 @@
 - click on dynamics
 - flip to gate
 - set the threshold - this cuts any sound that is under this value
+
+# Recording
+
+- add the track - in this example we have audio track 4
+- then go to fairlight menu -> patch input/output
+- <img src="./images/fairlight-menu.png" />
+- switch to list view
+- source should be audio inputs and destination should be track input
+- <img src="./images/patch-input-output.png" />
+- select the track and press the "R" button
+- <img src="./images/arm-the-track-press-r-button.png" />
+- now when record button is pressed a new audio clip will be added
