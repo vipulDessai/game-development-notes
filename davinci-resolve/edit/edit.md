@@ -110,7 +110,9 @@ fine time key frame animation or transitions, add bezier curve, ease in / out et
 - drag the filter (ex. Guassian Blur) to clip
 - now the effects under inspector will appear
 
-## Speed controls (timelapse effect) - retime controls
+## Speed controls
+
+### retime controls (can create timelapse effect)
 
 - right click on the clip
 - <img src="./images/retime-controls.png" />
@@ -120,7 +122,7 @@ fine time key frame animation or transitions, add bezier curve, ease in / out et
 - add speed point
 - <img src="./images/retime-add-speed-point.png" />
 
-### increase the speed
+#### increase the speed
 
 - click on the arrow next to 100%
 - increase the speed by 400% or anything
@@ -129,6 +131,16 @@ fine time key frame animation or transitions, add bezier curve, ease in / out et
 - later adjust the clips
 - <img src="./images/speed-a-portion-of-clip.png" />
 - once satisfied we can close the retime controls by right click on the clip and click on "Retime Controls"
+
+### freeze the clip
+
+- first split the clip, press <kbd>b</kbd> to select cut tool
+- <img src="./images/freeze-first-split-clips.png" />
+- right click and Change clip speed
+  - enable freeze frame and stretch to fit
+- <img src="./images/freeze-change-clip-speed.png" />
+- stretch the clips and adjust
+- <img src="./images/freeze-change-time-extend.png" />
 
 ## link clips or audio or unlink them
 
