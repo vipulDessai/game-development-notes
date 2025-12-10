@@ -1,5 +1,6 @@
 # Node JS
 node_modules
+package-lock.json
 
 # vs code
 .vscode
