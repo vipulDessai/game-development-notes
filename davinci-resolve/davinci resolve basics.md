@@ -11,6 +11,13 @@
 - k to pause
 - j for reverse speed up
 
+## select custom clip length in timeline
+
+- <img src="./images/select-tmp-timeline-loop.png">
+
+- press x
+- press alt + x to select entire timeline
+
 ## TODO
 
 - [] - learn how to blur or mask portion on video clip
