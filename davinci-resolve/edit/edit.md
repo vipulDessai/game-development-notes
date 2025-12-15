@@ -2,6 +2,13 @@
 
 used for cliping the imported audio and video
 
+## Shortcuts
+
+- to select cursor - press A
+- to select cut tool - press B
+- to select timeline slider - hover over the timeline - press C
+- to disable a clip, select it - press D
+
 ## Interface
 
 ### switch between animated and source clips
@@ -40,6 +47,15 @@ used for cliping the imported audio and video
 
 - to apply video zoom, rotate, etc
 - <img src="./images/edit-transforms-panel.png" />
+
+## clip edit
+
+### trimming
+
+- <img src="./images/trim-off-clip-part.gif" />
+- use the cut tool (press b)
+- mark a cut
+- extend and shrink the clip
 
 ## key frames
 

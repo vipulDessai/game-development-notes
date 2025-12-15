@@ -1,6 +1,6 @@
 # **Davinci resolve**
 
-## documention
+## where to find documention
 
 - <img src="./images/docs-link.png">
 - Help -> Documentation -> Developer
