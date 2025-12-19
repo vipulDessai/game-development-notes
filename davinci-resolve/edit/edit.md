@@ -11,6 +11,11 @@ used for cliping the imported audio and video
 
 ## Interface
 
+### full screen
+
+- ctrl + f
+- ctrl + f or ESC to exit
+
 ### switch between animated and source clips
 
 - <img src="./images/edit-switch-animated-to-source.png" />

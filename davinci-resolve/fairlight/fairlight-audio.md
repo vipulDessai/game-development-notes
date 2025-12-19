@@ -6,11 +6,19 @@
 
 - <img src="./images/viewport-adjust-audio-clip.png" />
 
-## Tip
+### add points
 
-- if there is so much of noise, them final result will have low volume, that why add music to fill noise up
+- <img src="./images/mark-level-points.png" />
+- hover over the gain line and press alt and click
 
-## preparations
+#### move the marked points horizontally
+
+- click on the marked point
+- without moving mouse press shift and then move the point
+
+# preparations
+
+## youtube audio standards
 
 - right click on the audio clip and [unlink them if possible](./edit.md#link-clips-or-audio-or-unlink-them)
 - right click and select "`Normalize audio levels`"
@@ -38,7 +46,11 @@
 
 - restoration -> noise reduction
 
-### learn
+### Tip
+
+- if there is so much of noise, them final result will have low volume, that why add music to fill noise up
+
+### learn noise
 
 - use `learn` before using the setting, to capture the noise frequencies
 - <img src="./images/effects-noise-reduction-learn.png" />
