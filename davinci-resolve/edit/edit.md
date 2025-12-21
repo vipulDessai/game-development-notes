@@ -46,6 +46,12 @@ used for cliping the imported audio and video
 - right click -> new compound clip
 - give name and save
 
+#### edit compound clip
+
+- <img src="./images/edit-compound-clip-as-timeline.png" />
+- right click
+- open in timeline
+
 ### inspector
 
 #### Transforms
