@@ -1,10 +1,12 @@
 # **Zbrush**
 
+# shortcuts
+
+- o -> adjust brush focal length
+- s -> brush size
+- u -> intensity
+
 # Interface
-
-## tools
-
-<img src="./images/save-import-export-tool.png">
 
 ## zoom
 
@@ -12,7 +14,7 @@ press alt and click and let go alt
 
 ## change brush settings
 
-like strength or size
+like strength or size, also works with smooth brush
 
 - press space
 
