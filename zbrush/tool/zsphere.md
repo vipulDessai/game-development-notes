@@ -20,7 +20,16 @@
 - draw mode - Q
 - enable symmetry - x
 - move the move to the center so that red cursor turns green and click
+- <img src="./images/zsphere/center-of-zsphere.png">
 
 ## preview mesh
 
 - press a
+
+## make mesh
+
+- <img src="./images/zsphere/make-mesh-from-zsphere.png">
+
+### use right one
+
+- <img src="./images/zsphere/use-right-mesh-from-zshpere.png">
