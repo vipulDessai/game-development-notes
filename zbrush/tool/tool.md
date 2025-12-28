@@ -13,6 +13,25 @@
 
 - <img src="./images/subdiv-no-smooth.png">
 
+### enable 100M polygons
+
+- first exhaust max subdivs
+- go to tool -> geometry hd
+- first do divide HD
+- then hover over mesh and press a
+- <img src="./images/enable-hd-geo.png">
+
+#### maintain symmetry
+
+- switch the camera to the side
+- hover over the area
+- <img src="./images/hd-geo-symmetry.png">
+- press a
+
+#### maintain hd geometry while rendering
+
+- render -> render properties -> HDGeometry
+
 ### how to use dynmesh or zmesher
 
 - first uncheck `freeze sub division levels`
@@ -20,6 +39,17 @@
 - now we are ready to apply dynamesh and apply it (watch tutorial - https://zclassroom.com/zclassroom/lesson/subdividing - 02:48)
 - check `freeze sub division levels`
   - now the zbrush should recalculate or merge the details
+
+### dynamesh
+
+used for blockout, same as remesh in blender
+
+- enable from tool -> geometry -> dynamesh -> dynamesh
+- later hold ctrl and drag and release mouse
+
+#### maintain polygroups without merging
+
+- enable tool -> geometry -> dynamesh -> groups
 
 # masking
 
