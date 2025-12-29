@@ -67,3 +67,14 @@ its for the tool level symettry, otherwise its global
 ### snap the gizmo to the world
 
 - pin button
+
+# help
+
+- hover over any tool and press ctrl
+
+## link
+
+- [Cineversity](https://cineversity.maxon.net/en/learn?filter=Tutorials)
+- [#AskZBrush](https://pixologic.com/zbrushlive/category/askzbrush/)
+- [zbrush.info](https://zbrush.info)
+- [zbrush.live]
