@@ -6,6 +6,26 @@
 - s -> brush size
 - u -> intensity
 
+# document
+
+- <img src="./images/what-is-zbrush-doc.png">
+
+## size
+
+- <img src="./images/new-doc-size.png">
+
+## screenshots
+
+- <img src="./images/zbrush-screenshot-ex.png">
+- shift + s
+
+### clear or document -> new document
+
+- ctrl + n
+- click and drag the mouse
+  - to insert mesh
+- make sure edit mode is on
+
 # Interface
 
 ## zoom
@@ -67,6 +87,15 @@ its for the tool level symettry, otherwise its global
 ### snap the gizmo to the world
 
 - pin button
+
+### duplicate
+
+- <img src="./images/duplicate-mesh.png">
+- press ctrl and drag along any axis
+
+## mesh paint
+
+- <img src="./images/show-paint-or-not.png">
 
 # help
 
