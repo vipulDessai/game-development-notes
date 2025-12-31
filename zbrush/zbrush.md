@@ -97,6 +97,38 @@ its for the tool level symettry, otherwise its global
 
 - <img src="./images/show-paint-or-not.png">
 
+# floor
+
+## switch x y or z axis
+
+- <img src="./images/floor-axis.png">
+
+## reference images
+
+- <img src="./images/enable-reference-img.png">
+- under draw menu enable the floor
+- add the front Back and left right reference images
+- adjust as required (crop)
+- you can also use snap -> snap to mesh
+  - to adjust the size of the reference images to mesh
+
+### see same image even from behind
+
+- draw -> front back -> one
+
+### see image at the front and fill mode
+
+- <img src="./images/enhanced-fill-mode.png">
+- enhanced fill mode is enabled once the fill mode is set to 3
+- it also enables the front projection of images
+
+### snapshot images to grid
+
+- <img src="./images/snap-mesh-to-grid.png">
+- select all or any of [floor axis](./zbrush.md#switch-x-y-or-z-axis)
+- draw -> "Snapshot to grid"
+- produces images for the floor
+
 # help
 
 - hover over any tool and press ctrl
