@@ -12,6 +12,10 @@
 
 - switch to paintbrush (rgb brush) and paint
 
+### hide paint
+
+- Tool > Polypaint > Colorize
+
 ## use spotlight as reference images
 
 - <img src="./images/spotlight/use-spolight-as-referernce-img.png">
