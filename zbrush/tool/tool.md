@@ -95,3 +95,11 @@ used for blockout, same as remesh in blender
 
 - <img src="./images/enable-wireframe.png">
 - prefereneces -> draw -> poly fill -> lower the slider
+
+# seperate or extract
+
+- apply mask
+- tool -> subtool -> extract
+- to prewiew "Extract"
+- <img src="./images/extract-masked-selection.png">
+- press accept
