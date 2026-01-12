@@ -50,6 +50,10 @@
 - <img src="./images/polymesh3d-convert.png">
 - use tool -> PolyMesh3D
 
+##### unfreeze crashes with dynamesh
+
+- lower the dynamesh resolution
+
 ### dynamesh
 
 used for blockout, same as remesh in blender
