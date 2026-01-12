@@ -28,6 +28,13 @@
 
 # Interface
 
+## save config
+
+say we have menus set as tray in zbrush and want to retain it everytime zbrush is opened
+
+- preferences -> config -> save configs
+- <img src="./images/save-interface.png">
+
 ## zoom
 
 press alt and click and let go alt

@@ -32,13 +32,23 @@
 
 - render -> render properties -> HDGeometry
 
-### how to use dynmesh or zmesher
+### how to use dynmesh or zmesher after applying subdivs
 
-- first uncheck `freeze sub division levels`
+- first uncheck `Freeze sub division levels`
 - <img src="./images/apply-dynamesh.png">
 - now we are ready to apply dynamesh and apply it (watch tutorial - https://zclassroom.com/zclassroom/lesson/subdividing - 02:48)
 - check `freeze sub division levels`
   - now the zbrush should recalculate or merge the details
+
+#### unfreeze
+
+- make sure the polycount of dynamesh is not more than 3 Millions
+- then click on `Freeze sub division levels`
+
+##### discard unfreeze
+
+- <img src="./images/polymesh3d-convert.png">
+- use tool -> PolyMesh3D
 
 ### dynamesh
 
