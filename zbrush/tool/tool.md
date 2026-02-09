@@ -102,7 +102,8 @@ used for blockout, same as remesh in blender
 ## paint polygroup
 
 - first paint mask
-- ctrl + w
+- ctrl + w 
+  - this creates a polygroup from painted mask area
 - to isolate - ctrl shift click on polygroup, same for invert
 
 ### see only wireframe

@@ -17,6 +17,7 @@
 - <img src="./images/vdm-brush-creation.png">
     - select the Chisel3D brush
     - go to brush -> create -> create MultiAlpha Brush
+    - also position the plane facing straight, there should not be any misalignment w.r.t to the canvas
     - make sure the BrushAlpha has only the extruded or scultped area as white gradient
     - also the alpha should have 3D on it, otherwise there the undercut details will be lost
         - this can happen if we try to generate the brush from NON grid plane
@@ -34,7 +35,7 @@
 ## save brush
 
 - brush -> save as
-- C:\Program Files\Maxon ZBrush 2026\ZData\BrushPresets
-- save
+- `C:\Program Files\Maxon ZBrush 2026\ZData\BrushPresets`
+- save as `.zbp`
 - note that the brush pallete will now replace the Chisel3D with new brush
 - <img src="./images/reset-brush-pallete.png">
