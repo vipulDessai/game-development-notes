@@ -95,6 +95,18 @@ used for blockout, same as remesh in blender
 
 - tool -> polygroup
 
+## hide polygroups
+
+- click on any polygroup - this make clicked polygroup only visible
+- click on it again - this will hide it and will make rest all visible
+- click on the polygroups which needs to be hidden
+- now keep only the ones are needed
+
+## group 2 polygroups
+
+- refer - [hide polygroups](./tool.md#hide-polygroups)
+- tool -> polygroups -> group visible
+
 ### reset or paint single polygroup
 
 - tool -> polygroup -> group visible
@@ -102,7 +114,7 @@ used for blockout, same as remesh in blender
 ## paint polygroup
 
 - first paint mask
-- ctrl + w 
+- ctrl + w
   - this creates a polygroup from painted mask area
 - to isolate - ctrl shift click on polygroup, same for invert
 
