@@ -39,3 +39,12 @@
 - save as `.zbp`
 - note that the brush pallete will now replace the Chisel3D with new brush
 - <img src="./images/reset-brush-pallete.png">
+
+# Noise Maker
+
+lets us create procedural patterns
+
+- brush -> Surface
+- <img src="./images/brush-noise-maker.png">
+- most important setting is offset, set it negetive
+- adjust curves (histogram) as required

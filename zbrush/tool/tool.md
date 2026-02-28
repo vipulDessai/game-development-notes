@@ -130,3 +130,16 @@ used for blockout, same as remesh in blender
 - to prewiew "Extract"
 - <img src="./images/extract-masked-selection.png">
 - press accept
+
+# layers
+
+## start
+
+- tools -> layers -> new
+- pause recording, adjust the intensity
+- press record to resume
+- <img src="./images/layers-record-resume.png">
+
+## Bake
+
+- stop recording of all layers then only apply "Bake All"
