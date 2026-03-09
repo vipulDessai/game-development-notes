@@ -31,3 +31,15 @@ https://github.com/DreamTechAI/Direct3D-S2
 # software alternatives
 
 - substance painter and designer - [InstaMat](https://instamaterial.com/)
+
+# Issues
+
+## if the cavities appear inwards or outwards oddly
+
+- make sure the openGL or directX is configured properly before maps export
+- <img src="./images/opengl-directx-config.png">
+- 3d software requirement
+  - unreal - direct x
+    - but if the gltf will be setup in blender, then export from the first software as openGL
+    - the target software while importing will re process it later
+  - blender - openGL
