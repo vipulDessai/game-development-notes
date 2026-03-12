@@ -19,7 +19,7 @@
 
 ## clone
 
-git clone --branch release --depth 1 <repo-url>
+git clone --branch release --depth 1 https://github.com/EpicGames/UnrealEngine.git
 
 ## pull
 
