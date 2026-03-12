@@ -14,3 +14,19 @@
 - set the solution configuration to Development Editor and solution platform to win64
 - <img src="./images/vs-configs-post-cleanup.png">
 - start build and wait till the editor is up and running
+
+# git repo
+
+## clone
+
+git clone --branch release --depth 1 <repo-url>
+
+## pull
+
+git pull origin release --allow-unrelated-histories --depth 1 
+
+## Check repo
+- open cmd
+- navigate to unreal source files
+- to run the bat file simply use the .bat file name
+- Setup.bat
