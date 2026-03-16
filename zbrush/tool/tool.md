@@ -123,6 +123,15 @@ used for blockout, same as remesh in blender
 - <img src="./images/enable-wireframe.png">
 - prefereneces -> draw -> poly fill -> lower the slider
 
+# Polypaint
+
+## hide / show
+
+- <img src="./images/polypaint/show-hide-polypaint.png">
+- set the gradient, so that we can switch
+- now in the tool right side panel in sub tool section, enable the paint and paint
+- then press on the paint button, the mesh if turned black then press 'v' to switch
+
 # seperate or extract
 
 - apply mask
