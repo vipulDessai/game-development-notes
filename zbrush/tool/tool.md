@@ -131,6 +131,11 @@ used for blockout, same as remesh in blender
 - <img src="./images/extract-masked-selection.png">
 - press accept
 
+# delete
+
+- shift + ctrl and select the area that is to be kept
+- Go to Tool > Geometry > Modify Topology > Delete Hidden
+
 # layers
 
 ## start
