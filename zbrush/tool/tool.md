@@ -118,6 +118,11 @@ used for blockout, same as remesh in blender
   - this creates a polygroup from painted mask area
 - to isolate - ctrl shift click on polygroup, same for invert
 
+### smoothen polygroup
+
+- <img src="./images/polypaint/smoothen-polypaint.png">
+- use tool -> deformation -> polish by groups
+
 ### see only wireframe
 
 - <img src="./images/enable-wireframe.png">

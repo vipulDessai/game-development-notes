@@ -1,68 +1,27 @@
 # metahuman
 
-## enable the plugin
+## enable
 
-- search for metahuman sdk and check it
-- restart unreal
+- metahuman core
+- in the content browser create metahuman character instance
+  - right click -> metahuman -> metahuman character asset
+- rig, download textures, assemble (this creates the blueprint)
 
-## add from quixel bridge
+## Export Mesh (USDC workflow)
 
-- <img src="./images/quixel-bridge.png">
-- open quixel bridge -> metahumans -> meta humans
-- click on download
-- in content browser open Metahumans -> `<your metahuman name>`
-- try adding it to the floor mesh
-- install all the missing plugins
-- restart
+- locate skeletal mesh body and head
+- right click on the skeletal mesh (body)
+- export as \*.usdc
+- <img src="./images/export-mh-574-usdc-settings.png">
+- import the head and body
+- go to edit mode -> rename the material (press select in material panel to highlight vertices)
 
-## open blueprint
+### fix for black eyes
 
-- <img src="./images/open-metahuman-bluprints.png">
+- locate the eye material
+- in principle BSDF lower the alpha to 0
 
-## remove footwear or sandle or chappel
-
-- <img src="./images/reset-metahuman-footwears.png">
-- click on the reset button
-
-## export textures
-
-- <img src="./images/metahuman-face-mesh.png">
-- locate the face mesh material in content browser
-- open material
-- <img src="./images/metahuman-face-material.png">
-- locate the color and normal map
-  - there should be 4 color and 4 normal (rest 2 ignore)
-- <img src="./images/metahuman-body-mesh.png">
-- locate and download its base body color and normal map
-
-## export mesh
-
-### combined face + body
-
-- add the metahuman to the map (floor)
-- reset its location in the details panel
-- add a level sequencer
-- <img src="./images/add-bp-to-sequencer.png">
-- add the mesh to the sequencer
-- <img src="./images/metahuman-in-sequencer.png">
-- right click on `BP_*` -> "Export..."
-- <img src="../basics/images/export-setting-level-sequencer.png">
-
-### seperate (body and face as seperate)
-
-<b>Note: </b> dificult to edit face
-
-- open content browser -> all -> content -> metahumans -> `<your metahuman name>` -> body -> Skeletal Mesh - `*_nrw_body`
-- right click -> Asset Actions -> Export
-- <img src="./images/export-settings.png">
-- also repeat for the face - Skeletal Mesh `*_Face_Mesh`
-
-## convert (to retain the shape keys)
-
-- open autodesk fbx convert
-- <img src="./images/autodesk-fbx-converter.png">
-
-## import in blender
+## edit in blender
 
 ### basic face edit (retain the bones)
 

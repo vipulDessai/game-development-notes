@@ -48,3 +48,31 @@ lets us create procedural patterns
 - <img src="./images/brush-noise-maker.png">
 - most important setting is offset, set it negetive
 - adjust curves (histogram) as required
+
+# Curve Tube
+
+- once the curve is drawn the rest of the mesh is masked to avoid contact, fusing
+- use smooth (add operation) to make it smaller
+- use smooth (subtract) to make it big
+- use move elastic brush for smoother bending the tube
+
+## seperate or split the tubes as a seperate mesh
+
+- tool -> sub tools -> split -> splits to similar parts
+
+## duplicate curve tubes
+
+- adjust the gizmo
+- press control and drag to make another
+- <img src="./images/curve-tube-duplicate.png">
+- make sure transpose all is off
+
+## Issues
+
+### sticking to the surface
+
+- picker -> depth -> once z
+
+### if the tubes are bigger
+
+- make sure the mesh is big enough

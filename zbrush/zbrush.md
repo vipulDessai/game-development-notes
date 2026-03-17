@@ -85,7 +85,7 @@ its for the tool level symettry, otherwise its global
 - press alt and click on round arrow
 - without alt it will reset the mesh as well
 
-### move all subtools
+### move all subtools (multiple subtools at once)
 
 - first select any mesh
 - click on list button
