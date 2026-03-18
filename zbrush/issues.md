@@ -8,3 +8,6 @@
 
   - shift + ctrl -> lasso selection
   - select smaller portion with < 30M polycount
+
+- symmetry pivot is not at the center
+  - adjust the geometry -> position -> x axis only
