@@ -2,6 +2,12 @@
 
 <img src="./images/save-import-export-tool.png">
 
+# subtools
+
+## switch
+
+- N
+
 # sub div
 
 - brush effect applied at any level is carried forward and backward
@@ -136,6 +142,12 @@ used for blockout, same as remesh in blender
 - set the gradient, so that we can switch
 - now in the tool right side panel in sub tool section, enable the paint and paint
 - then press on the paint button, the mesh if turned black then press 'v' to switch
+
+# merge
+
+- subtool -> merge
+- select the top most subtool
+- merge down
 
 # seperate or extract
 
