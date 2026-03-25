@@ -29,3 +29,9 @@ lets you export independent clip, that can be used somewhere else
     - give suffix if needed
     - click on "Add to Render Queue"
     - click on "Render All"
+
+## export as audio only
+
+- <img src="./images/audio-only-export.png" />
+- at the top select preset as "Audio Only"
+- if there are multiple audio tracks with multiple clips with gaps, then combine them into 1

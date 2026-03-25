@@ -18,6 +18,8 @@
 - press x
 - press alt + x to select entire timeline
 
+- pressing `i` marks start near the cursor line and pressing `o` marks the end
+
 # Workflow
 
 ## Use Compound Clips
