@@ -62,3 +62,11 @@ We get the error because the scales are different </br>
   - especially `Scale`
 - or
 - press <kbd>CTRL</kbd> + <kbd>A</kbd>
+
+# Assets Outliner
+
+## delete textures
+
+- <img src="./images/delete-textures.png" />
+- the textures created in the project can be viewed in outiliner -> blender file -> `<location>`
+- under textures

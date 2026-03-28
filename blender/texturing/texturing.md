@@ -44,12 +44,24 @@ Change its texture pattern
 
 - <img src="./images/texture-overlay-bake.jpg" alt="texture-overlay-bake" width="500" />
 
-## add drawing image overlay on 3d mesh
+## add stencil overlay for brush
 
-- After the texture is selected in texture for the mesh
-  - open mesh texture
-  - select `open`
-  - select the `unwrapped face texture`
+- Go to brush -> brush settings -> texture -> `+ New`
+- rename (optional)
+- click on the `texture tab` button (which takes you to the texture tab)
+- <img src="./images/open-texture-tab.png" />
+- select `open` -> select the image
 - <img src="./images/in-mesh-texture-select-image.jpg" alt="in-mesh-texture-select-image" />
 - <img src="./images/image-stencil-overlay.jpg" alt="image-stencil-overlay" />
-- select `stencil`
+- go back to brush settings -> mapping -> select `stencil`
+
+### select existing
+
+if the texture is already created for the brush (in brush settings -> textures), then no need to click on the `+ New` button under texture
+
+- go to textures
+- select Brush
+- <img src="./images/texture-brush-existing-texture.png" />
+- select exiting texture
+- <img src="./images/texture-brush-existing-texture-select-file.png" />
+- now you can go back to brush settings and change texture -> mapping -> stencil (if required)
