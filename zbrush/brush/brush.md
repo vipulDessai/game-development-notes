@@ -56,6 +56,33 @@ lets us create procedural patterns
 - use smooth (subtract) to make it big
 - use move elastic brush for smoother bending the tube
 
+## create tube on mesh with sub div (trick)
+
+- place a dummy cube
+- tool -> intialize -> QCube
+- picker -> cont Z
+- with the `dummy qube` selected, if we try to draw on the actual mesh with sub div, the curves will follow the `sub div` mesh
+
+## snap distance or join or contineous
+
+- <img src="./images/curve-snap-distance.png">
+- stroke -> curve modifier -> Curve snap distance
+
+## multi curve and edit the size
+
+- <img src="./images/multi-edit-curve-size.gif">
+- keep the curve active (i.e. do not bake or cancel by clicking outside the curves)
+- stroke -> curve modifiers
+- enable size
+- adjust the graph and click on the active curves
+
+## create new tube (cancel the curve)
+
+- <img src="./images/create-new-curve.gif">
+- after drawing the tube click outside on the parent mesh
+- or go to stroke -> curve function -> delete
+- now u can drag a new tube
+
 ## seperate or split the tubes as a seperate mesh
 
 - tool -> sub tools -> split -> splits to similar parts
