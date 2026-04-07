@@ -35,6 +35,19 @@ say we have menus set as tray in zbrush and want to retain it everytime zbrush i
 - preferences -> config -> save configs
 - <img src="./images/save-interface.png">
 
+## customization
+
+- bottom tray cant be used to store menus
+- but preferences -> config -> enable customization
+- this enable two placeholders
+- to increase their size simply drag and drop a temporary buttom from anywhere
+  - press ctrl + alt and drag those button
+  - example a big button like brush button
+- now place anybutton from any menu
+- remove the big button if not required
+- preferences -> config -> enable customization (to disable)
+- preferences -> config -> store config
+
 ## zoom
 
 press alt and click and let go alt
