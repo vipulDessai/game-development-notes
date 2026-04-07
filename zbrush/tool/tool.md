@@ -149,6 +149,10 @@ used for blockout, same as remesh in blender
 - select the top most subtool
 - merge down
 
+## merge visible
+
+- to merge all and create a new group
+
 # seperate or extract
 
 - apply mask
