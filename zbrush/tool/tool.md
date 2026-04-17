@@ -129,6 +129,10 @@ used for blockout, same as remesh in blender
 - <img src="./images/polypaint/smoothen-polypaint.png">
 - use tool -> deformation -> polish by groups
 
+#### use smooth groups
+
+- lightbox -> brushes -> smooth -> smooth groups
+
 ### see only wireframe
 
 - <img src="./images/enable-wireframe.png">
