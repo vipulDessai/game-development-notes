@@ -21,7 +21,7 @@
 - increase the `Depth` under Geometry -> Bevel
 - <img src="images/basics/line-to-cylinder.jpg" />
 
-### thicken the joints
+### thicken the joints or vertices
 
 - select any vertex
 - alt + s
@@ -37,3 +37,8 @@
 ## seperate
 
 - select any vertex -> p
+
+## join 2 vertices
+
+- select vertices
+- press f

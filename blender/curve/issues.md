@@ -4,3 +4,10 @@
 - but disable snap
 - reset transforms (ctrl + a) -> scale and rotation
 - try edit rotate again
+
+# using geometry bevel object (circle) creates weird shape
+
+- <img src="images/basics/gro-bevel-issue.png" />
+- issue is - the bevel object (circle) is too big
+- in the object mode (NOT EDIT MODE), scale down the circle
+- do not apply transform

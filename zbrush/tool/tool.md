@@ -84,6 +84,11 @@ used for blockout, same as remesh in blender
 - while painting a mask, the mask will be applied even at the back
 - to avoid it first apply [selection](./zbrush.md#selection), paint a mask and then proceed
 
+## mask polygroup
+
+- switch to gizmo mode
+- ctrl + shift click on any polygroup
+
 # selection
 
 - ctrl + shift and drag mouse
