@@ -76,7 +76,13 @@
 
 ## bridge
 
-- add some curve (TODO)
+### same poly
+
+- click and drag, kind of creates a arc
+
+### seperate poly
+
+- <img src="./images/bridge-seperate-poly.gif">
 
 ## Bevel
 
