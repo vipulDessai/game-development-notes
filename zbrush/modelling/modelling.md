@@ -3,6 +3,7 @@
 ## select multiple polygons
 
 - press `alt` and click on multiple polygons
+- hold and drag to select more
 
 ## proportional edit
 
@@ -89,6 +90,11 @@
 - <img src="./images/edge-bevel-example.gif">
 - edge bevel
 - Target - edge complete loop
+
+## Point - Split
+
+- to draw a low poly circle
+- <img src="./images/draw-low-poly-circle.gif">
 
 # Steps (snapping steps)
 
