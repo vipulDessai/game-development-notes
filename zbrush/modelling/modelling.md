@@ -43,6 +43,10 @@
 - creases preserve flatness when the subtool is subdivided
 - <img src="./images/what-is-crease.png">
 
+### remove
+
+- alt + click on edges
+
 **Note:** Creases can be added from geometry -> Crease menu
 
 ## Qmesh
@@ -60,6 +64,11 @@
 - zmodeler -> press space -> extrude
 - <img src="./images/join-2-symm-edges.gif">
 - drag the edge and zbrush will auto jon them
+
+### edgeloop
+
+- hover over edge -> space
+- target -> edgeloop (instead of edge/edgeloop)
 
 ## Inset
 
@@ -95,6 +104,14 @@
 
 - to draw a low poly circle
 - <img src="./images/draw-low-poly-circle.gif">
+
+## Point - stich
+
+### join 2 vertices
+
+- <img src="./images/join-2-vertices.gif">
+- make sure there are no faces in between
+- hover over point -> select action as stich
 
 # Steps (snapping steps)
 
