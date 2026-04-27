@@ -77,6 +77,12 @@ its for the tool level symettry, otherwise its global
 - <img src="./images/wo-local-tool-symettry.png">
     - example of without local symmtry
 
+### Radial symmetry
+
+- <img src="./images/radial-symmetry-basics.png">
+- enable local symmetry
+- adjust the gizmo so that the radial circle aligns with the subtool
+
 ## gizmo
 
 - <img src="./images/unlock-move-gizmo.png">
