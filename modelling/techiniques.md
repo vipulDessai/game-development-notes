@@ -7,3 +7,11 @@
 
 - use radial symmetry
 - <img src="./images/techniques/make-eye-iris.gif">
+
+# quick extruded pores
+
+- <img src="./images/techniques/quick-extruted-pores-skin-details.gif">
+
+- use standard brush
+- z intensity to 44 or higher
+- to mark 1 pore drag quickly from right to downwards left
