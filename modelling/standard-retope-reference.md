@@ -38,30 +38,31 @@
 
 ### markings
 
-- <img src="./images/face-eyes-lips-retope-markings.png" />
+- <img src="./images/retope-reference/face-eyes-lips-retope-markings.png" />
+- <img src="./images/retope-reference/face-retope-polygons.png" />
 
 ### edge loops
 
-- <img src="./images/front-face-retope.png" />
-- <img src="./images/side-face-retope.png" />
+- <img src="./images/retope-reference/front-face-retope.png" />
+- <img src="./images/retope-reference/side-face-retope.png" />
 
 ## Fingers or Elbows
 
-- <img src="./images/fingers-elbows-etc-edge-loops-ref.png" />
+- <img src="./images/retope-reference/fingers-elbows-etc-edge-loops-ref.png" />
 
 # where to add more vertices
 
 ## sharp edges
 
-- <img src="./images/retope-where-to-handle-edges.png" />
+- <img src="./images/retope-reference/retope-where-to-handle-edges.png" />
 
 ### avoid poles on edges
 
-- <img src="./images/incorrect-3-1-retope.png" />
+- <img src="./images/retope-reference/incorrect-3-1-retope.png" />
 
 ## retope mesh is NOT wrapping on base mesh
 
-- <img src="./images/add-more-vertices.png" />
+- <img src="./images/retope-reference/add-more-vertices.png" />
 - delete and add more vertices and join them using 1 to many joint
 
 ## Ratio
@@ -74,7 +75,7 @@
 
 # reduce vertices count (creates redirection)
 
-- <img src="./images/reduce-topology-count.png" />
+- <img src="./images/retope-reference/reduce-topology-count.png" />
 
 # Retope in parts
 
@@ -93,13 +94,13 @@ but always keep one retope mesh only, otherwise join and editing vertices is a p
 
 - make sure the gap between all the fingers is same so that retope is easy
 - also align the fingers properly
-- <img src="./images/gap-between-fingers-equal.png" />
+- <img src="./images/retope-reference/gap-between-fingers-equal.png" />
 
 ## armpit and chest
 
 - there should be enough gap between chest and arms, i.e. the model should be in relaxed t pose
-- <img src="./images/retope-easy-relaxed-t-pose.png" />
+- <img src="./images/retope-reference/retope-easy-relaxed-t-pose.png" />
 
 # redirect topology or edge flow
 
-- <img src="./images/redirect-edge-loops.png" />
+- <img src="./images/retope-reference/redirect-edge-loops.png" />
