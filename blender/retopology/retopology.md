@@ -117,7 +117,8 @@
 ### use looptools
 
 - to relax the vertices
-- ctrl + e -> loop tools -> relax
+- select vertex, edge
+- right click -> loop tools -> relax
 
 ## final checks
 

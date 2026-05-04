@@ -325,6 +325,11 @@ NOTE: to make all the transformations as 0, or reset the transformations
 
 # Edit Mode
 
+## select mode
+
+- <img src="./images/select-multiple.png" />
+- press shift and click on other mode
+
 ## repeat
 
 actions like merge vetices at center can be repeated
