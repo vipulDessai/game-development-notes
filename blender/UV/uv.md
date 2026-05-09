@@ -6,6 +6,11 @@
 
 ## UV editor viewport
 
+### pin UV
+
+- Press P to pin them
+- To unpin, select pinned UVs and press Alt + P
+
 ### Reset UV unwrap
 
 - Select the object you want to reset the UV

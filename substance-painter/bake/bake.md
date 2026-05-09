@@ -51,6 +51,10 @@ set settings for each type of map in `Mesh Map Bakers`
 - secondary rays - to very high
 - set `self occlusion` -> only Same Name mesh
 
+## Height
+
+- Normalization - Relative to ray distances
+
 # Bake
 
 - <img src="./images/click-bake.png">
