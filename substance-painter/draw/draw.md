@@ -25,6 +25,11 @@
 
 # layers
 
+## basic layer
+
+- add a layer, onto which we can draw, like stiches
+- <img src="./images/draw-stitches.png">
+
 ## group
 
 - <img src="./images/create-group-layers.png">

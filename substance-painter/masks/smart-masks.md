@@ -8,14 +8,15 @@
 
 - add `fill layer`
 - <img src="./images/fill-for-smart-mask.png">
-- disable all except color
+- disable all material properties except color
   - if we dont want to adjust the shinyness or anything
 - <img src="./images/add-genrator.png">
 - add a black mask to the `fill layer`
 - select the mask
 - click on the magic wand -> add generator
+  - the generator will go on the `mask`, NOT the base layer
 - click on generator section and select mask editor
-- alt + click on the black mask
+- alt + click on the black mask, to view the effect
 - <img src="./images/mask-editor-init-state.png">
 - the mask should look like this
 - now we can add a material to this
@@ -37,5 +38,9 @@
 - <img src="./images/mask-editor-add-paint-layer.png">
 - select the mask with alt + click and paint black
 - <img src="./images/mask-editor-paint-layer-add-black.png">
-- now the material will be gone
+- now the material will be covered
 - <img src="./images/painting-make-editor-mask-result.png">
+
+### see below how to paint
+
+- <img src="./images/paint-only-uv-not-req-for-mask-edit.gif">

@@ -54,3 +54,9 @@ basically like a photo shop, where we put layers onto each other and mask it
 # texture
 
 - <img src="./images/object-textures.png">
+
+# Geometry Mask
+
+- click on the mask button to hide rest of the texture set
+- <img src="./images/geomtry-mask-feature.png" >
+- click on the brush to view all
