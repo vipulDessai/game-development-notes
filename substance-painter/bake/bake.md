@@ -2,7 +2,7 @@
 
 # Recommendations
 
-- have a righer res model (high polycount model)
+- have a higher res model (high polycount model)
 - or higher res normal map baked from higher res map
 - if still model is low poly then use this
 - <img src="./images/low-poly-bake-option.png">
@@ -11,11 +11,16 @@
 
 - <img src="./images/bake-materials-menu-button.png">
 
-# Create
+# Create maps
 
 - mesh map settings
 - <img src="./images/set-baek-map-res.png">
     - set res to 4k
+
+# enable mesh name matching
+
+- set self occlusion or self interaction of following map from "Always" to "only same mesh name"
+- <img src="./images/enable-match-by-name.png">
 
 # common settings
 
