@@ -39,6 +39,15 @@
 
 - <img src="./images/armature-bones-select-bones.jpg" alt="armature-bones-select-bones.jpg" width="500" />
 
+### connected bones
+
+- press L
+
+## move connected bones
+
+- <img src="./images/armature/scale-connected-bones-in-pose-mode.gif" />
+- go to pose mode, select the bone and scale it
+
 ## New rest pose
 
 - <img src="./images/new-rest-pose-copy-armature-modifier.jpg" alt="new-rest-pose-copy-armature-modifier" width="500" />
@@ -46,6 +55,10 @@
 - copy the armature modifier and apply
 - select the armature and go to pose mode
 - <img src="./images/pose-apply-new-rest-pose.jpg" alt="pose-apply-new-rest-pose" width="700" />
+
+### from pose mode
+
+- ctrl + a -> apply pose as rest pose
 
 ## move bones to layers
 
