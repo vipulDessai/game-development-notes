@@ -1,8 +1,10 @@
 # Weight Paint
 
-- <img src="./images/weight-paint-add-delete.jpg" alt="weight-paint-add-delete" width="500" />
+- <img src="./images/weight-painting/weight-paint-add-delete.jpg" alt="weight-paint-add-delete" width="500" />
 - reduce weight to have blue
 - more weight gives red
+
+# Viewport
 
 ## x ray for bright mode
 
@@ -10,7 +12,7 @@
 
 ## More weight paint layers on object
 
-- <img src="./images/add-vertex-group-for-weight-paint.jpg" alt="add-vertex-group-for-weight-paint" width="500" />
+- <img src="./images/weight-painting/add-vertex-group-for-weight-paint.jpg" alt="add-vertex-group-for-weight-paint" width="500" />
 
 ## Show hide the bones above mesh or object
 
@@ -30,13 +32,44 @@
 
 **Note:** In case if selection doesnt work then remap the keymap -> 3d view -> weight painting -> select
 
-## weird weight paint
+## stroke -> Stabilize stroke
 
+- if noticing weird weight paint
 - in the brush stroke - check if `Stabilize stroke` is ON
+
+## Auto normalize
+
+- to add and subtract so weights are automatically adjusted between multiple vertex groups
+- <img src="./images/weight-painting/auto-normalize-setting.png"/>
+
+## overlay
+
+### zero weight or black area
+
+- <img src="./images/weight-painting/overlay-zero-weight.gif"/>
+
+# Paint
+
+## Brush mode
+
+- mix
+  - left click to add
+  - ctrl + left click to subtract
+
+# Selection
+
+- <img src="./images/weight-painting/selection-modes.png"/>
+- paint by selection
+
+## Vertex mode
+
+- press L to select island
+
+# Weight Transfer
 
 ## Weight trasfer using data transfer modifier
 
-- <img src="./images/weight-transfer-data-transfer.jpg" alt="weight-transfer-data-transfer.jpg" width="500" />
+- <img src="./images/weight-painting/weight-transfer-data-transfer.jpg" alt="weight-transfer-data-transfer.jpg" width="500" />
 
 ## weight transfer from selected bones (one or more)
 
@@ -45,4 +78,4 @@
 - select the bone
 - go to "Weight paint menu"
 - select "assign automatic from bones"
-- <img src="./images/selected-bones-weight-transfer.gif" />
+- <img src="./images/weight-painting/selected-bones-weight-transfer.gif" />
