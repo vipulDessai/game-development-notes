@@ -40,6 +40,15 @@
 - <img src="./images/techniques/eye-lid-bones-start-end-align.png">
 - align the start and end bones right on eye lid corners
 
+### eye bone
+
+- select the eye center edges, place the 3d cursor at its center (cursor to selection)
+- <img src="./images/techniques/how-to-get-eye-center.png">
+- in armature edit mode -> shift + s -> selection to cursor
+- <img src="./images/techniques/align-eye-bone-at-center.png">
+- adjust the eye bone size
+- <img src="./images/techniques/adjust-eye-bone-size-to-eye.png">
+
 ### nose and cheek
 
 - <img src="./images/techniques/nose-cheek-bones-align.png">
@@ -55,8 +64,22 @@
 
 - <img src="./images/techniques/ear-bones-align.png">
 
-### jaw bones
+### jaw and temple bones
+
+- <img src="./images/techniques/chin-jaw-temple-bones-align.png">
+- align the jaw bones in the jaw volume and jaw line
+- chin bone over the skin slightly over the skin
+- temple bone over the skin
 
 ### teeth bones
 
+- <img src="./images/techniques/teeth-bone-align.png">
+
 ### tongue bones
+
+- <img src="./images/techniques/tongue-bones-align.png">
+
+# Automatic weights
+
+- do not use auto weights for tongue, eyes, teeth
+  - i.e. any seperate meshes
