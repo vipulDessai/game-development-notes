@@ -70,3 +70,10 @@ We get the error because the scales are different </br>
 - <img src="./images/delete-textures.png" />
 - the textures created in the project can be viewed in outiliner -> blender file -> `<location>`
 - under textures
+
+# Export
+
+- <img src="./images/embed-textures.png" />
+- Enable Path Mode → Copy.
+- Click the Embed Textures checkbox.
+  - This will pack the image files into the FBX.
