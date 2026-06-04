@@ -79,3 +79,9 @@
 - go to "Weight paint menu"
 - select "assign automatic from bones"
 - <img src="./images/weight-painting/selected-bones-weight-transfer.gif" />
+
+# Issues
+
+## Bone Heat Weighting: failed to find solution for one or more bones
+
+- turn off auto normalize

@@ -14,3 +14,11 @@
 
 - use chain setting
 - <img src="./images/kinematics/chain-setting-ik.png" />
+
+# Issues
+
+## Dependency Cycle
+
+- <img src="./images/kinematics/dependency-cycle-issue.png" />
+- adding a new IK, makes the whole RIG move, or in console there is the warning
+- solution - set the chain Length to more than 0, because 0 means all
