@@ -51,9 +51,28 @@ basically like a photo shop, where we put layers onto each other and mask it
 - press b to cycle through maps
 - press m for material map
 
+## invert color
+
+- x
+
 # texture
 
 - <img src="./images/object-textures.png">
+
+## add transparency
+
+- select texture from the texture set list -> shader settings -> select shader as `pbr-metal-rough-with-alpha-blending`
+- <img src="./images/textures/shader-with-alpha.gif">
+- add opacity settings -> from texture set settings
+- <img src="./images/textures/shader-add-opacity.gif">
+- enable opaicty for the layer
+- <img src="./images/textures/enable-opacity-for-layer.gif">
+
+### Export with transparency
+
+- use the output template - PBR Metallic Roughness
+  - this has the base color with aplha merged together
+- <img src="./images/textures/export-settings-for-opacity.gif">
 
 # Geometry Mask
 
