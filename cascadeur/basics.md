@@ -42,3 +42,11 @@
 - shift + z
 - or click this
   - <img src="./images/unfreeze-manipulator.png">
+
+# Rigging Setup
+
+- <img src="./images/basics/rigging-auto-mirro-fill.png">
+- fill the left or right side only
+- then add the letters distinguishing the sides (ex .L and .R)
+- so if left hand is manually filled, original is .L and mirrored is .R
+- go to right hand and click on `Create Mirror object`
