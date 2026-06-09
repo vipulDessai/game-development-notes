@@ -12,7 +12,7 @@
 - alt + middle to pan
 - alt + right to zoom
 
-# Manipulators
+# Manipulators (gizmo)
 
 <img src="./images/what-is-manipulators.png">
 

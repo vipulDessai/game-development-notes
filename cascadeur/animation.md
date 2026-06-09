@@ -78,3 +78,13 @@ to re enable the animation keys unbake it
 
 - <img src="./images/unbake-physics-anims.png">
 - <img src="./images/unbaked-physics-anim-extra-keys.png">
+
+# Retarget
+
+- <img src="./images/animations/retarget-copy-paste.gif">
+
+# Export
+
+- select the frames - click and drag with mouse
+- file menu -> export -> fbx
+- <img src="./images/basics/export-only-seelcted-anims.png">
