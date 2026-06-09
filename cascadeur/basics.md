@@ -50,3 +50,7 @@
 - then add the letters distinguishing the sides (ex .L and .R)
 - so if left hand is manually filled, original is .L and mirrored is .R
 - go to right hand and click on `Create Mirror object`
+
+## enable fingers
+
+- <img src="./images/basics/enable-fingers-auto-pose.png">
