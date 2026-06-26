@@ -91,3 +91,9 @@
 - first create 2 scnes with individual rigged charactor setting up the auto physics
 - then import the other one into first scene
 - <img src="./images/basics/import-another-rigged-model.png">
+
+# Export
+
+- select the frames - click and drag with mouse
+- file menu -> export -> fbx
+- <img src="./images/basics/export-only-seelcted-anims.png">
