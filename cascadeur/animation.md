@@ -40,12 +40,20 @@
 - select the planes direction
 - click on "Mirror on current frame"
 
-# add frames in between
+# add frames in between (interpolation)
 
-## static using bezier interpolation
+## bezier interpolation
 
 - <img src="./images/add-interpolation-frames-in-between.png">
 - select the frames [refer](./animation.md#select-multiple-frame)
+
+## step - removes all inbetween animation
+
+- <img src="./images/step-interpolation.gif">
+- select the frames
+- expand the interpolation or step panel
+- click on step
+- <img src="./images/step-interpolation.png">
 
 # auto physics
 
