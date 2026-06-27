@@ -12,7 +12,10 @@
 # After retarget copy / paste, moving any auto pose controls snaps the entire rig
 
 - <img src="./images/issues/auto-pose-snaps-on-move.gif">
-- first lock the auto control points that you need with shift + z
+- select the points
+- lock the auto control points that you need with shift + z
 - <img src="./images/issues/set-lock-selected-controllers.gif">
 - or this button
 - <img src="./images/issues/set-lock-selected-controllers.png">
+
+**Note:** we can also do this for all frames using "Interval Edit mode"
