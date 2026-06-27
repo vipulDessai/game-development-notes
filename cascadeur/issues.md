@@ -8,3 +8,11 @@
 
 - <img src="./images/issues/fix-points.png">
 - this happens if u press `r`, press `r` again
+
+# After retarget copy / paste, moving any auto pose controls snaps the entire rig
+
+- <img src="./images/issues/auto-pose-snaps-on-move.gif">
+- first lock the auto control points that you need with shift + z
+- <img src="./images/issues/set-lock-selected-controllers.gif">
+- or this button
+- <img src="./images/issues/set-lock-selected-controllers.png">
