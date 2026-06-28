@@ -19,3 +19,10 @@
 - <img src="./images/issues/set-lock-selected-controllers.png">
 
 **Note:** we can also do this for all frames using "Interval Edit mode"
+
+# Exported animation from cascuader does not match the original armature in blender
+
+- <img src="./images/issues/armature-mismatch-issue.gif">
+- the model which was exported with a specific `Pose` and armature, when animated and reimported in blender, fails to match its original armature
+- fix is always export and import with mesh
+- <img src="./images/issues/armature-mismatch-fix.png">
