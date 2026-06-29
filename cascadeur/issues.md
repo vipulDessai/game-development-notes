@@ -26,3 +26,16 @@
 - the model which was exported with a specific `Pose` and armature, when animated and reimported in blender, fails to match its original armature
 - fix is always export and import with mesh
 - <img src="./images/issues/armature-mismatch-fix.png">
+
+# in place or in-place animations issues
+
+## Slow speed of animations
+
+- do not use uncheck `export translate animations` in cascuader, it slows down the animations
+  - this [tutorial](https://youtube.com/shorts/NsT2dHwPiwI?si=AriDlxWcL4IGq-TL) recommends it, but keep it enabled
+
+## Position of the charactor model using it is odd
+
+- <img src="./images/issues/anims-cascauder-extra-root-channel.gif">
+- delete the extra channel just below the root channel
+  - in the above example its `basic-player`
